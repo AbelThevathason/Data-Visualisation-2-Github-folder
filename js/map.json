@@ -18,7 +18,7 @@
       "lookup": "properties.NAME",
       "from": {
         "data": {
-          "url": "data/farm_data.csv"
+          "url": "Researched Data/farm_data.csv"
         },
         "key": "Region",
         "fields": ["Rate of return (%)"]
