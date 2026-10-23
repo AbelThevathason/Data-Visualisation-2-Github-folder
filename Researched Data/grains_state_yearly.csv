@@ -1,0 +1,201 @@
+State,Region,Year,Rate_of_return
+Queensland,Northern GRDC,2000,0.14
+New South Wales,Northern GRDC,2000,0.14
+Victoria,southern GRDC,2000,-1.06
+South Australia,southern GRDC,2000,-1.06
+Tasmania,southern GRDC,2000,-1.06
+Australian Capital Territory,southern GRDC,2000,-1.06
+Western Australia,Western GRDC,2000,0.68
+Northern Territory,None,2000,
+Queensland,Northern GRDC,2001,0.25
+New South Wales,Northern GRDC,2001,0.25
+Victoria,southern GRDC,2001,-0.08
+South Australia,southern GRDC,2001,-0.08
+Tasmania,southern GRDC,2001,-0.08
+Australian Capital Territory,southern GRDC,2001,-0.08
+Western Australia,Western GRDC,2001,-0.84
+Northern Territory,None,2001,
+Queensland,Northern GRDC,2002,0.75
+New South Wales,Northern GRDC,2002,0.75
+Victoria,southern GRDC,2002,2.15
+South Australia,southern GRDC,2002,2.15
+Tasmania,southern GRDC,2002,2.15
+Australian Capital Territory,southern GRDC,2002,2.15
+Western Australia,Western GRDC,2002,-0.30
+Northern Territory,None,2002,
+Queensland,Northern GRDC,2003,-0.32
+New South Wales,Northern GRDC,2003,-0.32
+Victoria,southern GRDC,2003,1.99
+South Australia,southern GRDC,2003,1.99
+Tasmania,southern GRDC,2003,1.99
+Australian Capital Territory,southern GRDC,2003,1.99
+Western Australia,Western GRDC,2003,0.03
+Northern Territory,None,2003,
+Queensland,Northern GRDC,2004,-0.47
+New South Wales,Northern GRDC,2004,-0.47
+Victoria,southern GRDC,2004,1.66
+South Australia,southern GRDC,2004,1.66
+Tasmania,southern GRDC,2004,1.66
+Australian Capital Territory,southern GRDC,2004,1.66
+Western Australia,Western GRDC,2004,2.18
+Northern Territory,None,2004,
+Queensland,Northern GRDC,2005,-1.21
+New South Wales,Northern GRDC,2005,-1.21
+Victoria,southern GRDC,2005,0.06
+South Australia,southern GRDC,2005,0.06
+Tasmania,southern GRDC,2005,0.06
+Australian Capital Territory,southern GRDC,2005,0.06
+Western Australia,Western GRDC,2005,1.55
+Northern Territory,None,2005,
+Queensland,Northern GRDC,2006,-0.24
+New South Wales,Northern GRDC,2006,-0.24
+Victoria,southern GRDC,2006,0.29
+South Australia,southern GRDC,2006,0.29
+Tasmania,southern GRDC,2006,0.29
+Australian Capital Territory,southern GRDC,2006,0.29
+Western Australia,Western GRDC,2006,1.41
+Northern Territory,None,2006,
+Queensland,Northern GRDC,2007,-1.05
+New South Wales,Northern GRDC,2007,-1.05
+Victoria,southern GRDC,2007,-1.01
+South Australia,southern GRDC,2007,-1.01
+Tasmania,southern GRDC,2007,-1.01
+Australian Capital Territory,southern GRDC,2007,-1.01
+Western Australia,Western GRDC,2007,-0.01
+Northern Territory,None,2007,
+Queensland,Northern GRDC,2008,-1.29
+New South Wales,Northern GRDC,2008,-1.29
+Victoria,southern GRDC,2008,-0.74
+South Australia,southern GRDC,2008,-0.74
+Tasmania,southern GRDC,2008,-0.74
+Australian Capital Territory,southern GRDC,2008,-0.74
+Western Australia,Western GRDC,2008,0.14
+Northern Territory,None,2008,
+Queensland,Northern GRDC,2009,-1.48
+New South Wales,Northern GRDC,2009,-1.48
+Victoria,southern GRDC,2009,-1.02
+South Australia,southern GRDC,2009,-1.02
+Tasmania,southern GRDC,2009,-1.02
+Australian Capital Territory,southern GRDC,2009,-1.02
+Western Australia,Western GRDC,2009,0.71
+Northern Territory,None,2009,
+Queensland,Northern GRDC,2010,-1.20
+New South Wales,Northern GRDC,2010,-1.20
+Victoria,southern GRDC,2010,0.17
+South Australia,southern GRDC,2010,0.17
+Tasmania,southern GRDC,2010,0.17
+Australian Capital Territory,southern GRDC,2010,0.17
+Western Australia,Western GRDC,2010,0.77
+Northern Territory,None,2010,
+Queensland,Northern GRDC,2011,-0.28
+New South Wales,Northern GRDC,2011,-0.28
+Victoria,southern GRDC,2011,0.97
+South Australia,southern GRDC,2011,0.97
+Tasmania,southern GRDC,2011,0.97
+Australian Capital Territory,southern GRDC,2011,0.97
+Western Australia,Western GRDC,2011,0.60
+Northern Territory,None,2011,
+Queensland,Northern GRDC,2012,-0.11
+New South Wales,Northern GRDC,2012,-0.11
+Victoria,southern GRDC,2012,1.68
+South Australia,southern GRDC,2012,1.68
+Tasmania,southern GRDC,2012,1.68
+Australian Capital Territory,southern GRDC,2012,1.68
+Western Australia,Western GRDC,2012,0.74
+Northern Territory,None,2012,
+Queensland,Northern GRDC,2013,0.48
+New South Wales,Northern GRDC,2013,0.48
+Victoria,southern GRDC,2013,1.76
+South Australia,southern GRDC,2013,1.76
+Tasmania,southern GRDC,2013,1.76
+Australian Capital Territory,southern GRDC,2013,1.76
+Western Australia,Western GRDC,2013,1.06
+Northern Territory,None,2013,
+Queensland,Northern GRDC,2014,-0.04
+New South Wales,Northern GRDC,2014,-0.04
+Victoria,southern GRDC,2014,0.93
+South Australia,southern GRDC,2014,0.93
+Tasmania,southern GRDC,2014,0.93
+Australian Capital Territory,southern GRDC,2014,0.93
+Western Australia,Western GRDC,2014,1.87
+Northern Territory,None,2014,
+Queensland,Northern GRDC,2015,0.25
+New South Wales,Northern GRDC,2015,0.25
+Victoria,southern GRDC,2015,0.64
+South Australia,southern GRDC,2015,0.64
+Tasmania,southern GRDC,2015,0.64
+Australian Capital Territory,southern GRDC,2015,0.64
+Western Australia,Western GRDC,2015,1.94
+Northern Territory,None,2015,
+Queensland,Northern GRDC,2016,0.69
+New South Wales,Northern GRDC,2016,0.69
+Victoria,southern GRDC,2016,0.23
+South Australia,southern GRDC,2016,0.23
+Tasmania,southern GRDC,2016,0.23
+Australian Capital Territory,southern GRDC,2016,0.23
+Western Australia,Western GRDC,2016,2.65
+Northern Territory,None,2016,
+Queensland,Northern GRDC,2017,1.39
+New South Wales,Northern GRDC,2017,1.39
+Victoria,southern GRDC,2017,0.74
+South Australia,southern GRDC,2017,0.74
+Tasmania,southern GRDC,2017,0.74
+Australian Capital Territory,southern GRDC,2017,0.74
+Western Australia,Western GRDC,2017,3.06
+Northern Territory,None,2017,
+Queensland,Northern GRDC,2018,1.14
+New South Wales,Northern GRDC,2018,1.14
+Victoria,southern GRDC,2018,0.85
+South Australia,southern GRDC,2018,0.85
+Tasmania,southern GRDC,2018,0.85
+Australian Capital Territory,southern GRDC,2018,0.85
+Western Australia,Western GRDC,2018,3.36
+Northern Territory,None,2018,
+Queensland,Northern GRDC,2019,-0.04
+New South Wales,Northern GRDC,2019,-0.04
+Victoria,southern GRDC,2019,0.93
+South Australia,southern GRDC,2019,0.93
+Tasmania,southern GRDC,2019,0.93
+Australian Capital Territory,southern GRDC,2019,0.93
+Western Australia,Western GRDC,2019,3.81
+Northern Territory,None,2019,
+Queensland,Northern GRDC,2020,-1.24
+New South Wales,Northern GRDC,2020,-1.24
+Victoria,southern GRDC,2020,0.76
+South Australia,southern GRDC,2020,0.76
+Tasmania,southern GRDC,2020,0.76
+Australian Capital Territory,southern GRDC,2020,0.76
+Western Australia,Western GRDC,2020,2.60
+Northern Territory,None,2020,
+Queensland,Northern GRDC,2021,-0.45
+New South Wales,Northern GRDC,2021,-0.45
+Victoria,southern GRDC,2021,0.91
+South Australia,southern GRDC,2021,0.91
+Tasmania,southern GRDC,2021,0.91
+Australian Capital Territory,southern GRDC,2021,0.91
+Western Australia,Western GRDC,2021,2.26
+Northern Territory,None,2021,
+Queensland,Northern GRDC,2022,0.85
+New South Wales,Northern GRDC,2022,0.85
+Victoria,southern GRDC,2022,1.13
+South Australia,southern GRDC,2022,1.13
+Tasmania,southern GRDC,2022,1.13
+Australian Capital Territory,southern GRDC,2022,1.13
+Western Australia,Western GRDC,2022,1.92
+Northern Territory,None,2022,
+Queensland,Northern GRDC,2023,1.67
+New South Wales,Northern GRDC,2023,1.67
+Victoria,southern GRDC,2023,0.94
+South Australia,southern GRDC,2023,0.94
+Tasmania,southern GRDC,2023,0.94
+Australian Capital Territory,southern GRDC,2023,0.94
+Western Australia,Western GRDC,2023,2.58
+Northern Territory,None,2023,
+Queensland,Northern GRDC,2024,0.84
+New South Wales,Northern GRDC,2024,0.84
+Victoria,southern GRDC,2024,0.52
+South Australia,southern GRDC,2024,0.52
+Tasmania,southern GRDC,2024,0.52
+Australian Capital Territory,southern GRDC,2024,0.52
+Western Australia,Western GRDC,2024,1.65
+Northern Territory,None,2024,
