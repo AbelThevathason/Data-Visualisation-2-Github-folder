@@ -4,7 +4,7 @@
   "height": 500,
   "title": "Australian Broadacre Grain Performance (2000–2024)",
   "projection": {
-    "type": "equalEarth"
+    "type": "mercator"
   },
   "data": {
     "url": "Researched Data/grains_state_yearly.csv"
