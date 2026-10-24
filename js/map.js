@@ -4,3 +4,7 @@
 vegaEmbed('#map-container', 'js/map.json')
   .then(result => console.log("Map successfully rendered!"))
   .catch(console.error);
+// 2. Render Map Idiom 2 (Proportional Symbol Map) into #map-container-2
+vegaEmbed('#map-container-2', 'map2.json', { "actions": false })
+  .then(result => console.log("Map 2 rendered."))
+  .catch(console.error);

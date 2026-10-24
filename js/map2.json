@@ -1,0 +1,93 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 800,
+  "height": 500,
+  "title": {
+    "text": "Binned Spatial Rainfall Heatmap Across Australia (2024)",
+    "subtitle": "Data source: SILO / Bureau of Meteorology (AGCD)"
+  },
+  "projection": {
+    "type": "mercator"
+  },
+  "layer": [
+    {
+      "data": {
+        "url": "Map_of_Australia.json",
+        "format": {
+          "type": "topojson",
+          "feature": "ne_50m_admin_1_states_provinces"
+        }
+      },
+      "mark": {
+        "type": "geoshape",
+        "fill": "#e8e8e8",
+        "stroke": "#b0b0b0",
+        "strokeWidth": 0.8
+      }
+    },
+    {
+      "data": {
+        "url": "Researched Data/Processed Data/silo_annual_rainfall_2024.csv"
+      },
+      "transform": [
+        {
+          "bin": {
+            "step": 1.0
+          },
+          "field": "lon",
+          "as": ["lon_bin", "lon_bin_end"]
+        },
+        {
+          "bin": {
+            "step": 1.0
+          },
+          "field": "lat",
+          "as": ["lat_bin", "lat_bin_end"]
+        },
+        {
+          "aggregate": [
+            {
+              "op": "mean",
+              "field": "annual_rainfall_mm",
+              "as": "mean_rainfall"
+            }
+          ],
+          "groupby": ["lon_bin", "lon_bin_end", "lat_bin", "lat_bin_end"]
+        }
+      ],
+      "mark": {
+        "type": "rect",
+        "opacity": 0.85
+      },
+      "encoding": {
+        "longitude": {
+          "field": "lon_bin",
+          "type": "quantitative"
+        },
+        "longitude2": {
+          "field": "lon_bin_end"
+        },
+        "latitude": {
+          "field": "lat_bin",
+          "type": "quantitative"
+        },
+        "latitude2": {
+          "field": "lat_bin_end"
+        },
+        "color": {
+          "field": "mean_rainfall",
+          "type": "quantitative",
+          "title": "Mean Rainfall (mm)",
+          "scale": {
+            "scheme": "teals"
+          }
+        },
+        "tooltip": [
+          {"field": "lon_bin", "type": "quantitative", "title": "Longitude Min", "format": ".1f"},
+          {"field": "lat_bin", "type": "quantitative", "title": "Latitude Min", "format": ".1f"},
+          {"field": "mean_rainfall", "type": "quantitative", "title": "Average Rainfall (mm)", "format": ".1f"}
+        ]
+      }
+    }
+  ]
+}

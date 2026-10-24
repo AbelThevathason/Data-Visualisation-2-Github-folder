@@ -7,7 +7,7 @@
     "type": "mercator"
   },
   "data": {
-    "url": "Researched Data/grains_state_yearly.csv"
+    "url": "Researched Data/Processed Data/grains_state_yearly.csv"
   },
   "params": [
     {
