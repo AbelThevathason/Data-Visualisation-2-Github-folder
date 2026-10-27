@@ -1,0 +1,3161 @@
+[
+  {
+    "id": "Root",
+    "parent": null,
+    "state": "ALL",
+    "year": "ALL",
+    "value": 0
+  },
+  {
+    "id": "NSW_2010-11_Nature conservation",
+    "parent": "Root",
+    "name": "Nature conservation",
+    "state": "NSW",
+    "year": "2010-11",
+    "value": 7414.0
+  },
+  {
+    "id": "NSW_2010-11_Managed resource protection",
+    "parent": "Root",
+    "name": "Managed resource protection",
+    "state": "NSW",
+    "year": "2010-11",
+    "value": 118.0
+  },
+  {
+    "id": "NSW_2010-11_Other minimal use",
+    "parent": "Root",
+    "name": "Other minimal use",
+    "state": "NSW",
+    "year": "2010-11",
+    "value": 7143.0
+  },
+  {
+    "id": "NSW_2010-11_Grazing native vegetation",
+    "parent": "Root",
+    "name": "Grazing native vegetation",
+    "state": "NSW",
+    "year": "2010-11",
+    "value": 31242.0
+  },
+  {
+    "id": "NSW_2010-11_Production native forests",
+    "parent": "Root",
+    "name": "Production native forests",
+    "state": "NSW",
+    "year": "2010-11",
+    "value": 1379.0
+  },
+  {
+    "id": "NSW_2010-11_Plantation forests (a)",
+    "parent": "Root",
+    "name": "Plantation forests (a)",
+    "state": "NSW",
+    "year": "2010-11",
+    "value": 456.0
+  },
+  {
+    "id": "NSW_2010-11_Grazing modified pastures",
+    "parent": "Root",
+    "name": "Grazing modified pastures",
+    "state": "NSW",
+    "year": "2010-11",
+    "value": 20070.0
+  },
+  {
+    "id": "NSW_2010-11_Dryland cropping",
+    "parent": "Root",
+    "name": "Dryland cropping",
+    "state": "NSW",
+    "year": "2010-11",
+    "value": 8597.0
+  },
+  {
+    "id": "NSW_2010-11_Dryland horticulture",
+    "parent": "Root",
+    "name": "Dryland horticulture",
+    "state": "NSW",
+    "year": "2010-11",
+    "value": 64.0
+  },
+  {
+    "id": "NSW_2010-11_Irrigated pastures",
+    "parent": "Root",
+    "name": "Irrigated pastures",
+    "state": "NSW",
+    "year": "2010-11",
+    "value": 149.0
+  },
+  {
+    "id": "NSW_2010-11_Irrigated cropping",
+    "parent": "Root",
+    "name": "Irrigated cropping",
+    "state": "NSW",
+    "year": "2010-11",
+    "value": 460.0
+  },
+  {
+    "id": "NSW_2010-11_Irrigated horticulture",
+    "parent": "Root",
+    "name": "Irrigated horticulture",
+    "state": "NSW",
+    "year": "2010-11",
+    "value": 67.0
+  },
+  {
+    "id": "NSW_2010-11_Intensive horticulture and animal production",
+    "parent": "Root",
+    "name": "Intensive horticulture and animal production",
+    "state": "NSW",
+    "year": "2010-11",
+    "value": 31.0
+  },
+  {
+    "id": "NSW_2010-11_Rural residential and farm infrastructure",
+    "parent": "Root",
+    "name": "Rural residential and farm infrastructure",
+    "state": "NSW",
+    "year": "2010-11",
+    "value": 399.0
+  },
+  {
+    "id": "NSW_2010-11_Urban residential",
+    "parent": "Root",
+    "name": "Urban residential",
+    "state": "NSW",
+    "year": "2010-11",
+    "value": 415.0
+  },
+  {
+    "id": "NSW_2010-11_Other intensive uses",
+    "parent": "Root",
+    "name": "Other intensive uses",
+    "state": "NSW",
+    "year": "2010-11",
+    "value": 271.0
+  },
+  {
+    "id": "NSW_2010-11_Mining and waste",
+    "parent": "Root",
+    "name": "Mining and waste",
+    "state": "NSW",
+    "year": "2010-11",
+    "value": 86.0
+  },
+  {
+    "id": "NSW_2010-11_Water",
+    "parent": "Root",
+    "name": "Water",
+    "state": "NSW",
+    "year": "2010-11",
+    "value": 1767.0
+  },
+  {
+    "id": "NSW_2015-16_Nature conservation",
+    "parent": "Root",
+    "name": "Nature conservation",
+    "state": "NSW",
+    "year": "2015-16",
+    "value": 7723.0
+  },
+  {
+    "id": "NSW_2015-16_Managed resource protection",
+    "parent": "Root",
+    "name": "Managed resource protection",
+    "state": "NSW",
+    "year": "2015-16",
+    "value": 109.0
+  },
+  {
+    "id": "NSW_2015-16_Other minimal use",
+    "parent": "Root",
+    "name": "Other minimal use",
+    "state": "NSW",
+    "year": "2015-16",
+    "value": 6136.0
+  },
+  {
+    "id": "NSW_2015-16_Grazing native vegetation",
+    "parent": "Root",
+    "name": "Grazing native vegetation",
+    "state": "NSW",
+    "year": "2015-16",
+    "value": 31429.0
+  },
+  {
+    "id": "NSW_2015-16_Production native forests",
+    "parent": "Root",
+    "name": "Production native forests",
+    "state": "NSW",
+    "year": "2015-16",
+    "value": 1347.0
+  },
+  {
+    "id": "NSW_2015-16_Plantation forests (a)",
+    "parent": "Root",
+    "name": "Plantation forests (a)",
+    "state": "NSW",
+    "year": "2015-16",
+    "value": 464.0
+  },
+  {
+    "id": "NSW_2015-16_Grazing modified pastures",
+    "parent": "Root",
+    "name": "Grazing modified pastures",
+    "state": "NSW",
+    "year": "2015-16",
+    "value": 15985.0
+  },
+  {
+    "id": "NSW_2015-16_Dryland cropping",
+    "parent": "Root",
+    "name": "Dryland cropping",
+    "state": "NSW",
+    "year": "2015-16",
+    "value": 12917.0
+  },
+  {
+    "id": "NSW_2015-16_Dryland horticulture",
+    "parent": "Root",
+    "name": "Dryland horticulture",
+    "state": "NSW",
+    "year": "2015-16",
+    "value": 49.0
+  },
+  {
+    "id": "NSW_2015-16_Irrigated pastures",
+    "parent": "Root",
+    "name": "Irrigated pastures",
+    "state": "NSW",
+    "year": "2015-16",
+    "value": 138.0
+  },
+  {
+    "id": "NSW_2015-16_Irrigated cropping",
+    "parent": "Root",
+    "name": "Irrigated cropping",
+    "state": "NSW",
+    "year": "2015-16",
+    "value": 701.0
+  },
+  {
+    "id": "NSW_2015-16_Irrigated horticulture",
+    "parent": "Root",
+    "name": "Irrigated horticulture",
+    "state": "NSW",
+    "year": "2015-16",
+    "value": 92.0
+  },
+  {
+    "id": "NSW_2015-16_Intensive horticulture and animal production",
+    "parent": "Root",
+    "name": "Intensive horticulture and animal production",
+    "state": "NSW",
+    "year": "2015-16",
+    "value": 38.0
+  },
+  {
+    "id": "NSW_2015-16_Rural residential and farm infrastructure",
+    "parent": "Root",
+    "name": "Rural residential and farm infrastructure",
+    "state": "NSW",
+    "year": "2015-16",
+    "value": 477.0
+  },
+  {
+    "id": "NSW_2015-16_Urban residential",
+    "parent": "Root",
+    "name": "Urban residential",
+    "state": "NSW",
+    "year": "2015-16",
+    "value": 394.0
+  },
+  {
+    "id": "NSW_2015-16_Other intensive uses",
+    "parent": "Root",
+    "name": "Other intensive uses",
+    "state": "NSW",
+    "year": "2015-16",
+    "value": 286.0
+  },
+  {
+    "id": "NSW_2015-16_Mining and waste",
+    "parent": "Root",
+    "name": "Mining and waste",
+    "state": "NSW",
+    "year": "2015-16",
+    "value": 103.0
+  },
+  {
+    "id": "NSW_2015-16_Water",
+    "parent": "Root",
+    "name": "Water",
+    "state": "NSW",
+    "year": "2015-16",
+    "value": 1740.0
+  },
+  {
+    "id": "NSW_2020-21_Nature conservation",
+    "parent": "Root",
+    "name": "Nature conservation",
+    "state": "NSW",
+    "year": "2020-21",
+    "value": 8052.0
+  },
+  {
+    "id": "NSW_2020-21_Managed resource protection",
+    "parent": "Root",
+    "name": "Managed resource protection",
+    "state": "NSW",
+    "year": "2020-21",
+    "value": 89.0
+  },
+  {
+    "id": "NSW_2020-21_Other minimal use",
+    "parent": "Root",
+    "name": "Other minimal use",
+    "state": "NSW",
+    "year": "2020-21",
+    "value": 6031.0
+  },
+  {
+    "id": "NSW_2020-21_Grazing native vegetation",
+    "parent": "Root",
+    "name": "Grazing native vegetation",
+    "state": "NSW",
+    "year": "2020-21",
+    "value": 31026.0
+  },
+  {
+    "id": "NSW_2020-21_Production native forests",
+    "parent": "Root",
+    "name": "Production native forests",
+    "state": "NSW",
+    "year": "2020-21",
+    "value": 1309.0
+  },
+  {
+    "id": "NSW_2020-21_Plantation forests (a)",
+    "parent": "Root",
+    "name": "Plantation forests (a)",
+    "state": "NSW",
+    "year": "2020-21",
+    "value": 427.0
+  },
+  {
+    "id": "NSW_2020-21_Grazing modified pastures",
+    "parent": "Root",
+    "name": "Grazing modified pastures",
+    "state": "NSW",
+    "year": "2020-21",
+    "value": 16181.0
+  },
+  {
+    "id": "NSW_2020-21_Dryland cropping",
+    "parent": "Root",
+    "name": "Dryland cropping",
+    "state": "NSW",
+    "year": "2020-21",
+    "value": 13043.0
+  },
+  {
+    "id": "NSW_2020-21_Dryland horticulture",
+    "parent": "Root",
+    "name": "Dryland horticulture",
+    "state": "NSW",
+    "year": "2020-21",
+    "value": 29.0
+  },
+  {
+    "id": "NSW_2020-21_Irrigated pastures",
+    "parent": "Root",
+    "name": "Irrigated pastures",
+    "state": "NSW",
+    "year": "2020-21",
+    "value": 78.0
+  },
+  {
+    "id": "NSW_2020-21_Irrigated cropping",
+    "parent": "Root",
+    "name": "Irrigated cropping",
+    "state": "NSW",
+    "year": "2020-21",
+    "value": 703.0
+  },
+  {
+    "id": "NSW_2020-21_Irrigated horticulture",
+    "parent": "Root",
+    "name": "Irrigated horticulture",
+    "state": "NSW",
+    "year": "2020-21",
+    "value": 117.0
+  },
+  {
+    "id": "NSW_2020-21_Intensive horticulture and animal production",
+    "parent": "Root",
+    "name": "Intensive horticulture and animal production",
+    "state": "NSW",
+    "year": "2020-21",
+    "value": 38.0
+  },
+  {
+    "id": "NSW_2020-21_Rural residential and farm infrastructure",
+    "parent": "Root",
+    "name": "Rural residential and farm infrastructure",
+    "state": "NSW",
+    "year": "2020-21",
+    "value": 475.0
+  },
+  {
+    "id": "NSW_2020-21_Urban residential",
+    "parent": "Root",
+    "name": "Urban residential",
+    "state": "NSW",
+    "year": "2020-21",
+    "value": 411.0
+  },
+  {
+    "id": "NSW_2020-21_Other intensive uses",
+    "parent": "Root",
+    "name": "Other intensive uses",
+    "state": "NSW",
+    "year": "2020-21",
+    "value": 281.0
+  },
+  {
+    "id": "NSW_2020-21_Mining and waste",
+    "parent": "Root",
+    "name": "Mining and waste",
+    "state": "NSW",
+    "year": "2020-21",
+    "value": 102.0
+  },
+  {
+    "id": "NSW_2020-21_Water",
+    "parent": "Root",
+    "name": "Water",
+    "state": "NSW",
+    "year": "2020-21",
+    "value": 1735.0
+  },
+  {
+    "id": "Vic_2010-11_Nature conservation",
+    "parent": "Root",
+    "name": "Nature conservation",
+    "state": "Vic",
+    "year": "2010-11",
+    "value": 4011.0
+  },
+  {
+    "id": "Vic_2010-11_Managed resource protection",
+    "parent": "Root",
+    "name": "Managed resource protection",
+    "state": "Vic",
+    "year": "2010-11",
+    "value": 116.0
+  },
+  {
+    "id": "Vic_2010-11_Other minimal use",
+    "parent": "Root",
+    "name": "Other minimal use",
+    "state": "Vic",
+    "year": "2010-11",
+    "value": 1362.0
+  },
+  {
+    "id": "Vic_2010-11_Grazing native vegetation",
+    "parent": "Root",
+    "name": "Grazing native vegetation",
+    "state": "Vic",
+    "year": "2010-11",
+    "value": 452.0
+  },
+  {
+    "id": "Vic_2010-11_Production native forests",
+    "parent": "Root",
+    "name": "Production native forests",
+    "state": "Vic",
+    "year": "2010-11",
+    "value": 2297.0
+  },
+  {
+    "id": "Vic_2010-11_Plantation forests (a)",
+    "parent": "Root",
+    "name": "Plantation forests (a)",
+    "state": "Vic",
+    "year": "2010-11",
+    "value": 474.0
+  },
+  {
+    "id": "Vic_2010-11_Grazing modified pastures",
+    "parent": "Root",
+    "name": "Grazing modified pastures",
+    "state": "Vic",
+    "year": "2010-11",
+    "value": 6952.0
+  },
+  {
+    "id": "Vic_2010-11_Dryland cropping",
+    "parent": "Root",
+    "name": "Dryland cropping",
+    "state": "Vic",
+    "year": "2010-11",
+    "value": 5106.0
+  },
+  {
+    "id": "Vic_2010-11_Dryland horticulture",
+    "parent": "Root",
+    "name": "Dryland horticulture",
+    "state": "Vic",
+    "year": "2010-11",
+    "value": 62.0
+  },
+  {
+    "id": "Vic_2010-11_Irrigated pastures",
+    "parent": "Root",
+    "name": "Irrigated pastures",
+    "state": "Vic",
+    "year": "2010-11",
+    "value": 364.0
+  },
+  {
+    "id": "Vic_2010-11_Irrigated cropping",
+    "parent": "Root",
+    "name": "Irrigated cropping",
+    "state": "Vic",
+    "year": "2010-11",
+    "value": 98.0
+  },
+  {
+    "id": "Vic_2010-11_Irrigated horticulture",
+    "parent": "Root",
+    "name": "Irrigated horticulture",
+    "state": "Vic",
+    "year": "2010-11",
+    "value": 126.0
+  },
+  {
+    "id": "Vic_2010-11_Intensive horticulture and animal production",
+    "parent": "Root",
+    "name": "Intensive horticulture and animal production",
+    "state": "Vic",
+    "year": "2010-11",
+    "value": 39.0
+  },
+  {
+    "id": "Vic_2010-11_Rural residential and farm infrastructure",
+    "parent": "Root",
+    "name": "Rural residential and farm infrastructure",
+    "state": "Vic",
+    "year": "2010-11",
+    "value": 410.0
+  },
+  {
+    "id": "Vic_2010-11_Urban residential",
+    "parent": "Root",
+    "name": "Urban residential",
+    "state": "Vic",
+    "year": "2010-11",
+    "value": 286.0
+  },
+  {
+    "id": "Vic_2010-11_Other intensive uses",
+    "parent": "Root",
+    "name": "Other intensive uses",
+    "state": "Vic",
+    "year": "2010-11",
+    "value": 256.0
+  },
+  {
+    "id": "Vic_2010-11_Mining and waste",
+    "parent": "Root",
+    "name": "Mining and waste",
+    "state": "Vic",
+    "year": "2010-11",
+    "value": 47.0
+  },
+  {
+    "id": "Vic_2010-11_Water",
+    "parent": "Root",
+    "name": "Water",
+    "state": "Vic",
+    "year": "2010-11",
+    "value": 324.0
+  },
+  {
+    "id": "Vic_2015-16_Nature conservation",
+    "parent": "Root",
+    "name": "Nature conservation",
+    "state": "Vic",
+    "year": "2015-16",
+    "value": 3983.0
+  },
+  {
+    "id": "Vic_2015-16_Managed resource protection",
+    "parent": "Root",
+    "name": "Managed resource protection",
+    "state": "Vic",
+    "year": "2015-16",
+    "value": 94.0
+  },
+  {
+    "id": "Vic_2015-16_Other minimal use",
+    "parent": "Root",
+    "name": "Other minimal use",
+    "state": "Vic",
+    "year": "2015-16",
+    "value": 1321.0
+  },
+  {
+    "id": "Vic_2015-16_Grazing native vegetation",
+    "parent": "Root",
+    "name": "Grazing native vegetation",
+    "state": "Vic",
+    "year": "2015-16",
+    "value": 422.0
+  },
+  {
+    "id": "Vic_2015-16_Production native forests",
+    "parent": "Root",
+    "name": "Production native forests",
+    "state": "Vic",
+    "year": "2015-16",
+    "value": 2290.0
+  },
+  {
+    "id": "Vic_2015-16_Plantation forests (a)",
+    "parent": "Root",
+    "name": "Plantation forests (a)",
+    "state": "Vic",
+    "year": "2015-16",
+    "value": 487.0
+  },
+  {
+    "id": "Vic_2015-16_Grazing modified pastures",
+    "parent": "Root",
+    "name": "Grazing modified pastures",
+    "state": "Vic",
+    "year": "2015-16",
+    "value": 6969.0
+  },
+  {
+    "id": "Vic_2015-16_Dryland cropping",
+    "parent": "Root",
+    "name": "Dryland cropping",
+    "state": "Vic",
+    "year": "2015-16",
+    "value": 4665.0
+  },
+  {
+    "id": "Vic_2015-16_Dryland horticulture",
+    "parent": "Root",
+    "name": "Dryland horticulture",
+    "state": "Vic",
+    "year": "2015-16",
+    "value": 23.0
+  },
+  {
+    "id": "Vic_2015-16_Irrigated pastures",
+    "parent": "Root",
+    "name": "Irrigated pastures",
+    "state": "Vic",
+    "year": "2015-16",
+    "value": 543.0
+  },
+  {
+    "id": "Vic_2015-16_Irrigated cropping",
+    "parent": "Root",
+    "name": "Irrigated cropping",
+    "state": "Vic",
+    "year": "2015-16",
+    "value": 169.0
+  },
+  {
+    "id": "Vic_2015-16_Irrigated horticulture",
+    "parent": "Root",
+    "name": "Irrigated horticulture",
+    "state": "Vic",
+    "year": "2015-16",
+    "value": 189.0
+  },
+  {
+    "id": "Vic_2015-16_Intensive horticulture and animal production",
+    "parent": "Root",
+    "name": "Intensive horticulture and animal production",
+    "state": "Vic",
+    "year": "2015-16",
+    "value": 49.0
+  },
+  {
+    "id": "Vic_2015-16_Rural residential and farm infrastructure",
+    "parent": "Root",
+    "name": "Rural residential and farm infrastructure",
+    "state": "Vic",
+    "year": "2015-16",
+    "value": 552.0
+  },
+  {
+    "id": "Vic_2015-16_Urban residential",
+    "parent": "Root",
+    "name": "Urban residential",
+    "state": "Vic",
+    "year": "2015-16",
+    "value": 355.0
+  },
+  {
+    "id": "Vic_2015-16_Other intensive uses",
+    "parent": "Root",
+    "name": "Other intensive uses",
+    "state": "Vic",
+    "year": "2015-16",
+    "value": 225.0
+  },
+  {
+    "id": "Vic_2015-16_Mining and waste",
+    "parent": "Root",
+    "name": "Mining and waste",
+    "state": "Vic",
+    "year": "2015-16",
+    "value": 60.0
+  },
+  {
+    "id": "Vic_2015-16_Water",
+    "parent": "Root",
+    "name": "Water",
+    "state": "Vic",
+    "year": "2015-16",
+    "value": 387.0
+  },
+  {
+    "id": "Vic_2020-21_Nature conservation",
+    "parent": "Root",
+    "name": "Nature conservation",
+    "state": "Vic",
+    "year": "2020-21",
+    "value": 4071.0
+  },
+  {
+    "id": "Vic_2020-21_Managed resource protection",
+    "parent": "Root",
+    "name": "Managed resource protection",
+    "state": "Vic",
+    "year": "2020-21",
+    "value": 99.0
+  },
+  {
+    "id": "Vic_2020-21_Other minimal use",
+    "parent": "Root",
+    "name": "Other minimal use",
+    "state": "Vic",
+    "year": "2020-21",
+    "value": 1130.0
+  },
+  {
+    "id": "Vic_2020-21_Grazing native vegetation",
+    "parent": "Root",
+    "name": "Grazing native vegetation",
+    "state": "Vic",
+    "year": "2020-21",
+    "value": 406.0
+  },
+  {
+    "id": "Vic_2020-21_Production native forests",
+    "parent": "Root",
+    "name": "Production native forests",
+    "state": "Vic",
+    "year": "2020-21",
+    "value": 2437.0
+  },
+  {
+    "id": "Vic_2020-21_Plantation forests (a)",
+    "parent": "Root",
+    "name": "Plantation forests (a)",
+    "state": "Vic",
+    "year": "2020-21",
+    "value": 429.0
+  },
+  {
+    "id": "Vic_2020-21_Grazing modified pastures",
+    "parent": "Root",
+    "name": "Grazing modified pastures",
+    "state": "Vic",
+    "year": "2020-21",
+    "value": 6068.0
+  },
+  {
+    "id": "Vic_2020-21_Dryland cropping",
+    "parent": "Root",
+    "name": "Dryland cropping",
+    "state": "Vic",
+    "year": "2020-21",
+    "value": 5433.0
+  },
+  {
+    "id": "Vic_2020-21_Dryland horticulture",
+    "parent": "Root",
+    "name": "Dryland horticulture",
+    "state": "Vic",
+    "year": "2020-21",
+    "value": 16.0
+  },
+  {
+    "id": "Vic_2020-21_Irrigated pastures",
+    "parent": "Root",
+    "name": "Irrigated pastures",
+    "state": "Vic",
+    "year": "2020-21",
+    "value": 326.0
+  },
+  {
+    "id": "Vic_2020-21_Irrigated cropping",
+    "parent": "Root",
+    "name": "Irrigated cropping",
+    "state": "Vic",
+    "year": "2020-21",
+    "value": 211.0
+  },
+  {
+    "id": "Vic_2020-21_Irrigated horticulture",
+    "parent": "Root",
+    "name": "Irrigated horticulture",
+    "state": "Vic",
+    "year": "2020-21",
+    "value": 280.0
+  },
+  {
+    "id": "Vic_2020-21_Intensive horticulture and animal production",
+    "parent": "Root",
+    "name": "Intensive horticulture and animal production",
+    "state": "Vic",
+    "year": "2020-21",
+    "value": 56.0
+  },
+  {
+    "id": "Vic_2020-21_Rural residential and farm infrastructure",
+    "parent": "Root",
+    "name": "Rural residential and farm infrastructure",
+    "state": "Vic",
+    "year": "2020-21",
+    "value": 776.0
+  },
+  {
+    "id": "Vic_2020-21_Urban residential",
+    "parent": "Root",
+    "name": "Urban residential",
+    "state": "Vic",
+    "year": "2020-21",
+    "value": 432.0
+  },
+  {
+    "id": "Vic_2020-21_Other intensive uses",
+    "parent": "Root",
+    "name": "Other intensive uses",
+    "state": "Vic",
+    "year": "2020-21",
+    "value": 220.0
+  },
+  {
+    "id": "Vic_2020-21_Mining and waste",
+    "parent": "Root",
+    "name": "Mining and waste",
+    "state": "Vic",
+    "year": "2020-21",
+    "value": 69.0
+  },
+  {
+    "id": "Vic_2020-21_Water",
+    "parent": "Root",
+    "name": "Water",
+    "state": "Vic",
+    "year": "2020-21",
+    "value": 323.0
+  },
+  {
+    "id": "Qld_2010-11_Nature conservation",
+    "parent": "Root",
+    "name": "Nature conservation",
+    "state": "Qld",
+    "year": "2010-11",
+    "value": 9798.0
+  },
+  {
+    "id": "Qld_2010-11_Managed resource protection",
+    "parent": "Root",
+    "name": "Managed resource protection",
+    "state": "Qld",
+    "year": "2010-11",
+    "value": 5663.0
+  },
+  {
+    "id": "Qld_2010-11_Other minimal use",
+    "parent": "Root",
+    "name": "Other minimal use",
+    "state": "Qld",
+    "year": "2010-11",
+    "value": 10054.0
+  },
+  {
+    "id": "Qld_2010-11_Grazing native vegetation",
+    "parent": "Root",
+    "name": "Grazing native vegetation",
+    "state": "Qld",
+    "year": "2010-11",
+    "value": 102265.0
+  },
+  {
+    "id": "Qld_2010-11_Production native forests",
+    "parent": "Root",
+    "name": "Production native forests",
+    "state": "Qld",
+    "year": "2010-11",
+    "value": 2967.0
+  },
+  {
+    "id": "Qld_2010-11_Plantation forests (a)",
+    "parent": "Root",
+    "name": "Plantation forests (a)",
+    "state": "Qld",
+    "year": "2010-11",
+    "value": 257.0
+  },
+  {
+    "id": "Qld_2010-11_Grazing modified pastures",
+    "parent": "Root",
+    "name": "Grazing modified pastures",
+    "state": "Qld",
+    "year": "2010-11",
+    "value": 32137.0
+  },
+  {
+    "id": "Qld_2010-11_Dryland cropping",
+    "parent": "Root",
+    "name": "Dryland cropping",
+    "state": "Qld",
+    "year": "2010-11",
+    "value": 1333.0
+  },
+  {
+    "id": "Qld_2010-11_Dryland horticulture",
+    "parent": "Root",
+    "name": "Dryland horticulture",
+    "state": "Qld",
+    "year": "2010-11",
+    "value": 43.0
+  },
+  {
+    "id": "Qld_2010-11_Irrigated pastures",
+    "parent": "Root",
+    "name": "Irrigated pastures",
+    "state": "Qld",
+    "year": "2010-11",
+    "value": 10.0
+  },
+  {
+    "id": "Qld_2010-11_Irrigated cropping",
+    "parent": "Root",
+    "name": "Irrigated cropping",
+    "state": "Qld",
+    "year": "2010-11",
+    "value": 211.0
+  },
+  {
+    "id": "Qld_2010-11_Irrigated horticulture",
+    "parent": "Root",
+    "name": "Irrigated horticulture",
+    "state": "Qld",
+    "year": "2010-11",
+    "value": 87.0
+  },
+  {
+    "id": "Qld_2010-11_Intensive horticulture and animal production",
+    "parent": "Root",
+    "name": "Intensive horticulture and animal production",
+    "state": "Qld",
+    "year": "2010-11",
+    "value": 18.0
+  },
+  {
+    "id": "Qld_2010-11_Rural residential and farm infrastructure",
+    "parent": "Root",
+    "name": "Rural residential and farm infrastructure",
+    "state": "Qld",
+    "year": "2010-11",
+    "value": 431.0
+  },
+  {
+    "id": "Qld_2010-11_Urban residential",
+    "parent": "Root",
+    "name": "Urban residential",
+    "state": "Qld",
+    "year": "2010-11",
+    "value": 329.0
+  },
+  {
+    "id": "Qld_2010-11_Other intensive uses",
+    "parent": "Root",
+    "name": "Other intensive uses",
+    "state": "Qld",
+    "year": "2010-11",
+    "value": 224.0
+  },
+  {
+    "id": "Qld_2010-11_Mining and waste",
+    "parent": "Root",
+    "name": "Mining and waste",
+    "state": "Qld",
+    "year": "2010-11",
+    "value": 191.0
+  },
+  {
+    "id": "Qld_2010-11_Water",
+    "parent": "Root",
+    "name": "Water",
+    "state": "Qld",
+    "year": "2010-11",
+    "value": 7140.0
+  },
+  {
+    "id": "Qld_2015-16_Nature conservation",
+    "parent": "Root",
+    "name": "Nature conservation",
+    "state": "Qld",
+    "year": "2015-16",
+    "value": 11093.0
+  },
+  {
+    "id": "Qld_2015-16_Managed resource protection",
+    "parent": "Root",
+    "name": "Managed resource protection",
+    "state": "Qld",
+    "year": "2015-16",
+    "value": 6734.0
+  },
+  {
+    "id": "Qld_2015-16_Other minimal use",
+    "parent": "Root",
+    "name": "Other minimal use",
+    "state": "Qld",
+    "year": "2015-16",
+    "value": 8300.0
+  },
+  {
+    "id": "Qld_2015-16_Grazing native vegetation",
+    "parent": "Root",
+    "name": "Grazing native vegetation",
+    "state": "Qld",
+    "year": "2015-16",
+    "value": 101571.0
+  },
+  {
+    "id": "Qld_2015-16_Production native forests",
+    "parent": "Root",
+    "name": "Production native forests",
+    "state": "Qld",
+    "year": "2015-16",
+    "value": 2979.0
+  },
+  {
+    "id": "Qld_2015-16_Plantation forests (a)",
+    "parent": "Root",
+    "name": "Plantation forests (a)",
+    "state": "Qld",
+    "year": "2015-16",
+    "value": 262.0
+  },
+  {
+    "id": "Qld_2015-16_Grazing modified pastures",
+    "parent": "Root",
+    "name": "Grazing modified pastures",
+    "state": "Qld",
+    "year": "2015-16",
+    "value": 29752.0
+  },
+  {
+    "id": "Qld_2015-16_Dryland cropping",
+    "parent": "Root",
+    "name": "Dryland cropping",
+    "state": "Qld",
+    "year": "2015-16",
+    "value": 3408.0
+  },
+  {
+    "id": "Qld_2015-16_Dryland horticulture",
+    "parent": "Root",
+    "name": "Dryland horticulture",
+    "state": "Qld",
+    "year": "2015-16",
+    "value": 16.0
+  },
+  {
+    "id": "Qld_2015-16_Irrigated pastures",
+    "parent": "Root",
+    "name": "Irrigated pastures",
+    "state": "Qld",
+    "year": "2015-16",
+    "value": 2.0
+  },
+  {
+    "id": "Qld_2015-16_Irrigated cropping",
+    "parent": "Root",
+    "name": "Irrigated cropping",
+    "state": "Qld",
+    "year": "2015-16",
+    "value": 504.0
+  },
+  {
+    "id": "Qld_2015-16_Irrigated horticulture",
+    "parent": "Root",
+    "name": "Irrigated horticulture",
+    "state": "Qld",
+    "year": "2015-16",
+    "value": 122.0
+  },
+  {
+    "id": "Qld_2015-16_Intensive horticulture and animal production",
+    "parent": "Root",
+    "name": "Intensive horticulture and animal production",
+    "state": "Qld",
+    "year": "2015-16",
+    "value": 19.0
+  },
+  {
+    "id": "Qld_2015-16_Rural residential and farm infrastructure",
+    "parent": "Root",
+    "name": "Rural residential and farm infrastructure",
+    "state": "Qld",
+    "year": "2015-16",
+    "value": 469.0
+  },
+  {
+    "id": "Qld_2015-16_Urban residential",
+    "parent": "Root",
+    "name": "Urban residential",
+    "state": "Qld",
+    "year": "2015-16",
+    "value": 349.0
+  },
+  {
+    "id": "Qld_2015-16_Other intensive uses",
+    "parent": "Root",
+    "name": "Other intensive uses",
+    "state": "Qld",
+    "year": "2015-16",
+    "value": 241.0
+  },
+  {
+    "id": "Qld_2015-16_Mining and waste",
+    "parent": "Root",
+    "name": "Mining and waste",
+    "state": "Qld",
+    "year": "2015-16",
+    "value": 222.0
+  },
+  {
+    "id": "Qld_2015-16_Water",
+    "parent": "Root",
+    "name": "Water",
+    "state": "Qld",
+    "year": "2015-16",
+    "value": 7113.0
+  },
+  {
+    "id": "Qld_2020-21_Nature conservation",
+    "parent": "Root",
+    "name": "Nature conservation",
+    "state": "Qld",
+    "year": "2020-21",
+    "value": 11299.0
+  },
+  {
+    "id": "Qld_2020-21_Managed resource protection",
+    "parent": "Root",
+    "name": "Managed resource protection",
+    "state": "Qld",
+    "year": "2020-21",
+    "value": 6873.0
+  },
+  {
+    "id": "Qld_2020-21_Other minimal use",
+    "parent": "Root",
+    "name": "Other minimal use",
+    "state": "Qld",
+    "year": "2020-21",
+    "value": 6224.0
+  },
+  {
+    "id": "Qld_2020-21_Grazing native vegetation",
+    "parent": "Root",
+    "name": "Grazing native vegetation",
+    "state": "Qld",
+    "year": "2020-21",
+    "value": 102911.0
+  },
+  {
+    "id": "Qld_2020-21_Production native forests",
+    "parent": "Root",
+    "name": "Production native forests",
+    "state": "Qld",
+    "year": "2020-21",
+    "value": 2904.0
+  },
+  {
+    "id": "Qld_2020-21_Plantation forests (a)",
+    "parent": "Root",
+    "name": "Plantation forests (a)",
+    "state": "Qld",
+    "year": "2020-21",
+    "value": 232.0
+  },
+  {
+    "id": "Qld_2020-21_Grazing modified pastures",
+    "parent": "Root",
+    "name": "Grazing modified pastures",
+    "state": "Qld",
+    "year": "2020-21",
+    "value": 30191.0
+  },
+  {
+    "id": "Qld_2020-21_Dryland cropping",
+    "parent": "Root",
+    "name": "Dryland cropping",
+    "state": "Qld",
+    "year": "2020-21",
+    "value": 3530.0
+  },
+  {
+    "id": "Qld_2020-21_Dryland horticulture",
+    "parent": "Root",
+    "name": "Dryland horticulture",
+    "state": "Qld",
+    "year": "2020-21",
+    "value": 11.0
+  },
+  {
+    "id": "Qld_2020-21_Irrigated pastures",
+    "parent": "Root",
+    "name": "Irrigated pastures",
+    "state": "Qld",
+    "year": "2020-21",
+    "value": 2.0
+  },
+  {
+    "id": "Qld_2020-21_Irrigated cropping",
+    "parent": "Root",
+    "name": "Irrigated cropping",
+    "state": "Qld",
+    "year": "2020-21",
+    "value": 411.0
+  },
+  {
+    "id": "Qld_2020-21_Irrigated horticulture",
+    "parent": "Root",
+    "name": "Irrigated horticulture",
+    "state": "Qld",
+    "year": "2020-21",
+    "value": 149.0
+  },
+  {
+    "id": "Qld_2020-21_Intensive horticulture and animal production",
+    "parent": "Root",
+    "name": "Intensive horticulture and animal production",
+    "state": "Qld",
+    "year": "2020-21",
+    "value": 19.0
+  },
+  {
+    "id": "Qld_2020-21_Rural residential and farm infrastructure",
+    "parent": "Root",
+    "name": "Rural residential and farm infrastructure",
+    "state": "Qld",
+    "year": "2020-21",
+    "value": 455.0
+  },
+  {
+    "id": "Qld_2020-21_Urban residential",
+    "parent": "Root",
+    "name": "Urban residential",
+    "state": "Qld",
+    "year": "2020-21",
+    "value": 365.0
+  },
+  {
+    "id": "Qld_2020-21_Other intensive uses",
+    "parent": "Root",
+    "name": "Other intensive uses",
+    "state": "Qld",
+    "year": "2020-21",
+    "value": 235.0
+  },
+  {
+    "id": "Qld_2020-21_Mining and waste",
+    "parent": "Root",
+    "name": "Mining and waste",
+    "state": "Qld",
+    "year": "2020-21",
+    "value": 220.0
+  },
+  {
+    "id": "Qld_2020-21_Water",
+    "parent": "Root",
+    "name": "Water",
+    "state": "Qld",
+    "year": "2020-21",
+    "value": 7126.0
+  },
+  {
+    "id": "SA_2010-11_Nature conservation",
+    "parent": "Root",
+    "name": "Nature conservation",
+    "state": "SA",
+    "year": "2010-11",
+    "value": 10000.0
+  },
+  {
+    "id": "SA_2010-11_Managed resource protection",
+    "parent": "Root",
+    "name": "Managed resource protection",
+    "state": "SA",
+    "year": "2010-11",
+    "value": 29916.0
+  },
+  {
+    "id": "SA_2010-11_Other minimal use",
+    "parent": "Root",
+    "name": "Other minimal use",
+    "state": "SA",
+    "year": "2010-11",
+    "value": 3075.0
+  },
+  {
+    "id": "SA_2010-11_Grazing native vegetation",
+    "parent": "Root",
+    "name": "Grazing native vegetation",
+    "state": "SA",
+    "year": "2010-11",
+    "value": 38979.0
+  },
+  {
+    "id": "SA_2010-11_Plantation forests (a)",
+    "parent": "Root",
+    "name": "Plantation forests (a)",
+    "state": "SA",
+    "year": "2010-11",
+    "value": 210.0
+  },
+  {
+    "id": "SA_2010-11_Grazing modified pastures",
+    "parent": "Root",
+    "name": "Grazing modified pastures",
+    "state": "SA",
+    "year": "2010-11",
+    "value": 4920.0
+  },
+  {
+    "id": "SA_2010-11_Dryland cropping",
+    "parent": "Root",
+    "name": "Dryland cropping",
+    "state": "SA",
+    "year": "2010-11",
+    "value": 5906.0
+  },
+  {
+    "id": "SA_2010-11_Dryland horticulture",
+    "parent": "Root",
+    "name": "Dryland horticulture",
+    "state": "SA",
+    "year": "2010-11",
+    "value": 35.0
+  },
+  {
+    "id": "SA_2010-11_Irrigated pastures",
+    "parent": "Root",
+    "name": "Irrigated pastures",
+    "state": "SA",
+    "year": "2010-11",
+    "value": 54.0
+  },
+  {
+    "id": "SA_2010-11_Irrigated cropping",
+    "parent": "Root",
+    "name": "Irrigated cropping",
+    "state": "SA",
+    "year": "2010-11",
+    "value": 40.0
+  },
+  {
+    "id": "SA_2010-11_Irrigated horticulture",
+    "parent": "Root",
+    "name": "Irrigated horticulture",
+    "state": "SA",
+    "year": "2010-11",
+    "value": 118.0
+  },
+  {
+    "id": "SA_2010-11_Intensive horticulture and animal production",
+    "parent": "Root",
+    "name": "Intensive horticulture and animal production",
+    "state": "SA",
+    "year": "2010-11",
+    "value": 5.0
+  },
+  {
+    "id": "SA_2010-11_Rural residential and farm infrastructure",
+    "parent": "Root",
+    "name": "Rural residential and farm infrastructure",
+    "state": "SA",
+    "year": "2010-11",
+    "value": 75.0
+  },
+  {
+    "id": "SA_2010-11_Urban residential",
+    "parent": "Root",
+    "name": "Urban residential",
+    "state": "SA",
+    "year": "2010-11",
+    "value": 96.0
+  },
+  {
+    "id": "SA_2010-11_Other intensive uses",
+    "parent": "Root",
+    "name": "Other intensive uses",
+    "state": "SA",
+    "year": "2010-11",
+    "value": 94.0
+  },
+  {
+    "id": "SA_2010-11_Mining and waste",
+    "parent": "Root",
+    "name": "Mining and waste",
+    "state": "SA",
+    "year": "2010-11",
+    "value": 128.0
+  },
+  {
+    "id": "SA_2010-11_Water",
+    "parent": "Root",
+    "name": "Water",
+    "state": "SA",
+    "year": "2010-11",
+    "value": 4850.0
+  },
+  {
+    "id": "SA_2015-16_Nature conservation",
+    "parent": "Root",
+    "name": "Nature conservation",
+    "state": "SA",
+    "year": "2015-16",
+    "value": 11205.0
+  },
+  {
+    "id": "SA_2015-16_Managed resource protection",
+    "parent": "Root",
+    "name": "Managed resource protection",
+    "state": "SA",
+    "year": "2015-16",
+    "value": 28968.0
+  },
+  {
+    "id": "SA_2015-16_Other minimal use",
+    "parent": "Root",
+    "name": "Other minimal use",
+    "state": "SA",
+    "year": "2015-16",
+    "value": 2127.0
+  },
+  {
+    "id": "SA_2015-16_Grazing native vegetation",
+    "parent": "Root",
+    "name": "Grazing native vegetation",
+    "state": "SA",
+    "year": "2015-16",
+    "value": 39507.0
+  },
+  {
+    "id": "SA_2015-16_Plantation forests (a)",
+    "parent": "Root",
+    "name": "Plantation forests (a)",
+    "state": "SA",
+    "year": "2015-16",
+    "value": 210.0
+  },
+  {
+    "id": "SA_2015-16_Grazing modified pastures",
+    "parent": "Root",
+    "name": "Grazing modified pastures",
+    "state": "SA",
+    "year": "2015-16",
+    "value": 5671.0
+  },
+  {
+    "id": "SA_2015-16_Dryland cropping",
+    "parent": "Root",
+    "name": "Dryland cropping",
+    "state": "SA",
+    "year": "2015-16",
+    "value": 5285.0
+  },
+  {
+    "id": "SA_2015-16_Dryland horticulture",
+    "parent": "Root",
+    "name": "Dryland horticulture",
+    "state": "SA",
+    "year": "2015-16",
+    "value": 13.0
+  },
+  {
+    "id": "SA_2015-16_Irrigated pastures",
+    "parent": "Root",
+    "name": "Irrigated pastures",
+    "state": "SA",
+    "year": "2015-16",
+    "value": 62.0
+  },
+  {
+    "id": "SA_2015-16_Irrigated cropping",
+    "parent": "Root",
+    "name": "Irrigated cropping",
+    "state": "SA",
+    "year": "2015-16",
+    "value": 70.0
+  },
+  {
+    "id": "SA_2015-16_Irrigated horticulture",
+    "parent": "Root",
+    "name": "Irrigated horticulture",
+    "state": "SA",
+    "year": "2015-16",
+    "value": 128.0
+  },
+  {
+    "id": "SA_2015-16_Intensive horticulture and animal production",
+    "parent": "Root",
+    "name": "Intensive horticulture and animal production",
+    "state": "SA",
+    "year": "2015-16",
+    "value": 9.0
+  },
+  {
+    "id": "SA_2015-16_Rural residential and farm infrastructure",
+    "parent": "Root",
+    "name": "Rural residential and farm infrastructure",
+    "state": "SA",
+    "year": "2015-16",
+    "value": 118.0
+  },
+  {
+    "id": "SA_2015-16_Urban residential",
+    "parent": "Root",
+    "name": "Urban residential",
+    "state": "SA",
+    "year": "2015-16",
+    "value": 102.0
+  },
+  {
+    "id": "SA_2015-16_Other intensive uses",
+    "parent": "Root",
+    "name": "Other intensive uses",
+    "state": "SA",
+    "year": "2015-16",
+    "value": 99.0
+  },
+  {
+    "id": "SA_2015-16_Mining and waste",
+    "parent": "Root",
+    "name": "Mining and waste",
+    "state": "SA",
+    "year": "2015-16",
+    "value": 127.0
+  },
+  {
+    "id": "SA_2015-16_Water",
+    "parent": "Root",
+    "name": "Water",
+    "state": "SA",
+    "year": "2015-16",
+    "value": 4799.0
+  },
+  {
+    "id": "SA_2020-21_Nature conservation",
+    "parent": "Root",
+    "name": "Nature conservation",
+    "state": "SA",
+    "year": "2020-21",
+    "value": 11117.0
+  },
+  {
+    "id": "SA_2020-21_Managed resource protection",
+    "parent": "Root",
+    "name": "Managed resource protection",
+    "state": "SA",
+    "year": "2020-21",
+    "value": 29106.0
+  },
+  {
+    "id": "SA_2020-21_Other minimal use",
+    "parent": "Root",
+    "name": "Other minimal use",
+    "state": "SA",
+    "year": "2020-21",
+    "value": 2123.0
+  },
+  {
+    "id": "SA_2020-21_Grazing native vegetation",
+    "parent": "Root",
+    "name": "Grazing native vegetation",
+    "state": "SA",
+    "year": "2020-21",
+    "value": 39307.0
+  },
+  {
+    "id": "SA_2020-21_Plantation forests (a)",
+    "parent": "Root",
+    "name": "Plantation forests (a)",
+    "state": "SA",
+    "year": "2020-21",
+    "value": 210.0
+  },
+  {
+    "id": "SA_2020-21_Grazing modified pastures",
+    "parent": "Root",
+    "name": "Grazing modified pastures",
+    "state": "SA",
+    "year": "2020-21",
+    "value": 5805.0
+  },
+  {
+    "id": "SA_2020-21_Dryland cropping",
+    "parent": "Root",
+    "name": "Dryland cropping",
+    "state": "SA",
+    "year": "2020-21",
+    "value": 5325.0
+  },
+  {
+    "id": "SA_2020-21_Dryland horticulture",
+    "parent": "Root",
+    "name": "Dryland horticulture",
+    "state": "SA",
+    "year": "2020-21",
+    "value": 8.0
+  },
+  {
+    "id": "SA_2020-21_Irrigated pastures",
+    "parent": "Root",
+    "name": "Irrigated pastures",
+    "state": "SA",
+    "year": "2020-21",
+    "value": 62.0
+  },
+  {
+    "id": "SA_2020-21_Irrigated cropping",
+    "parent": "Root",
+    "name": "Irrigated cropping",
+    "state": "SA",
+    "year": "2020-21",
+    "value": 37.0
+  },
+  {
+    "id": "SA_2020-21_Irrigated horticulture",
+    "parent": "Root",
+    "name": "Irrigated horticulture",
+    "state": "SA",
+    "year": "2020-21",
+    "value": 137.0
+  },
+  {
+    "id": "SA_2020-21_Intensive horticulture and animal production",
+    "parent": "Root",
+    "name": "Intensive horticulture and animal production",
+    "state": "SA",
+    "year": "2020-21",
+    "value": 9.0
+  },
+  {
+    "id": "SA_2020-21_Rural residential and farm infrastructure",
+    "parent": "Root",
+    "name": "Rural residential and farm infrastructure",
+    "state": "SA",
+    "year": "2020-21",
+    "value": 115.0
+  },
+  {
+    "id": "SA_2020-21_Urban residential",
+    "parent": "Root",
+    "name": "Urban residential",
+    "state": "SA",
+    "year": "2020-21",
+    "value": 106.0
+  },
+  {
+    "id": "SA_2020-21_Other intensive uses",
+    "parent": "Root",
+    "name": "Other intensive uses",
+    "state": "SA",
+    "year": "2020-21",
+    "value": 99.0
+  },
+  {
+    "id": "SA_2020-21_Mining and waste",
+    "parent": "Root",
+    "name": "Mining and waste",
+    "state": "SA",
+    "year": "2020-21",
+    "value": 127.0
+  },
+  {
+    "id": "SA_2020-21_Water",
+    "parent": "Root",
+    "name": "Water",
+    "state": "SA",
+    "year": "2020-21",
+    "value": 4807.0
+  },
+  {
+    "id": "WA_2010-11_Nature conservation",
+    "parent": "Root",
+    "name": "Nature conservation",
+    "state": "WA",
+    "year": "2010-11",
+    "value": 24191.0
+  },
+  {
+    "id": "WA_2010-11_Managed resource protection",
+    "parent": "Root",
+    "name": "Managed resource protection",
+    "state": "WA",
+    "year": "2010-11",
+    "value": 32358.0
+  },
+  {
+    "id": "WA_2010-11_Other minimal use",
+    "parent": "Root",
+    "name": "Other minimal use",
+    "state": "WA",
+    "year": "2010-11",
+    "value": 86687.0
+  },
+  {
+    "id": "WA_2010-11_Grazing native vegetation",
+    "parent": "Root",
+    "name": "Grazing native vegetation",
+    "state": "WA",
+    "year": "2010-11",
+    "value": 83461.0
+  },
+  {
+    "id": "WA_2010-11_Production native forests",
+    "parent": "Root",
+    "name": "Production native forests",
+    "state": "WA",
+    "year": "2010-11",
+    "value": 1329.0
+  },
+  {
+    "id": "WA_2010-11_Plantation forests (a)",
+    "parent": "Root",
+    "name": "Plantation forests (a)",
+    "state": "WA",
+    "year": "2010-11",
+    "value": 480.0
+  },
+  {
+    "id": "WA_2010-11_Grazing modified pastures",
+    "parent": "Root",
+    "name": "Grazing modified pastures",
+    "state": "WA",
+    "year": "2010-11",
+    "value": 7129.0
+  },
+  {
+    "id": "WA_2010-11_Dryland cropping",
+    "parent": "Root",
+    "name": "Dryland cropping",
+    "state": "WA",
+    "year": "2010-11",
+    "value": 10240.0
+  },
+  {
+    "id": "WA_2010-11_Dryland horticulture",
+    "parent": "Root",
+    "name": "Dryland horticulture",
+    "state": "WA",
+    "year": "2010-11",
+    "value": 12.0
+  },
+  {
+    "id": "WA_2010-11_Irrigated pastures",
+    "parent": "Root",
+    "name": "Irrigated pastures",
+    "state": "WA",
+    "year": "2010-11",
+    "value": 20.0
+  },
+  {
+    "id": "WA_2010-11_Irrigated cropping",
+    "parent": "Root",
+    "name": "Irrigated cropping",
+    "state": "WA",
+    "year": "2010-11",
+    "value": 4.0
+  },
+  {
+    "id": "WA_2010-11_Irrigated horticulture",
+    "parent": "Root",
+    "name": "Irrigated horticulture",
+    "state": "WA",
+    "year": "2010-11",
+    "value": 34.0
+  },
+  {
+    "id": "WA_2010-11_Intensive horticulture and animal production",
+    "parent": "Root",
+    "name": "Intensive horticulture and animal production",
+    "state": "WA",
+    "year": "2010-11",
+    "value": 7.0
+  },
+  {
+    "id": "WA_2010-11_Rural residential and farm infrastructure",
+    "parent": "Root",
+    "name": "Rural residential and farm infrastructure",
+    "state": "WA",
+    "year": "2010-11",
+    "value": 120.0
+  },
+  {
+    "id": "WA_2010-11_Urban residential",
+    "parent": "Root",
+    "name": "Urban residential",
+    "state": "WA",
+    "year": "2010-11",
+    "value": 155.0
+  },
+  {
+    "id": "WA_2010-11_Other intensive uses",
+    "parent": "Root",
+    "name": "Other intensive uses",
+    "state": "WA",
+    "year": "2010-11",
+    "value": 144.0
+  },
+  {
+    "id": "WA_2010-11_Mining and waste",
+    "parent": "Root",
+    "name": "Mining and waste",
+    "state": "WA",
+    "year": "2010-11",
+    "value": 133.0
+  },
+  {
+    "id": "WA_2010-11_Water",
+    "parent": "Root",
+    "name": "Water",
+    "state": "WA",
+    "year": "2010-11",
+    "value": 6460.0
+  },
+  {
+    "id": "WA_2015-16_Nature conservation",
+    "parent": "Root",
+    "name": "Nature conservation",
+    "state": "WA",
+    "year": "2015-16",
+    "value": 28312.0
+  },
+  {
+    "id": "WA_2015-16_Managed resource protection",
+    "parent": "Root",
+    "name": "Managed resource protection",
+    "state": "WA",
+    "year": "2015-16",
+    "value": 41351.0
+  },
+  {
+    "id": "WA_2015-16_Other minimal use",
+    "parent": "Root",
+    "name": "Other minimal use",
+    "state": "WA",
+    "year": "2015-16",
+    "value": 74858.0
+  },
+  {
+    "id": "WA_2015-16_Grazing native vegetation",
+    "parent": "Root",
+    "name": "Grazing native vegetation",
+    "state": "WA",
+    "year": "2015-16",
+    "value": 82000.0
+  },
+  {
+    "id": "WA_2015-16_Production native forests",
+    "parent": "Root",
+    "name": "Production native forests",
+    "state": "WA",
+    "year": "2015-16",
+    "value": 1328.0
+  },
+  {
+    "id": "WA_2015-16_Plantation forests (a)",
+    "parent": "Root",
+    "name": "Plantation forests (a)",
+    "state": "WA",
+    "year": "2015-16",
+    "value": 481.0
+  },
+  {
+    "id": "WA_2015-16_Grazing modified pastures",
+    "parent": "Root",
+    "name": "Grazing modified pastures",
+    "state": "WA",
+    "year": "2015-16",
+    "value": 3817.0
+  },
+  {
+    "id": "WA_2015-16_Dryland cropping",
+    "parent": "Root",
+    "name": "Dryland cropping",
+    "state": "WA",
+    "year": "2015-16",
+    "value": 13570.0
+  },
+  {
+    "id": "WA_2015-16_Dryland horticulture",
+    "parent": "Root",
+    "name": "Dryland horticulture",
+    "state": "WA",
+    "year": "2015-16",
+    "value": 8.0
+  },
+  {
+    "id": "WA_2015-16_Irrigated pastures",
+    "parent": "Root",
+    "name": "Irrigated pastures",
+    "state": "WA",
+    "year": "2015-16",
+    "value": 17.0
+  },
+  {
+    "id": "WA_2015-16_Irrigated cropping",
+    "parent": "Root",
+    "name": "Irrigated cropping",
+    "state": "WA",
+    "year": "2015-16",
+    "value": 63.0
+  },
+  {
+    "id": "WA_2015-16_Irrigated horticulture",
+    "parent": "Root",
+    "name": "Irrigated horticulture",
+    "state": "WA",
+    "year": "2015-16",
+    "value": 47.0
+  },
+  {
+    "id": "WA_2015-16_Intensive horticulture and animal production",
+    "parent": "Root",
+    "name": "Intensive horticulture and animal production",
+    "state": "WA",
+    "year": "2015-16",
+    "value": 10.0
+  },
+  {
+    "id": "WA_2015-16_Rural residential and farm infrastructure",
+    "parent": "Root",
+    "name": "Rural residential and farm infrastructure",
+    "state": "WA",
+    "year": "2015-16",
+    "value": 134.0
+  },
+  {
+    "id": "WA_2015-16_Urban residential",
+    "parent": "Root",
+    "name": "Urban residential",
+    "state": "WA",
+    "year": "2015-16",
+    "value": 157.0
+  },
+  {
+    "id": "WA_2015-16_Other intensive uses",
+    "parent": "Root",
+    "name": "Other intensive uses",
+    "state": "WA",
+    "year": "2015-16",
+    "value": 177.0
+  },
+  {
+    "id": "WA_2015-16_Mining and waste",
+    "parent": "Root",
+    "name": "Mining and waste",
+    "state": "WA",
+    "year": "2015-16",
+    "value": 132.0
+  },
+  {
+    "id": "WA_2015-16_Water",
+    "parent": "Root",
+    "name": "Water",
+    "state": "WA",
+    "year": "2015-16",
+    "value": 6500.0
+  },
+  {
+    "id": "WA_2020-21_Nature conservation",
+    "parent": "Root",
+    "name": "Nature conservation",
+    "state": "WA",
+    "year": "2020-21",
+    "value": 28080.0
+  },
+  {
+    "id": "WA_2020-21_Managed resource protection",
+    "parent": "Root",
+    "name": "Managed resource protection",
+    "state": "WA",
+    "year": "2020-21",
+    "value": 47369.0
+  },
+  {
+    "id": "WA_2020-21_Other minimal use",
+    "parent": "Root",
+    "name": "Other minimal use",
+    "state": "WA",
+    "year": "2020-21",
+    "value": 69126.0
+  },
+  {
+    "id": "WA_2020-21_Grazing native vegetation",
+    "parent": "Root",
+    "name": "Grazing native vegetation",
+    "state": "WA",
+    "year": "2020-21",
+    "value": 81883.0
+  },
+  {
+    "id": "WA_2020-21_Production native forests",
+    "parent": "Root",
+    "name": "Production native forests",
+    "state": "WA",
+    "year": "2020-21",
+    "value": 1230.0
+  },
+  {
+    "id": "WA_2020-21_Plantation forests (a)",
+    "parent": "Root",
+    "name": "Plantation forests (a)",
+    "state": "WA",
+    "year": "2020-21",
+    "value": 353.0
+  },
+  {
+    "id": "WA_2020-21_Grazing modified pastures",
+    "parent": "Root",
+    "name": "Grazing modified pastures",
+    "state": "WA",
+    "year": "2020-21",
+    "value": 4095.0
+  },
+  {
+    "id": "WA_2020-21_Dryland cropping",
+    "parent": "Root",
+    "name": "Dryland cropping",
+    "state": "WA",
+    "year": "2020-21",
+    "value": 13643.0
+  },
+  {
+    "id": "WA_2020-21_Dryland horticulture",
+    "parent": "Root",
+    "name": "Dryland horticulture",
+    "state": "WA",
+    "year": "2020-21",
+    "value": 8.0
+  },
+  {
+    "id": "WA_2020-21_Irrigated pastures",
+    "parent": "Root",
+    "name": "Irrigated pastures",
+    "state": "WA",
+    "year": "2020-21",
+    "value": 11.0
+  },
+  {
+    "id": "WA_2020-21_Irrigated cropping",
+    "parent": "Root",
+    "name": "Irrigated cropping",
+    "state": "WA",
+    "year": "2020-21",
+    "value": 26.0
+  },
+  {
+    "id": "WA_2020-21_Irrigated horticulture",
+    "parent": "Root",
+    "name": "Irrigated horticulture",
+    "state": "WA",
+    "year": "2020-21",
+    "value": 51.0
+  },
+  {
+    "id": "WA_2020-21_Intensive horticulture and animal production",
+    "parent": "Root",
+    "name": "Intensive horticulture and animal production",
+    "state": "WA",
+    "year": "2020-21",
+    "value": 10.0
+  },
+  {
+    "id": "WA_2020-21_Rural residential and farm infrastructure",
+    "parent": "Root",
+    "name": "Rural residential and farm infrastructure",
+    "state": "WA",
+    "year": "2020-21",
+    "value": 130.0
+  },
+  {
+    "id": "WA_2020-21_Urban residential",
+    "parent": "Root",
+    "name": "Urban residential",
+    "state": "WA",
+    "year": "2020-21",
+    "value": 165.0
+  },
+  {
+    "id": "WA_2020-21_Other intensive uses",
+    "parent": "Root",
+    "name": "Other intensive uses",
+    "state": "WA",
+    "year": "2020-21",
+    "value": 149.0
+  },
+  {
+    "id": "WA_2020-21_Mining and waste",
+    "parent": "Root",
+    "name": "Mining and waste",
+    "state": "WA",
+    "year": "2020-21",
+    "value": 131.0
+  },
+  {
+    "id": "WA_2020-21_Water",
+    "parent": "Root",
+    "name": "Water",
+    "state": "WA",
+    "year": "2020-21",
+    "value": 6504.0
+  },
+  {
+    "id": "Tas_2010-11_Nature conservation",
+    "parent": "Root",
+    "name": "Nature conservation",
+    "state": "Tas",
+    "year": "2010-11",
+    "value": 2142.0
+  },
+  {
+    "id": "Tas_2010-11_Managed resource protection",
+    "parent": "Root",
+    "name": "Managed resource protection",
+    "state": "Tas",
+    "year": "2010-11",
+    "value": 787.0
+  },
+  {
+    "id": "Tas_2010-11_Other minimal use",
+    "parent": "Root",
+    "name": "Other minimal use",
+    "state": "Tas",
+    "year": "2010-11",
+    "value": 478.0
+  },
+  {
+    "id": "Tas_2010-11_Grazing native vegetation",
+    "parent": "Root",
+    "name": "Grazing native vegetation",
+    "state": "Tas",
+    "year": "2010-11",
+    "value": 225.0
+  },
+  {
+    "id": "Tas_2010-11_Production native forests",
+    "parent": "Root",
+    "name": "Production native forests",
+    "state": "Tas",
+    "year": "2010-11",
+    "value": 1166.0
+  },
+  {
+    "id": "Tas_2010-11_Plantation forests (a)",
+    "parent": "Root",
+    "name": "Plantation forests (a)",
+    "state": "Tas",
+    "year": "2010-11",
+    "value": 330.0
+  },
+  {
+    "id": "Tas_2010-11_Grazing modified pastures",
+    "parent": "Root",
+    "name": "Grazing modified pastures",
+    "state": "Tas",
+    "year": "2010-11",
+    "value": 1184.0
+  },
+  {
+    "id": "Tas_2010-11_Dryland cropping",
+    "parent": "Root",
+    "name": "Dryland cropping",
+    "state": "Tas",
+    "year": "2010-11",
+    "value": 84.0
+  },
+  {
+    "id": "Tas_2010-11_Dryland horticulture",
+    "parent": "Root",
+    "name": "Dryland horticulture",
+    "state": "Tas",
+    "year": "2010-11",
+    "value": 3.0
+  },
+  {
+    "id": "Tas_2010-11_Irrigated pastures",
+    "parent": "Root",
+    "name": "Irrigated pastures",
+    "state": "Tas",
+    "year": "2010-11",
+    "value": 43.0
+  },
+  {
+    "id": "Tas_2010-11_Irrigated cropping",
+    "parent": "Root",
+    "name": "Irrigated cropping",
+    "state": "Tas",
+    "year": "2010-11",
+    "value": 12.0
+  },
+  {
+    "id": "Tas_2010-11_Irrigated horticulture",
+    "parent": "Root",
+    "name": "Irrigated horticulture",
+    "state": "Tas",
+    "year": "2010-11",
+    "value": 4.0
+  },
+  {
+    "id": "Tas_2010-11_Intensive horticulture and animal production",
+    "parent": "Root",
+    "name": "Intensive horticulture and animal production",
+    "state": "Tas",
+    "year": "2010-11",
+    "value": 1.0
+  },
+  {
+    "id": "Tas_2010-11_Rural residential and farm infrastructure",
+    "parent": "Root",
+    "name": "Rural residential and farm infrastructure",
+    "state": "Tas",
+    "year": "2010-11",
+    "value": 121.0
+  },
+  {
+    "id": "Tas_2010-11_Urban residential",
+    "parent": "Root",
+    "name": "Urban residential",
+    "state": "Tas",
+    "year": "2010-11",
+    "value": 48.0
+  },
+  {
+    "id": "Tas_2010-11_Other intensive uses",
+    "parent": "Root",
+    "name": "Other intensive uses",
+    "state": "Tas",
+    "year": "2010-11",
+    "value": 24.0
+  },
+  {
+    "id": "Tas_2010-11_Mining and waste",
+    "parent": "Root",
+    "name": "Mining and waste",
+    "state": "Tas",
+    "year": "2010-11",
+    "value": 4.0
+  },
+  {
+    "id": "Tas_2010-11_Water",
+    "parent": "Root",
+    "name": "Water",
+    "state": "Tas",
+    "year": "2010-11",
+    "value": 224.0
+  },
+  {
+    "id": "Tas_2015-16_Nature conservation",
+    "parent": "Root",
+    "name": "Nature conservation",
+    "state": "Tas",
+    "year": "2015-16",
+    "value": 2198.0
+  },
+  {
+    "id": "Tas_2015-16_Managed resource protection",
+    "parent": "Root",
+    "name": "Managed resource protection",
+    "state": "Tas",
+    "year": "2015-16",
+    "value": 804.0
+  },
+  {
+    "id": "Tas_2015-16_Other minimal use",
+    "parent": "Root",
+    "name": "Other minimal use",
+    "state": "Tas",
+    "year": "2015-16",
+    "value": 357.0
+  },
+  {
+    "id": "Tas_2015-16_Grazing native vegetation",
+    "parent": "Root",
+    "name": "Grazing native vegetation",
+    "state": "Tas",
+    "year": "2015-16",
+    "value": 197.0
+  },
+  {
+    "id": "Tas_2015-16_Production native forests",
+    "parent": "Root",
+    "name": "Production native forests",
+    "state": "Tas",
+    "year": "2015-16",
+    "value": 1162.0
+  },
+  {
+    "id": "Tas_2015-16_Plantation forests (a)",
+    "parent": "Root",
+    "name": "Plantation forests (a)",
+    "state": "Tas",
+    "year": "2015-16",
+    "value": 330.0
+  },
+  {
+    "id": "Tas_2015-16_Grazing modified pastures",
+    "parent": "Root",
+    "name": "Grazing modified pastures",
+    "state": "Tas",
+    "year": "2015-16",
+    "value": 1163.0
+  },
+  {
+    "id": "Tas_2015-16_Dryland cropping",
+    "parent": "Root",
+    "name": "Dryland cropping",
+    "state": "Tas",
+    "year": "2015-16",
+    "value": 69.0
+  },
+  {
+    "id": "Tas_2015-16_Dryland horticulture",
+    "parent": "Root",
+    "name": "Dryland horticulture",
+    "state": "Tas",
+    "year": "2015-16",
+    "value": 3.0
+  },
+  {
+    "id": "Tas_2015-16_Irrigated pastures",
+    "parent": "Root",
+    "name": "Irrigated pastures",
+    "state": "Tas",
+    "year": "2015-16",
+    "value": 79.0
+  },
+  {
+    "id": "Tas_2015-16_Irrigated cropping",
+    "parent": "Root",
+    "name": "Irrigated cropping",
+    "state": "Tas",
+    "year": "2015-16",
+    "value": 33.0
+  },
+  {
+    "id": "Tas_2015-16_Irrigated horticulture",
+    "parent": "Root",
+    "name": "Irrigated horticulture",
+    "state": "Tas",
+    "year": "2015-16",
+    "value": 6.0
+  },
+  {
+    "id": "Tas_2015-16_Intensive horticulture and animal production",
+    "parent": "Root",
+    "name": "Intensive horticulture and animal production",
+    "state": "Tas",
+    "year": "2015-16",
+    "value": 4.0
+  },
+  {
+    "id": "Tas_2015-16_Rural residential and farm infrastructure",
+    "parent": "Root",
+    "name": "Rural residential and farm infrastructure",
+    "state": "Tas",
+    "year": "2015-16",
+    "value": 183.0
+  },
+  {
+    "id": "Tas_2015-16_Urban residential",
+    "parent": "Root",
+    "name": "Urban residential",
+    "state": "Tas",
+    "year": "2015-16",
+    "value": 41.0
+  },
+  {
+    "id": "Tas_2015-16_Other intensive uses",
+    "parent": "Root",
+    "name": "Other intensive uses",
+    "state": "Tas",
+    "year": "2015-16",
+    "value": 29.0
+  },
+  {
+    "id": "Tas_2015-16_Mining and waste",
+    "parent": "Root",
+    "name": "Mining and waste",
+    "state": "Tas",
+    "year": "2015-16",
+    "value": 5.0
+  },
+  {
+    "id": "Tas_2015-16_Water",
+    "parent": "Root",
+    "name": "Water",
+    "state": "Tas",
+    "year": "2015-16",
+    "value": 217.0
+  },
+  {
+    "id": "Tas_2020-21_Nature conservation",
+    "parent": "Root",
+    "name": "Nature conservation",
+    "state": "Tas",
+    "year": "2020-21",
+    "value": 2469.0
+  },
+  {
+    "id": "Tas_2020-21_Managed resource protection",
+    "parent": "Root",
+    "name": "Managed resource protection",
+    "state": "Tas",
+    "year": "2020-21",
+    "value": 814.0
+  },
+  {
+    "id": "Tas_2020-21_Other minimal use",
+    "parent": "Root",
+    "name": "Other minimal use",
+    "state": "Tas",
+    "year": "2020-21",
+    "value": 339.0
+  },
+  {
+    "id": "Tas_2020-21_Grazing native vegetation",
+    "parent": "Root",
+    "name": "Grazing native vegetation",
+    "state": "Tas",
+    "year": "2020-21",
+    "value": 191.0
+  },
+  {
+    "id": "Tas_2020-21_Production native forests",
+    "parent": "Root",
+    "name": "Production native forests",
+    "state": "Tas",
+    "year": "2020-21",
+    "value": 860.0
+  },
+  {
+    "id": "Tas_2020-21_Plantation forests (a)",
+    "parent": "Root",
+    "name": "Plantation forests (a)",
+    "state": "Tas",
+    "year": "2020-21",
+    "value": 295.0
+  },
+  {
+    "id": "Tas_2020-21_Grazing modified pastures",
+    "parent": "Root",
+    "name": "Grazing modified pastures",
+    "state": "Tas",
+    "year": "2020-21",
+    "value": 1239.0
+  },
+  {
+    "id": "Tas_2020-21_Dryland cropping",
+    "parent": "Root",
+    "name": "Dryland cropping",
+    "state": "Tas",
+    "year": "2020-21",
+    "value": 54.0
+  },
+  {
+    "id": "Tas_2020-21_Dryland horticulture",
+    "parent": "Root",
+    "name": "Dryland horticulture",
+    "state": "Tas",
+    "year": "2020-21",
+    "value": 1.0
+  },
+  {
+    "id": "Tas_2020-21_Irrigated pastures",
+    "parent": "Root",
+    "name": "Irrigated pastures",
+    "state": "Tas",
+    "year": "2020-21",
+    "value": 77.0
+  },
+  {
+    "id": "Tas_2020-21_Irrigated cropping",
+    "parent": "Root",
+    "name": "Irrigated cropping",
+    "state": "Tas",
+    "year": "2020-21",
+    "value": 47.0
+  },
+  {
+    "id": "Tas_2020-21_Irrigated horticulture",
+    "parent": "Root",
+    "name": "Irrigated horticulture",
+    "state": "Tas",
+    "year": "2020-21",
+    "value": 8.0
+  },
+  {
+    "id": "Tas_2020-21_Intensive horticulture and animal production",
+    "parent": "Root",
+    "name": "Intensive horticulture and animal production",
+    "state": "Tas",
+    "year": "2020-21",
+    "value": 4.0
+  },
+  {
+    "id": "Tas_2020-21_Rural residential and farm infrastructure",
+    "parent": "Root",
+    "name": "Rural residential and farm infrastructure",
+    "state": "Tas",
+    "year": "2020-21",
+    "value": 164.0
+  },
+  {
+    "id": "Tas_2020-21_Urban residential",
+    "parent": "Root",
+    "name": "Urban residential",
+    "state": "Tas",
+    "year": "2020-21",
+    "value": 42.0
+  },
+  {
+    "id": "Tas_2020-21_Other intensive uses",
+    "parent": "Root",
+    "name": "Other intensive uses",
+    "state": "Tas",
+    "year": "2020-21",
+    "value": 28.0
+  },
+  {
+    "id": "Tas_2020-21_Mining and waste",
+    "parent": "Root",
+    "name": "Mining and waste",
+    "state": "Tas",
+    "year": "2020-21",
+    "value": 5.0
+  },
+  {
+    "id": "Tas_2020-21_Water",
+    "parent": "Root",
+    "name": "Water",
+    "state": "Tas",
+    "year": "2020-21",
+    "value": 242.0
+  },
+  {
+    "id": "NT_2010-11_Nature conservation",
+    "parent": "Root",
+    "name": "Nature conservation",
+    "state": "NT",
+    "year": "2010-11",
+    "value": 7121.0
+  },
+  {
+    "id": "NT_2010-11_Managed resource protection",
+    "parent": "Root",
+    "name": "Managed resource protection",
+    "state": "NT",
+    "year": "2010-11",
+    "value": 56223.0
+  },
+  {
+    "id": "NT_2010-11_Other minimal use",
+    "parent": "Root",
+    "name": "Other minimal use",
+    "state": "NT",
+    "year": "2010-11",
+    "value": 9420.0
+  },
+  {
+    "id": "NT_2010-11_Grazing native vegetation",
+    "parent": "Root",
+    "name": "Grazing native vegetation",
+    "state": "NT",
+    "year": "2010-11",
+    "value": 55556.0
+  },
+  {
+    "id": "NT_2010-11_Plantation forests (a)",
+    "parent": "Root",
+    "name": "Plantation forests (a)",
+    "state": "NT",
+    "year": "2010-11",
+    "value": 15.0
+  },
+  {
+    "id": "NT_2010-11_Grazing modified pastures",
+    "parent": "Root",
+    "name": "Grazing modified pastures",
+    "state": "NT",
+    "year": "2010-11",
+    "value": 277.0
+  },
+  {
+    "id": "NT_2010-11_Dryland cropping",
+    "parent": "Root",
+    "name": "Dryland cropping",
+    "state": "NT",
+    "year": "2010-11",
+    "value": 18.0
+  },
+  {
+    "id": "NT_2010-11_Dryland horticulture",
+    "parent": "Root",
+    "name": "Dryland horticulture",
+    "state": "NT",
+    "year": "2010-11",
+    "value": 2.0
+  },
+  {
+    "id": "NT_2010-11_Irrigated horticulture",
+    "parent": "Root",
+    "name": "Irrigated horticulture",
+    "state": "NT",
+    "year": "2010-11",
+    "value": 5.0
+  },
+  {
+    "id": "NT_2010-11_Intensive horticulture and animal production",
+    "parent": "Root",
+    "name": "Intensive horticulture and animal production",
+    "state": "NT",
+    "year": "2010-11",
+    "value": 3.0
+  },
+  {
+    "id": "NT_2010-11_Rural residential and farm infrastructure",
+    "parent": "Root",
+    "name": "Rural residential and farm infrastructure",
+    "state": "NT",
+    "year": "2010-11",
+    "value": 99.0
+  },
+  {
+    "id": "NT_2010-11_Urban residential",
+    "parent": "Root",
+    "name": "Urban residential",
+    "state": "NT",
+    "year": "2010-11",
+    "value": 17.0
+  },
+  {
+    "id": "NT_2010-11_Other intensive uses",
+    "parent": "Root",
+    "name": "Other intensive uses",
+    "state": "NT",
+    "year": "2010-11",
+    "value": 46.0
+  },
+  {
+    "id": "NT_2010-11_Mining and waste",
+    "parent": "Root",
+    "name": "Mining and waste",
+    "state": "NT",
+    "year": "2010-11",
+    "value": 39.0
+  },
+  {
+    "id": "NT_2010-11_Water",
+    "parent": "Root",
+    "name": "Water",
+    "state": "NT",
+    "year": "2010-11",
+    "value": 6127.0
+  },
+  {
+    "id": "NT_2015-16_Nature conservation",
+    "parent": "Root",
+    "name": "Nature conservation",
+    "state": "NT",
+    "year": "2015-16",
+    "value": 7304.0
+  },
+  {
+    "id": "NT_2015-16_Managed resource protection",
+    "parent": "Root",
+    "name": "Managed resource protection",
+    "state": "NT",
+    "year": "2015-16",
+    "value": 58725.0
+  },
+  {
+    "id": "NT_2015-16_Other minimal use",
+    "parent": "Root",
+    "name": "Other minimal use",
+    "state": "NT",
+    "year": "2015-16",
+    "value": 6938.0
+  },
+  {
+    "id": "NT_2015-16_Grazing native vegetation",
+    "parent": "Root",
+    "name": "Grazing native vegetation",
+    "state": "NT",
+    "year": "2015-16",
+    "value": 55362.0
+  },
+  {
+    "id": "NT_2015-16_Plantation forests (a)",
+    "parent": "Root",
+    "name": "Plantation forests (a)",
+    "state": "NT",
+    "year": "2015-16",
+    "value": 53.0
+  },
+  {
+    "id": "NT_2015-16_Grazing modified pastures",
+    "parent": "Root",
+    "name": "Grazing modified pastures",
+    "state": "NT",
+    "year": "2015-16",
+    "value": 303.0
+  },
+  {
+    "id": "NT_2015-16_Dryland cropping",
+    "parent": "Root",
+    "name": "Dryland cropping",
+    "state": "NT",
+    "year": "2015-16",
+    "value": 16.0
+  },
+  {
+    "id": "NT_2015-16_Dryland horticulture",
+    "parent": "Root",
+    "name": "Dryland horticulture",
+    "state": "NT",
+    "year": "2015-16",
+    "value": 1.0
+  },
+  {
+    "id": "NT_2015-16_Irrigated horticulture",
+    "parent": "Root",
+    "name": "Irrigated horticulture",
+    "state": "NT",
+    "year": "2015-16",
+    "value": 9.0
+  },
+  {
+    "id": "NT_2015-16_Intensive horticulture and animal production",
+    "parent": "Root",
+    "name": "Intensive horticulture and animal production",
+    "state": "NT",
+    "year": "2015-16",
+    "value": 2.0
+  },
+  {
+    "id": "NT_2015-16_Rural residential and farm infrastructure",
+    "parent": "Root",
+    "name": "Rural residential and farm infrastructure",
+    "state": "NT",
+    "year": "2015-16",
+    "value": 127.0
+  },
+  {
+    "id": "NT_2015-16_Urban residential",
+    "parent": "Root",
+    "name": "Urban residential",
+    "state": "NT",
+    "year": "2015-16",
+    "value": 17.0
+  },
+  {
+    "id": "NT_2015-16_Other intensive uses",
+    "parent": "Root",
+    "name": "Other intensive uses",
+    "state": "NT",
+    "year": "2015-16",
+    "value": 68.0
+  },
+  {
+    "id": "NT_2015-16_Mining and waste",
+    "parent": "Root",
+    "name": "Mining and waste",
+    "state": "NT",
+    "year": "2015-16",
+    "value": 44.0
+  },
+  {
+    "id": "NT_2015-16_Water",
+    "parent": "Root",
+    "name": "Water",
+    "state": "NT",
+    "year": "2015-16",
+    "value": 5997.0
+  },
+  {
+    "id": "NT_2020-21_Nature conservation",
+    "parent": "Root",
+    "name": "Nature conservation",
+    "state": "NT",
+    "year": "2020-21",
+    "value": 7045.0
+  },
+  {
+    "id": "NT_2020-21_Managed resource protection",
+    "parent": "Root",
+    "name": "Managed resource protection",
+    "state": "NT",
+    "year": "2020-21",
+    "value": 58964.0
+  },
+  {
+    "id": "NT_2020-21_Other minimal use",
+    "parent": "Root",
+    "name": "Other minimal use",
+    "state": "NT",
+    "year": "2020-21",
+    "value": 6489.0
+  },
+  {
+    "id": "NT_2020-21_Grazing native vegetation",
+    "parent": "Root",
+    "name": "Grazing native vegetation",
+    "state": "NT",
+    "year": "2020-21",
+    "value": 55769.0
+  },
+  {
+    "id": "NT_2020-21_Plantation forests (a)",
+    "parent": "Root",
+    "name": "Plantation forests (a)",
+    "state": "NT",
+    "year": "2020-21",
+    "value": 54.0
+  },
+  {
+    "id": "NT_2020-21_Grazing modified pastures",
+    "parent": "Root",
+    "name": "Grazing modified pastures",
+    "state": "NT",
+    "year": "2020-21",
+    "value": 353.0
+  },
+  {
+    "id": "NT_2020-21_Dryland cropping",
+    "parent": "Root",
+    "name": "Dryland cropping",
+    "state": "NT",
+    "year": "2020-21",
+    "value": 33.0
+  },
+  {
+    "id": "NT_2020-21_Dryland horticulture",
+    "parent": "Root",
+    "name": "Dryland horticulture",
+    "state": "NT",
+    "year": "2020-21",
+    "value": 1.0
+  },
+  {
+    "id": "NT_2020-21_Irrigated pastures",
+    "parent": "Root",
+    "name": "Irrigated pastures",
+    "state": "NT",
+    "year": "2020-21",
+    "value": 1.0
+  },
+  {
+    "id": "NT_2020-21_Irrigated cropping",
+    "parent": "Root",
+    "name": "Irrigated cropping",
+    "state": "NT",
+    "year": "2020-21",
+    "value": 12.0
+  },
+  {
+    "id": "NT_2020-21_Irrigated horticulture",
+    "parent": "Root",
+    "name": "Irrigated horticulture",
+    "state": "NT",
+    "year": "2020-21",
+    "value": 10.0
+  },
+  {
+    "id": "NT_2020-21_Intensive horticulture and animal production",
+    "parent": "Root",
+    "name": "Intensive horticulture and animal production",
+    "state": "NT",
+    "year": "2020-21",
+    "value": 2.0
+  },
+  {
+    "id": "NT_2020-21_Rural residential and farm infrastructure",
+    "parent": "Root",
+    "name": "Rural residential and farm infrastructure",
+    "state": "NT",
+    "year": "2020-21",
+    "value": 133.0
+  },
+  {
+    "id": "NT_2020-21_Urban residential",
+    "parent": "Root",
+    "name": "Urban residential",
+    "state": "NT",
+    "year": "2020-21",
+    "value": 18.0
+  },
+  {
+    "id": "NT_2020-21_Other intensive uses",
+    "parent": "Root",
+    "name": "Other intensive uses",
+    "state": "NT",
+    "year": "2020-21",
+    "value": 67.0
+  },
+  {
+    "id": "NT_2020-21_Mining and waste",
+    "parent": "Root",
+    "name": "Mining and waste",
+    "state": "NT",
+    "year": "2020-21",
+    "value": 44.0
+  },
+  {
+    "id": "NT_2020-21_Water",
+    "parent": "Root",
+    "name": "Water",
+    "state": "NT",
+    "year": "2020-21",
+    "value": 5976.0
+  },
+  {
+    "id": "ACT_2010-11_Nature conservation",
+    "parent": "Root",
+    "name": "Nature conservation",
+    "state": "ACT",
+    "year": "2010-11",
+    "value": 140.0
+  },
+  {
+    "id": "ACT_2010-11_Other minimal use",
+    "parent": "Root",
+    "name": "Other minimal use",
+    "state": "ACT",
+    "year": "2010-11",
+    "value": 16.0
+  },
+  {
+    "id": "ACT_2010-11_Grazing native vegetation",
+    "parent": "Root",
+    "name": "Grazing native vegetation",
+    "state": "ACT",
+    "year": "2010-11",
+    "value": 4.0
+  },
+  {
+    "id": "ACT_2010-11_Plantation forests (a)",
+    "parent": "Root",
+    "name": "Plantation forests (a)",
+    "state": "ACT",
+    "year": "2010-11",
+    "value": 9.0
+  },
+  {
+    "id": "ACT_2010-11_Grazing modified pastures",
+    "parent": "Root",
+    "name": "Grazing modified pastures",
+    "state": "ACT",
+    "year": "2010-11",
+    "value": 22.0
+  },
+  {
+    "id": "ACT_2010-11_Dryland cropping",
+    "parent": "Root",
+    "name": "Dryland cropping",
+    "state": "ACT",
+    "year": "2010-11",
+    "value": 2.0
+  },
+  {
+    "id": "ACT_2010-11_Dryland horticulture",
+    "parent": "Root",
+    "name": "Dryland horticulture",
+    "state": "ACT",
+    "year": "2010-11",
+    "value": 1.0
+  },
+  {
+    "id": "ACT_2010-11_Urban residential",
+    "parent": "Root",
+    "name": "Urban residential",
+    "state": "ACT",
+    "year": "2010-11",
+    "value": 16.0
+  },
+  {
+    "id": "ACT_2010-11_Other intensive uses",
+    "parent": "Root",
+    "name": "Other intensive uses",
+    "state": "ACT",
+    "year": "2010-11",
+    "value": 21.0
+  },
+  {
+    "id": "ACT_2010-11_Water",
+    "parent": "Root",
+    "name": "Water",
+    "state": "ACT",
+    "year": "2010-11",
+    "value": 2.0
+  },
+  {
+    "id": "ACT_2015-16_Nature conservation",
+    "parent": "Root",
+    "name": "Nature conservation",
+    "state": "ACT",
+    "year": "2015-16",
+    "value": 142.0
+  },
+  {
+    "id": "ACT_2015-16_Other minimal use",
+    "parent": "Root",
+    "name": "Other minimal use",
+    "state": "ACT",
+    "year": "2015-16",
+    "value": 19.0
+  },
+  {
+    "id": "ACT_2015-16_Grazing native vegetation",
+    "parent": "Root",
+    "name": "Grazing native vegetation",
+    "state": "ACT",
+    "year": "2015-16",
+    "value": 5.0
+  },
+  {
+    "id": "ACT_2015-16_Plantation forests (a)",
+    "parent": "Root",
+    "name": "Plantation forests (a)",
+    "state": "ACT",
+    "year": "2015-16",
+    "value": 9.0
+  },
+  {
+    "id": "ACT_2015-16_Grazing modified pastures",
+    "parent": "Root",
+    "name": "Grazing modified pastures",
+    "state": "ACT",
+    "year": "2015-16",
+    "value": 27.0
+  },
+  {
+    "id": "ACT_2015-16_Urban residential",
+    "parent": "Root",
+    "name": "Urban residential",
+    "state": "ACT",
+    "year": "2015-16",
+    "value": 17.0
+  },
+  {
+    "id": "ACT_2015-16_Other intensive uses",
+    "parent": "Root",
+    "name": "Other intensive uses",
+    "state": "ACT",
+    "year": "2015-16",
+    "value": 14.0
+  },
+  {
+    "id": "ACT_2015-16_Water",
+    "parent": "Root",
+    "name": "Water",
+    "state": "ACT",
+    "year": "2015-16",
+    "value": 2.0
+  },
+  {
+    "id": "ACT_2020-21_Nature conservation",
+    "parent": "Root",
+    "name": "Nature conservation",
+    "state": "ACT",
+    "year": "2020-21",
+    "value": 142.0
+  },
+  {
+    "id": "ACT_2020-21_Other minimal use",
+    "parent": "Root",
+    "name": "Other minimal use",
+    "state": "ACT",
+    "year": "2020-21",
+    "value": 18.0
+  },
+  {
+    "id": "ACT_2020-21_Grazing native vegetation",
+    "parent": "Root",
+    "name": "Grazing native vegetation",
+    "state": "ACT",
+    "year": "2020-21",
+    "value": 5.0
+  },
+  {
+    "id": "ACT_2020-21_Plantation forests (a)",
+    "parent": "Root",
+    "name": "Plantation forests (a)",
+    "state": "ACT",
+    "year": "2020-21",
+    "value": 10.0
+  },
+  {
+    "id": "ACT_2020-21_Grazing modified pastures",
+    "parent": "Root",
+    "name": "Grazing modified pastures",
+    "state": "ACT",
+    "year": "2020-21",
+    "value": 26.0
+  },
+  {
+    "id": "ACT_2020-21_Urban residential",
+    "parent": "Root",
+    "name": "Urban residential",
+    "state": "ACT",
+    "year": "2020-21",
+    "value": 18.0
+  },
+  {
+    "id": "ACT_2020-21_Other intensive uses",
+    "parent": "Root",
+    "name": "Other intensive uses",
+    "state": "ACT",
+    "year": "2020-21",
+    "value": 14.0
+  },
+  {
+    "id": "ACT_2020-21_Water",
+    "parent": "Root",
+    "name": "Water",
+    "state": "ACT",
+    "year": "2020-21",
+    "value": 2.0
+  }
+]

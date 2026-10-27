@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Australian Farms & Climates</title>
+  <title>Australian Farms & Climates: Economic & Climate Story</title>
 
   <!-- Vega & Vega-Lite Libraries -->
   <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
@@ -11,33 +11,354 @@
   <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
 
   <link rel="stylesheet" href="css files/styles.css">
+  
 </head>
 <body>
 
   <div class="container">
-    <!-- Map Idiom 1: Regional Choropleth Map -->
-    <section class="map-section">
-      <h2>Rate of Return Across Australian Agricultural Zones</h2>
-      <p>Explore rates of return across regional agricultural zones in Australia.</p>
-      <div id="map-container"></div>
+    <header class="header-section">
+      <h1>Australian Farms and Climates</h1>
+      <p class="subtitle">An Interactive Data Story on Agricultural Footprints, Climate Anomalies, and Sector Financial Performance (2000–2024)</p>
+    </header>
+
+    <!-- Executive Introduction Box -->
+    <article class="intro-card">
+      <h3>Executive Introduction & Overview</h3>
+      <p>
+        Australian agriculture operates at the intersection of vast spatial land allocation, severe climate volatility, and complex market economics. Over the past quarter-century (2000–2024), broadacre farm businesses have faced severe environmental shocks—ranging from extended decadal droughts to intense La Niña rainfall cycles—alongside unprecedented post-2020 input cost inflation.
+      </p>
+      <p>
+        This interactive dashboard provides an integrated multi-dimensional analysis of Australia's agricultural landscape. By combining high-resolution spatial land use mapping (ACLUMP), 25-year Bureau of Meteorology precipitation and temperature anomaly records (SILO/BOM), and financial performance statistics across agricultural sectors and scale deciles (ABARES), this narrative explores how climate resilience, legal tenure, and scale economies shape the future of Australian farming.
+      </p>
+    </article>
+
+    <!-- SECTION 1: Australia's Agricultural Footprint & Land Allocation -->
+    <section class="narrative-section" id="section-1">
+      <div class="section-header">
+        <h2>Section 1: Australia's Agricultural Footprint & Land Allocation</h2>
+        <p>Exploring spatial land use patterns alongside state-level area breakdowns for direct side-by-side comparison.</p>
+      </div>
+
+      <!-- Narrative Key Insights Box -->
+      <div class="insight-box">
+        <p>
+          <strong>Key Findings:</strong> Across Australia, agricultural land use encompasses more than half of the total national landmass, shifting slightly from 54.37% (418.5 million hectares) in 2010–11 to 54.84% (421.7 million hectares) in 2020–21. Pastoral grazing accounts for the vast majority of this footprint, covering 47.60% of Australia's total area in 2020–21—primarily through extensive native vegetation grazing—while cropping occupies 7.12%, having expanded from 4.17% in 2010–11. Land distribution varies significantly by jurisdiction: Queensland allocates the highest proportion of its area to farming at 82.78% (heavily dominated by pastoral grazing at 79.52%), followed by New South Wales at 70.10% and Victoria at 54.44%, which maintains the highest relative cropping share at 20.84%. Conversely, Western Australia (38.67%) and the Northern Territory (43.17%) retain substantial non-agricultural minimal-use and conservation reserves, while Tasmania (25.18%) and the Australian Capital Territory (16.10%) record the smallest agricultural footprints nationwide.
+        </p>
+      </div>
+
+      <!-- Side-by-Side Row Container with Central Shared Legend -->
+      <div class="side-by-side-row">
+        <!-- Chart 1: Spatial Land Use Map -->
+        <article class="chart-card side-card">
+          <h3>1. Spatial Land Use Distribution</h3>
+          <p>High-detail spatial mapping of land categories across Australia.</p>
+          <div id="map-container-land-use" class="chart-display"></div>
+        </article>
+
+        <!-- Centered Shared Legend Box -->
+        <div class="shared-legend-card">
+          <h4>Land Use Categories</h4>
+          <p class="legend-subtitle">Common palette for Map & Treemap</p>
+          <ul class="legend-list">
+            <li><span class="color-box" style="background-color: #4a148c;"></span> Nature Conservation</li>
+            <li><span class="color-box" style="background-color: #7b1fa2;"></span> Managed Resource Protection</li>
+            <li><span class="color-box" style="background-color: #e1bee7;"></span> Other Minimal Use</li>
+            <li><span class="color-box" style="background-color: #f48fb1;"></span> Grazing Native Vegetation</li>
+            <li><span class="color-box" style="background-color: #2e7d32;"></span> Forestry & Plantation</li>
+            <li><span class="color-box" style="background-color: #c0ca33;"></span> Grazing Modified Pastures</li>
+            <li><span class="color-box" style="background-color: #ffeb3b;"></span> Dryland Cropping</li>
+            <li><span class="color-box" style="background-color: #f57f17;"></span> Dryland Horticulture</li>
+            <li><span class="color-box" style="background-color: #0288d1;"></span> Irrigated Agriculture & Pastures</li>
+            <li><span class="color-box" style="background-color: #d32f2f;"></span> Urban & Intensive Uses</li>
+            <li><span class="color-box" style="background-color: #01579b;"></span> Water</li>
+          </ul>
+        </div>
+
+        <!-- Chart 2: Land Use Treemap -->
+        <article class="chart-card side-card">
+          <h3>2. Land Area Breakdown Treemap</h3>
+          <p>State-level land area breakdown by ALUM category ('000 ha).</p>
+          <div id="map-container-treemap" class="chart-display"></div>
+        </article>
+      </div>
+
+      <!-- Chart 3: Land Tenure vs. Land Use (Sankey Flow Diagram + Side-by-Side Analysis) -->
+      <div class="side-by-side-row">
+        <!-- Left Column: Sankey Visualization Container -->
+        <article class="chart-card sankey-card">
+          <h3>3. Land Tenure (Ownership) vs. Land Use Activity</h3>
+          <p>Interactive flow mapping legal land tenure classifications to physical land use activities across Australia.</p>
+          <div id="chart-container-sankey" class="chart-display"></div>
+        </article>
+
+        <!-- Right Column: Integrated Narrative Analysis Box -->
+        <article class="analysis-card">
+          <h4>Land Governance & Tenure Insights</h4>
+          <p class="analysis-subtitle">Structural relationships between legal ownership and physical land use</p>
+
+          <div class="analysis-point">
+            <h5>Private Titling & Intensification</h5>
+            <p>
+              <strong>Freehold land</strong> accounts for virtually all of Australia's high-intensity agricultural footprint, including <em>Dryland Cropping</em>, <em>Irrigated Agriculture</em>, and <em>Grazing Modified Pastures</em>. Capital-intensive land modification occurs almost exclusively on privately secured titles.
+            </p>
+          </div>
+
+          <div class="analysis-point">
+            <h5>Pastoral Leases & Native Vegetation</h5>
+            <p>
+              <strong>Pastoral Perpetual</strong> and <strong>Term Leases</strong> cover vast arid and semi-arid regions. These public crown leases map overwhelmingly to <em>Grazing Native Vegetation</em>, enabling commercial livestock production while retaining underlying Crown land ownership.
+            </p>
+          </div>
+
+          <div class="analysis-point">
+            <h5>Public Estate & Conservation</h5>
+            <p>
+              <strong>Nature Conservation Reserves</strong> and public Crown lands exhibit direct 1:1 alignments with <em>Nature Conservation</em> and <em>Managed Resource Protection</em>, ensuring formal ecological preservation across public estates.
+            </p>
+          </div>
+        </article>
+      </div>
     </section>
 
-    <hr style="margin: 40px 0;">
-    <!-- Map Idiom 2: Proportional Symbol / Spatial Point Map -->
-    <section class="map-section">
-      <h2>Annual Rainfall Distribution Across Australia</h2>
-      <p>Spatial distribution of total annual rainfall (mm) recorded across Australia.</p>
-      <div id="map-container-2"></div>
+    <hr class="section-divider">
+
+    <!-- SECTION 2: Spatial & Historical Climate Pressures (2000–2024) -->
+    <section class="narrative-section" id="section-2">
+      <div class="section-header">
+        <h2>Section 2: Spatial & Historical Climate Pressures (2000–2024)</h2>
+        <p>Examining spatial climate baselines (rainfall and temperature) alongside a 25-year record of regional drought and rainfall anomalies.</p>
+      </div>
+
+      <!-- Side-by-Side Row for Charts 4 & 5 -->
+      <div class="side-by-side-row">
+        <!-- Chart 4: Annual Rainfall Distribution -->
+        <article class="chart-card side-card">
+          <h3>4. Annual Rainfall Distribution Across Australia</h3>
+          <p>Spatial distribution of total annual rainfall (mm) recorded across Australia.</p>
+          <div id="map-container-rainfall" class="chart-display"></div>
+        </article>
+
+        <!-- Chart 5: Maximum Temperature Heatmap -->
+        <article class="chart-card side-card">
+          <h3>5. Maximum Temperature Distribution</h3>
+          <p>Binned spatial heatmap displaying maximum annual temperature (°C) across geographic grid cells.</p>
+          <div id="map-container-max-temp" class="chart-display"></div>
+        </article>
+      </div>
+
+      <!-- Side-by-Side Row for Chart 6 & Analysis Card to Eliminate Whitespace -->
+      <div class="side-by-side-row">
+        <!-- Chart 6: 25-Year Historical Rainfall Matrix Heatmap -->
+        <article class="chart-card wide-chart-card">
+          <h3>6. Rainfall Anomalies in Each State (2000–2024)</h3>
+          <p>Matrix heatmap illustrating major wet and dry rainfall anomaly cycles across Australian states over the past 25 years.</p>
+          <div id="chart-container-heatmap" class="chart-display"></div>
+        </article>
+
+        <!-- Integrated Narrative Analysis Box -->
+        <article class="analysis-card">
+          <h4>25-Year Rainfall Anomaly & Climate Shock Insights</h4>
+          <p class="analysis-subtitle">Decadal precipitation volatility, major drought cycles, and La Niña flood events</p>
+
+          <div class="analysis-point">
+            <h5>1. Synchronized Multi-State Drought Cycles</h5>
+            <p>
+              Severe drought episodes appear as sharp vertical red bands across multiple jurisdictions. The <strong>2002–2003 Millennium Drought onset</strong> and the <strong>2006 dry shock</strong> caused acute precipitation deficits across NSW, VIC, SA, TAS, and QLD. Most recently, the <strong>2018–2019 drought</strong> produced extreme rainfall deficits exceeding -200 mm across NT, NSW, QLD, and SA, severely straining broadacre farm water security.
+            </p>
+          </div>
+
+          <div class="analysis-point">
+            <h5>2. La Niña Deluges & Recovery Years</h5>
+            <p>
+              Major wet cycles appear as prominent dark blue columns. The <strong>2010–2011 back-to-back La Niña</strong> generated intense positive anomalies across all states and NT, breaking the Millennium Drought. Similarly, the <strong>2021–2022 wet period</strong> replenished soil moisture profiles across eastern and southern cropping belts.
+            </p>
+          </div>
+
+          <div class="analysis-point">
+            <h5>3. Regional Asynchrony & Geographic Buffering</h5>
+            <p>
+              While major climate drivers create national trends, Western Australia and Tasmania frequently exhibit decoupled precipitation trajectories, allowing national agricultural output to partially buffer against localized shocks.
+            </p>
+          </div>
+        </article>
+      </div>
     </section>
-    <!-- Map Idiom 3: Land Use percentage -->
-    <section class="map-section">
-      <h2>Agricultural Use of Land</h2>
-      <p>Percentage of land in each territory used for agricultural purposes.</p>
-      <div id="map-container-3"></div>
+
+    <hr class="section-divider">
+
+    <!-- SECTION 3: Economic Impacts of Climate Shocks -->
+    <section class="narrative-section" id="section-3">
+      <div class="section-header">
+        <h2>Section 3: Economic Impacts of Climate Shocks</h2>
+        <p>Investigating how climate variability directly impacts rates of return and financial profits across major farm sectors.</p>
+      </div>
+
+      <!-- Side-by-Side Flex Row for Diverging Bar Charts (Charts 7 & 8) -->
+      <div class="side-by-side-row">
+        <!-- Chart 7: Beef Industry Diverging Bar Chart -->
+        <article class="chart-card side-card">
+          <h3>7. Beef Industry Rate of Return (2000–2024)</h3>
+          <p>Diverging annual rate of return (%) comparing Northern and Southern MLA regions across 25 years.</p>
+          <div id="chart-container-beef-diverging" class="chart-display"></div>
+        </article>
+
+        <!-- Chart 8: Grain Industry Diverging Bar Chart -->
+        <article class="chart-card side-card">
+          <h3>8. Grain Industry Rate of Return (2000–2024)</h3>
+          <p>Diverging annual rate of return (%) across Northern, Southern, and Western GRDC cropping zones.</p>
+          <div id="chart-container-grains-diverging" class="chart-display"></div>
+        </article>
+      </div>
+
+      <!-- Side-by-Side Row for Chart 9 & Section 3 Analysis Card to Eliminate Whitespace -->
+      <div class="side-by-side-row">
+        <!-- Chart 9: 2000–2024 Farm Profit Trends by Sector -->
+        <article class="chart-card wide-chart-card">
+          <h3>9. Profits of Farms Over the Years (2000–2024)</h3>
+          <p>Multi-line trend chart representing averaged farm business profit ($ AUD) per sector across Australia over 25 years.</p>
+          <div id="chart-container-linechart" class="chart-display"></div>
+        </article>
+
+        <!-- Integrated Narrative Analysis Box for Section 3 -->
+        <article class="analysis-card">
+          <h4>Climate-Economic Interaction & Sector Profit Insights</h4>
+          <p class="analysis-subtitle">Analyzing regional return disparities, long-term profit divergence, and climate response lags</p>
+
+          <div class="analysis-point">
+            <h5>1. Regional Capital Efficiency & Volatility</h5>
+            <p>
+              Rates of return diverge significantly across production zones. The <strong>Southern MLA Beef region</strong> exhibits persistent negative percentage returns (-1.0% to -3.5%) driven by high underlying land capital valuations, whereas the <strong>Northern MLA region</strong> achieves superior returns during recovery phases due to pastoral scale. In broadacre cropping, the <strong>Western GRDC zone</strong> acts as Australia's primary economic engine, sustaining positive returns (+1.5% to +3.8%).
+            </p>
+          </div>
+
+          <div class="analysis-point">
+            <h5>2. Accelerated Sector Profit Divergence</h5>
+            <p>
+              Broadacre <strong>Cropping</strong> and <strong>Grains</strong> have seen dramatic financial expansion post-2016, with average farm business profits surging to over $630,000 and $310,000 respectively in 2023. Conversely, extensive livestock sectors (Beef and Sheep) remain highly vulnerable to input inflation and cyclical livestock price swings, with Sheep profits dropping into negative territory (-$4,200) in 2024.
+            </p>
+          </div>
+
+          <div class="analysis-point">
+            <h5>3. Biological Herd Lag vs. Crop Yield Sensitivity</h5>
+            <p>
+              Pairing rainfall directly against sector profits reveals structural differences in climate response times. <strong>Beef production (Chart 10a)</strong> demonstrates a multi-year biological lag: peak rainfall years yield delayed profits as producers retain stock for herd rebuilding. In contrast, <strong>Grains production (Chart 10b)</strong> exhibits immediate single-season yield sensitivity, where wet years instantly translate into high harvest volumes and returns.
+            </p>
+          </div>
+        </article>
+      </div>
+
+      <!-- Chart 10: Rainfall vs. Farm Profit Trajectory (Dual Axis Side-by-Side) -->
+      <div class="side-by-side-row">
+        <!-- Chart 10a: Beef Sector Dual Axis -->
+        <article class="chart-card side-card">
+          <h3>10a. Beef Sector: Pasture Rainfall vs. Farm Profit</h3>
+          <p>Dual Y-axis trajectory comparing annual grazing pasture rainfall against total national beef farm business profits (2000–2024).</p>
+          <div id="chart-container-beef-dual" class="chart-display"></div>
+        </article>
+
+        <!-- Chart 10b: Grains Sector Dual Axis -->
+        <article class="chart-card side-card">
+          <h3>10b. Grains Sector: Cropping Rainfall vs. Farm Profit</h3>
+          <p>Dual Y-axis trajectory comparing dryland cropping rainfall against total national grains farm business profits (2000–2024).</p>
+          <div id="chart-container-grains-dual" class="chart-display"></div>
+        </article>
+      </div>
     </section>
+
+    <hr class="section-divider">
+
+    <!-- SECTION 4: Cost Drivers & Sector Inequality -->
+    <section class="narrative-section" id="section-4">
+      <div class="section-header">
+        <h2>Section 4: Cost Drivers & Sector Inequality</h2>
+        <p>Analyzing internal farm cost structures and financial disparities between farm scale deciles.</p>
+      </div>
+
+      <!-- Side-by-Side Row for Chart 11 & Chart 12 to Eliminate Whitespace -->
+      <div class="side-by-side-row">
+        <!-- Chart 11: Streamgraph of Farm Costs -->
+        <article class="chart-card side-card">
+          <h3>11. Farm Cash Cost Composition Breakdown</h3>
+          <p>Streamgraph illustrating shifts in key farm operational costs (2000–2024).</p>
+          <div id="chart11-container" class="chart-display"></div>
+        </article>
+
+        <!-- Chart 12: Parallel Coordinates of Decile Disparities -->
+        <article class="chart-card side-card">
+          <h3>12. Decile Disparity & Farm Scale</h3>
+          <p>Parallel coordinates plot comparing metrics across farm size deciles (1–10).</p>
+          <div id="chart12-container" class="chart-display"></div>
+        </article>
+      </div>
+
+      <!-- Integrated Narrative Analysis Box for Section 4 -->
+      <article class="analysis-card" style="margin-top: 10px;">
+        <h4>Cost Trajectories & Scale Inequality Insights</h4>
+        <p class="analysis-subtitle">Analyzing post-2020 input cost escalation, capital-intensive sector exposure, and structural inequality across farm scale deciles</p>
+
+        <div class="analysis-point">
+          <h5>1. Operational Cost Escalation & Sector Exposure (Chart 11)</h5>
+          <p>
+            From 2000 through 2019, operational cash costs expanded at a steady baseline trajectory across broadacre agriculture. Between 2020 and 2024, total cash costs surged rapidly due to global supply chain disruptions, fertilizer price spikes, elevated fuel costs, and rising machinery overheads. Capital-intensive sectors—specifically <strong>Cropping</strong> and <strong>Grains</strong>—account for the primary share of this expansion due to heavy per-hectare input demands, whereas livestock operations maintained more gradual cost growth profiles.
+          </p>
+        </div>
+
+        <div class="analysis-point">
+          <h5>2. Top-Decile Dominance & Capital Scale Disparities (Chart 12)</h5>
+          <p>
+            The 2024 decile comparison reveals extreme structural concentration within Australian broadacre farming. <strong>Decile 10 (top 10% largest scale)</strong> anchors at the maximum across Output Share, Total Cash Costs, Farm Cash Income, Rate of Return, and Area Operated. Small to mid-scale farms (Deciles 1–4) cluster near the baseline for rate of return, demonstrating that lower-scale operations face persistent profit pressure under high fixed operating overheads.
+          </p>
+        </div>
+
+        <div class="analysis-point">
+          <h5>3. Economies of Scale & Rate of Return Divergence</h5>
+          <p>
+            Upper deciles (Deciles 7–9) achieve significantly higher rates of return compared to smaller operations. While large farms incur higher aggregate cash costs, their output volume and cash income scale at an even higher proportion. This operational efficiency leaves smaller farms disproportionately exposed to input price inflation, incentivizing ongoing land aggregation and driving industry consolidation toward top-tier operations.
+          </p>
+        </div>
+      </article>
+    </section>
+
+    <!-- Comprehensive Conclusion & Strategic Synthesis Section -->
+    <article class="conclusion-card">
+      <h3>Conclusion & Strategic Synthesis</h3>
+      <p class="conclusion-subtitle">Summary of findings across spatial footprints, decadal climate pressures, financial returns, and scale structural shifts</p>
+
+      <div class="analysis-point">
+        <h5>1. Spatial Allocation & Tenure Alignment</h5>
+        <p>
+          Australia's vast agricultural footprint (>54% of total land area) reflects a clear structural alignment between legal land tenure and operational intensity. Freehold ownership dominates high-yield cropping and modified pastures, securing private investment in capital-intensive inputs[cite: 15, 18]. Conversely, public Crown leases (pastoral term and perpetual leases) cover extensive native pastures, balancing commercial livestock production across arid and semi-arid landscapes with public ownership.
+        </p>
+      </div>
+
+      <div class="analysis-point">
+        <h5>2. Climate Volatility & Asynchronous Sector Dynamics</h5>
+        <p>
+          Over the 2000–2024 timeframe, extreme climate cycles (Millennium Drought, 2018–2019 drought, 2010–2011 & 2021–2022 La Niña deluges) have served as the primary driver of financial volatility. However, cropping and livestock sectors respond along vastly different timelines[cite: 16]. Grain cropping exhibits single-season financial sensitivity, capitalizing immediately on favorable rainfall years. Livestock operations face multi-year biological lags, where pasture recovery requires herd retention before cash returns can be realized.
+        </p>
+      </div>
+
+      <div class="analysis-point">
+        <h5>3. Input Price Squeeze & Accelerating Industry Consolidation</h5>
+        <p>
+          The post-2020 inflationary shock in farm cash costs (fertilizer, fuel, chemical overheads) has redefined baseline farm economics. Because rates of return are heavily concentrated within top-tier scale deciles (Deciles 8–10), larger operations leverage capital efficiency and bulk economies of scale to buffer against rising operational costs[cite: 2]. Smaller broadacre farms (Deciles 1–4) face ongoing margin compression, accelerating long-term land aggregation and structural consolidation across Australian broadacre agriculture.
+        </p>
+      </div>
+    </article>
+
+    <!-- Metadata Footer -->
+    <footer class="metadata-footer">
+      <p><strong>Author:</strong> Abel Thevathason (33880468)</p>
+      <p><strong>Date:</strong> 27 October 2024</p>
+      <p><strong>Data Sources:</strong> 
+        <a href="https://www.agriculture.gov.au/abares" target="_blank">ABARES Broadacre Farm Performance</a> | 
+        <a href="https://www.longpaddock.qld.gov.au/silo/" target="_blank">SILO / BOM Climate Data</a> | 
+        <a href="https://www.agriculture.gov.au/abares/aclump" target="_blank">ACLUMP Land Use Data</a>
+      </p>
+    </footer>
   </div>
 
-  <!-- JavaScript file loading Vega-Lite spec -->
+  <!-- JavaScript file loading Vega-Lite specs -->
   <script src="js/map_caller.js"></script>
 </body>
 </html>

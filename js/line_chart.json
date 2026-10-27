@@ -1,0 +1,44 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "2000–2024 Australian Farm Business Profit Trends by Sector",
+  "data": {
+    "url": "Researched Data/Processed Data/australia_farm_profit_by_sector_2000_2024.csv"
+  },
+  "transform": [
+    {
+      "filter": "datum['Sector or industry'] !== 'All Broadacre'"
+    }
+  ],
+  "width": 800,
+  "height": 450,
+  "mark": {
+    "type": "line",
+    "point": true,
+    "strokeWidth": 2.5
+  },
+  "encoding": {
+    "x": {
+      "field": "Year",
+      "type": "ordinal",
+      "title": "Year (2000–2024)"
+    },
+    "y": {
+      "field": "Average_Profit_Per_Farm_AUD",
+      "type": "quantitative",
+      "title": "Average Farm Business Profit ($ AUD)",
+      "axis": {"format": "$,s"}
+    },
+    "color": {
+      "field": "Sector or industry",
+      "type": "nominal",
+      "title": "Industry Sector",
+      "scale": {"scheme": "category10"}
+    },
+    "tooltip": [
+      {"field": "Year", "type": "ordinal"},
+      {"field": "Sector or industry", "type": "nominal", "title": "Sector"},
+      {"field": "Average_Profit_Per_Farm_AUD", "type": "quantitative", "format": "$,.0f", "title": "Avg Profit / Farm"},
+      {"field": "Total_Profit_Sum_AUD", "type": "quantitative", "format": "$,.0f", "title": "Total Sector Profit"}
+    ]
+  }
+}

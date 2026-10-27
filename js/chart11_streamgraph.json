@@ -1,0 +1,42 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 800,
+  "height": 400,
+  "title": {
+    "text": "Farm Cash Cost Composition Breakdown (2000–2024)",
+    "subtitle": "Streamgraph showing total cash cost trajectory across agricultural sectors"
+  },
+  "data": {
+    "url": "Researched Data/Processed Data/s4_cost_composition.csv"
+  },
+  "mark": {
+    "type": "area",
+    "interpolate": "monotone"
+  },
+  "encoding": {
+    "x": {
+      "field": "Year",
+      "type": "ordinal",
+      "title": "Year",
+      "axis": {"labelAngle": 0}
+    },
+    "y": {
+      "field": "Value",
+      "type": "quantitative",
+      "title": "Total Cash Costs ($)",
+      "stack": "center",
+      "axis": null
+    },
+    "color": {
+      "field": "Sector or industry",
+      "type": "nominal",
+      "scale": {"scheme": "tableau10"},
+      "legend": {"title": "Sector / Industry"}
+    },
+    "tooltip": [
+      {"field": "Year", "type": "ordinal", "title": "Year"},
+      {"field": "Sector or industry", "type": "nominal", "title": "Sector"},
+      {"field": "Value", "type": "quantitative", "title": "Total Cash Costs ($)", "format": "$,.0f"}
+    ]
+  }
+}

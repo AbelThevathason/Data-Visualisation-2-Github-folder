@@ -1,11 +1,27 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "width": 800,
+  "width": 600,
   "height": 500,
+  "autosize": {"type": "fit", "contains": "padding"},
   "title": {
-    "text": "Binned Spatial Rainfall Heatmap Across Australia (2024)",
-    "subtitle": "Data source: SILO / Bureau of Meteorology (AGCD)"
+    "text": "Binned Spatial Rainfall Heatmap Across Australia (2000–2024)",
+    "subtitle": "Data source: SILO / Bureau of Meteorology (AGCD)",
+    "fontSize": 14,
+    "subtitleFontSize": 11
   },
+  "params": [
+    {
+      "name": "YearSelect",
+      "value": 2024,
+      "bind": {
+        "input": "range",
+        "min": 2000,
+        "max": 2024,
+        "step": 1,
+        "name": "Select Year: "
+      }
+    }
+  ],
   "projection": {
     "type": "mercator"
   },
@@ -20,16 +36,19 @@
       },
       "mark": {
         "type": "geoshape",
-        "fill": "#e8e8e8",
+        "fill": "#f4f4f4",
         "stroke": "#b0b0b0",
         "strokeWidth": 0.8
       }
     },
     {
       "data": {
-        "url": "Researched Data/Processed Data/silo_annual_rainfall_2024.csv"
+        "url": "Researched Data/Processed Data/silo_annual_rainfall_2000_2024_spatial.csv"
       },
       "transform": [
+        {
+          "filter": "datum.year == YearSelect"
+        },
         {
           "bin": {
             "step": 1.0
@@ -53,11 +72,14 @@
             }
           ],
           "groupby": ["lon_bin", "lon_bin_end", "lat_bin", "lat_bin_end"]
+        },
+        {
+          "filter": "datum.mean_rainfall > 15 && datum.lon_bin >= 113 && datum.lon_bin <= 153.5 && datum.lat_bin >= -43.5 && datum.lat_bin <= -10.5"
         }
       ],
       "mark": {
         "type": "rect",
-        "opacity": 0.85
+        "opacity": 0.88
       },
       "encoding": {
         "longitude": {
@@ -77,9 +99,17 @@
         "color": {
           "field": "mean_rainfall",
           "type": "quantitative",
-          "title": "Mean Rainfall (mm)",
+          "title": "Rainfall Bin (mm)",
           "scale": {
+            "type": "threshold",
+            "domain": [200, 400, 600, 1000, 1500, 2000],
             "scheme": "teals"
+          },
+          "legend": {
+            "orient": "right",
+            "titleFontSize": 10,
+            "labelFontSize": 9,
+            "symbolType": "square"
           }
         },
         "tooltip": [

@@ -1,0 +1,180 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 750,
+  "height": 540,
+  "padding": {"left": 25, "right": 25, "top": 30, "bottom": 30},
+  "autosize": {"type": "pad", "contains": "padding"},
+  "view": {
+    "stroke": "#888888",
+    "strokeWidth": 1.5
+  },
+  "title": {
+    "text": "Land Tenure (Ownership) to Land Use Relational Flow",
+    "subtitle": "Connecting legal ownership titles (left) to physical land use activities (right)",
+    "anchor": "start",
+    "offset": 15,
+    "fontSize": 14,
+    "subtitleFontSize": 11
+  },
+  "data": {
+    "url": "Researched Data/Processed Data/land_tenure_use_sankey.csv"
+  },
+  "params": [
+    {
+      "name": "StateSelect",
+      "value": "NSW",
+      "bind": {
+        "input": "select",
+        "options": ["Australia", "NSW", "Qld", "Vic", "WA", "SA", "Tas", "NT", "ACT"],
+        "name": "Select Jurisdiction: "
+      }
+    },
+    {
+      "name": "YearSelect",
+      "value": "2020-21",
+      "bind": {
+        "input": "select",
+        "options": ["2020-21", "2015-16", "2010-11"],
+        "name": "Select Year: "
+      }
+    }
+  ],
+  "transform": [
+    {
+      "filter": "datum.State == StateSelect && datum.Year == YearSelect && datum.Area_000_ha > 10"
+    },
+    {
+      "calculate": "datum.Land_Tenure + ' → ' + datum.Land_Use",
+      "as": "flow_id"
+    },
+    {
+      "fold": ["Land_Tenure", "Land_Use"],
+      "as": ["Stage", "Category_Name"]
+    }
+  ],
+  "encoding": {
+    "x": {
+      "field": "Stage",
+      "type": "nominal",
+      "title": null,
+      "scale": {
+        "padding": 1.4
+      },
+      "axis": {
+        "domain": false,
+        "ticks": false,
+        "labelAngle": 0,
+        "labelFontSize": 11,
+        "labelFontWeight": "bold",
+        "labelPadding": 10,
+        "labelExpr": "datum.value == 'Land_Tenure' ? '1. Ownership Title (Tenure)' : '2. Land Use Activity'"
+      }
+    },
+    "y": {
+      "field": "Category_Name",
+      "type": "nominal",
+      "title": null,
+      "axis": null
+    }
+  },
+  "layer": [
+    {
+      "mark": {
+        "type": "line",
+        "strokeCap": "round",
+        "opacity": 0.65
+      },
+      "encoding": {
+        "detail": {"field": "flow_id"},
+        "color": {
+          "field": "Land_Tenure",
+          "type": "nominal",
+          "title": "Ownership Title",
+          "scale": {
+            "range": [
+              "#1f77b4",
+              "#ff7f0e",
+              "#2ca02c",
+              "#d62728",
+              "#9467bd",
+              "#8c564b",
+              "#e377c2",
+              "#17becf",
+              "#b8a009",
+              "#4e79a7"
+            ]
+          },
+          "legend": {
+            "orient": "right",
+            "offset": 25,
+            "symbolSize": 100,
+            "titleFontSize": 11,
+            "labelFontSize": 10,
+            "padding": 10
+          }
+        },
+        "size": {
+          "field": "Area_000_ha",
+          "type": "quantitative",
+          "title": "Area ('000 ha)",
+          "scale": {"range": [3, 16]},
+          "legend": {
+            "orient": "right",
+            "offset": 25,
+            "symbolType": "circle",
+            "titleFontSize": 11,
+            "labelFontSize": 10,
+            "padding": 10
+          }
+        },
+        "tooltip": [
+          {"field": "State", "type": "nominal", "title": "State/Territory"},
+          {"field": "Year", "type": "nominal", "title": "Epoch"},
+          {"field": "Land_Tenure", "type": "nominal", "title": "Ownership Title"},
+          {"field": "Land_Use", "type": "nominal", "title": "Land Use Activity"},
+          {"field": "Area_000_ha", "type": "quantitative", "title": "Area ('000 ha)", "format": ",.1f"}
+        ]
+      }
+    },
+    {
+      "mark": {
+        "type": "point",
+        "filled": true,
+        "size": 55,
+        "color": "#2c3e50"
+      }
+    },
+    {
+      "transform": [
+        {"filter": "datum.Stage == 'Land_Tenure'"}
+      ],
+      "mark": {
+        "type": "text",
+        "align": "right",
+        "dx": -12,
+        "fontSize": 10.5,
+        "fontWeight": "bold"
+      },
+      "encoding": {
+        "text": {"field": "Category_Name", "type": "nominal"},
+        "color": {"value": "#1a1a1a"}
+      }
+    },
+    {
+      "transform": [
+        {"filter": "datum.Stage == 'Land_Use'"}
+      ],
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "dx": 12,
+        "fontSize": 10.5,
+        "fontWeight": "bold"
+      },
+      "encoding": {
+        "text": {"field": "Category_Name", "type": "nominal"},
+        "color": {"value": "#1a1a1a"}
+      }
+    }
+  ]
+}

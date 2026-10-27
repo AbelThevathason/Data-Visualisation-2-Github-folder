@@ -1,22 +1,362 @@
-/* css/styles.css */
+/* ==========================================================================
+   Australian Farms & Climates - Main Stylesheet
+   Global Typography, Layout Structure, Component Cards & Responsive Rules
+   ========================================================================== */
+
+/* Global Typography & Layout Canvas */
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Segoe UI', system-ui, -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #2d3748;
+  background-color: #f7fafc;
   margin: 0;
-  padding: 20px;
-  background-color: #f8f9fa;
-  color: #333;
+  padding: 24px 16px;
 }
 
 .container {
-  max-width: 1000px;
+  max-width: 1400px;
   margin: 0 auto;
-  background: #ffffff;
-  padding: 24px;
-  border-radius: 8px;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
 }
 
-#map-container {
+/* Header Section */
+.header-section {
+  text-align: center;
+  margin-bottom: 24px;
+  padding: 28px 24px;
+  background: #ffffff;
+  border-radius: 10px;
+  border-left: 6px solid #2e7d32;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.header-section h1 {
+  margin: 0 0 8px 0;
+  font-size: 2.6rem;
+  color: #1b5e20;
+  font-weight: 800;
+  letter-spacing: -0.5px;
+}
+
+.header-section .subtitle {
+  margin: 0;
+  font-size: 1.15rem;
+  color: #4a5568;
+  font-weight: 500;
+}
+
+/* Introduction Card */
+.intro-card {
+  background: #ffffff;
+  border: 1px solid #c8e6c9;
+  border-left: 6px solid #2e7d32;
+  border-radius: 8px;
+  padding: 24px 28px;
+  margin-bottom: 28px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+
+.intro-card h3 {
+  margin: 0 0 10px 0;
+  font-size: 1.45rem;
+  color: #1b5e20;
+  font-weight: 700;
+}
+
+.intro-card p {
+  margin: 0 0 12px 0;
+  font-size: 1.05rem;
+  line-height: 1.65;
+  color: #2d3748;
+}
+
+.intro-card p:last-child {
+  margin-bottom: 0;
+}
+
+/* Section Headers & Dividers */
+.narrative-section {
+  margin-bottom: 32px;
+}
+
+.section-header {
+  margin-bottom: 18px;
+  border-left: 5px solid #2e7d32;
+  padding-left: 14px;
+}
+
+.section-header h2 {
+  margin: 0 0 4px 0;
+  font-size: 1.85rem;
+  color: #1b5e20;
+  font-weight: 700;
+}
+
+.section-header p {
+  margin: 0;
+  font-size: 1.05rem;
+  color: #4a5568;
+}
+
+.section-divider {
+  border: 0;
+  height: 1px;
+  background: #e2e8f0;
+  margin: 32px 0;
+}
+
+/* Insight Callout Box */
+.insight-box {
+  background-color: #f4f8f5;
+  border-left: 5px solid #2e7d32;
+  padding: 18px 22px;
+  margin-bottom: 24px;
+  border-radius: 0 8px 8px 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.03);
+}
+
+.insight-box p {
+  font-size: 1.02rem;
+  line-height: 1.65;
+  color: #2d3748;
+  margin: 0;
+}
+
+.insight-box strong {
+  color: #1b5e20;
+}
+
+/* Side-by-Side Flex Layouts */
+.side-by-side-row {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: space-between;
+  gap: 20px;
   width: 100%;
-  min-height: 500px;
+  margin-bottom: 24px;
+}
+
+.side-card {
+  flex: 1;
+  min-width: 0;
+  margin-bottom: 0;
+}
+
+.sankey-card {
+  flex: 1.25;
+  min-width: 0;
+  margin-bottom: 0;
+}
+
+.wide-chart-card {
+  flex: 1.25;
+  min-width: 0;
+  margin-bottom: 0;
+}
+
+/* Chart Cards */
+.chart-card {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 20px 22px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.chart-card h3 {
+  margin: 0 0 6px 0;
+  font-size: 1.35rem;
+  color: #1a202c;
+  font-weight: 700;
+}
+
+.chart-card p {
+  margin: 0 0 14px 0;
+  font-size: 0.98rem;
+  color: #4a5568;
+}
+
+.chart-display {
+  width: 100%;
+  min-height: 360px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chart-display > div, .chart-display svg, .chart-display canvas {
+  max-width: 100% !important;
+  width: 100% !important;
+}
+
+/* Shared Legend Box */
+.shared-legend-card {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 16px 18px;
+  min-width: 210px;
+  max-width: 240px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.shared-legend-card h4 {
+  margin: 0 0 4px 0;
+  font-size: 1.1rem;
+  color: #1a202c;
+}
+
+.legend-subtitle {
+  font-size: 0.88rem;
+  color: #718096;
+  margin: 0 0 10px 0;
+  padding-bottom: 6px;
+  border-bottom: 1px solid #edf2f7;
+}
+
+.legend-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.legend-list li {
+  display: flex;
+  align-items: center;
+  font-size: 0.92rem;
+  color: #2d3748;
+  margin-bottom: 6px;
+}
+
+.color-box {
+  width: 14px;
+  height: 14px;
+  border-radius: 3px;
+  margin-right: 8px;
+  display: inline-block;
+  flex-shrink: 0;
+}
+
+/* Narrative Analysis Box */
+.analysis-card {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 22px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1;
+  min-width: 0;
+}
+
+.analysis-card h4 {
+  margin: 0 0 4px 0;
+  font-size: 1.3rem;
+  color: #1a202c;
+  font-weight: 700;
+}
+
+.analysis-subtitle {
+  font-size: 0.95rem;
+  color: #718096;
+  margin: 0 0 16px 0;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #edf2f7;
+}
+
+.analysis-point {
+  margin-bottom: 14px;
+}
+
+.analysis-point:last-child {
+  margin-bottom: 0;
+}
+
+.analysis-point h5 {
+  margin: 0 0 4px 0;
+  font-size: 1.08rem;
+  color: #2e7d32;
+  font-weight: 700;
+}
+
+.analysis-point p {
+  margin: 0;
+  font-size: 0.98rem;
+  line-height: 1.55;
+  color: #2d3748;
+}
+
+/* Conclusion Section */
+.conclusion-card {
+  background: #ffffff;
+  border: 1px solid #c8e6c9;
+  border-top: 5px solid #2e7d32;
+  border-radius: 8px;
+  padding: 26px;
+  margin: 32px 0 24px 0;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+}
+
+.conclusion-card h3 {
+  margin: 0 0 6px 0;
+  font-size: 1.55rem;
+  color: #1b5e20;
+  font-weight: 800;
+}
+
+.conclusion-subtitle {
+  font-size: 1.02rem;
+  color: #718096;
+  margin: 0 0 18px 0;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+/* Metadata Footer */
+.metadata-footer {
+  margin-top: 32px;
+  padding: 20px 24px;
+  background: #ffffff;
+  border-top: 2px solid #e2e8f0;
+  border-radius: 8px;
+  font-size: 1.0rem;
+  color: #4a5568;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.metadata-footer p {
+  margin: 0;
+}
+
+.metadata-footer a {
+  color: #2e7d32;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.metadata-footer a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Media Queries */
+@media (max-width: 1024px) {
+  .side-by-side-row {
+    flex-direction: column;
+  }
+  .shared-legend-card {
+    max-width: 100%;
+  }
 }

@@ -1,0 +1,151 @@
+{
+  "$schema": "https://vega.github.io/schema/vega/v5.json",
+  "width": 380,
+  "height": 450,
+  "padding": 10,
+  "title": {
+    "text": "Land Area Breakdown Treemap",
+    "subtitle": "Area represented in thousand hectares ('000 ha)",
+    "fontSize": 14,
+    "subtitleFontSize": 11
+  },
+  "signals": [
+    {
+      "name": "state_select",
+      "value": "NSW",
+      "bind": {
+        "input": "select",
+        "options": ["NSW", "Vic", "Qld", "SA", "WA", "Tas", "NT", "ACT"],
+        "name": "Select State: "
+      }
+    },
+    {
+      "name": "year_select",
+      "value": "2020-21",
+      "bind": {
+        "input": "select",
+        "options": ["2010-11", "2015-16", "2020-21"],
+        "name": "Select Year: "
+      }
+    }
+  ],
+  "data": [
+    {
+      "name": "raw_data",
+      "url": "Researched Data/Processed Data/land_use_totals.json"
+    },
+    {
+      "name": "filtered_data",
+      "source": "raw_data",
+      "transform": [
+        {
+          "type": "filter",
+          "expr": "datum.parent === null || (datum.state === state_select && datum.year === year_select)"
+        },
+        {
+          "type": "stratify",
+          "key": "id",
+          "parentKey": "parent"
+        },
+        {
+          "type": "treemap",
+          "field": "value",
+          "sort": {"field": "value", "order": "descending"},
+          "method": "squarify",
+          "padding": 2,
+          "size": [{"signal": "width"}, {"signal": "height"}]
+        }
+      ]
+    },
+    {
+      "name": "leaves",
+      "source": "filtered_data",
+      "transform": [
+        {
+          "type": "filter",
+          "expr": "datum.parent !== null"
+        }
+      ]
+    }
+  ],
+  "scales": [
+    {
+      "name": "color",
+      "type": "ordinal",
+      "domain": [
+        "Nature Conservation",
+        "Managed Resource Protection",
+        "Other Minimal Use",
+        "Grazing Native Vegetation",
+        "Forestry & Plantation",
+        "Grazing Modified Pastures",
+        "Dryland Cropping",
+        "Dryland Horticulture",
+        "Irrigated Agriculture & Pastures",
+        "Urban & Intensive Uses",
+        "Water"
+      ],
+      "range": [
+        "#4a148c",
+        "#7b1fa2",
+        "#e1bee7",
+        "#f48fb1",
+        "#2e7d32",
+        "#c0ca33",
+        "#ffeb3b",
+        "#f57f17",
+        "#0288d1",
+        "#d32f2f",
+        "#01579b"
+      ]
+    }
+  ],
+  "marks": [
+    {
+      "type": "rect",
+      "from": {"data": "leaves"},
+      "encode": {
+        "enter": {
+          "fill": {"scale": "color", "field": "name"},
+          "stroke": {"value": "#ffffff"},
+          "strokeWidth": {"value": 1.5}
+        },
+        "update": {
+          "x": {"field": "x0"},
+          "y": {"field": "y0"},
+          "x2": {"field": "x1"},
+          "y2": {"field": "y1"},
+          "tooltip": {
+            "signal": "{'Land Use': datum.name, 'State': datum.state, 'Year': datum.year, 'Area (000 ha)': format(datum.value, ',.0f')}"
+          }
+        },
+        "hover": {
+          "fillOpacity": {"value": 0.8}
+        }
+      }
+    },
+    {
+      "type": "text",
+      "from": {"data": "leaves"},
+      "interactive": false,
+      "encode": {
+        "enter": {
+          "font": {"value": "sans-serif"},
+          "fontSize": {"value": 10},
+          "fontWeight": {"value": "bold"},
+          "fill": {"value": "#ffffff"},
+          "align": {"value": "center"},
+          "baseline": {"value": "middle"}
+        },
+        "update": {
+          "x": {"signal": "0.5 * (datum.x0 + datum.x1)"},
+          "y": {"signal": "0.5 * (datum.y0 + datum.y1)"},
+          "text": {"field": "name"},
+          "opacity": {
+            "signal": "(datum.x1 - datum.x0) > 60 && (datum.y1 - datum.y0) > 22 ? 1 : 0"
+          }
+        }
+      }
+    }
+  ]
+}

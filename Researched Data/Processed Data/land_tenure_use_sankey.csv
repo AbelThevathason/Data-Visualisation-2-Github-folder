@@ -1,0 +1,2003 @@
+State,Year,Land_Tenure,Land_Use,Area_000_ha
+Australia,2010-11,Freehold,Nature conservation,10404.0
+Australia,2010-11,Freeholding lease,Nature conservation,8.0
+Australia,2010-11,Pastoral perpetual lease,Nature conservation,1308.0
+Australia,2010-11,Other perpetual lease,Nature conservation,1226.0
+Australia,2010-11,Pastoral term lease,Nature conservation,3620.0
+Australia,2010-11,Other term lease,Nature conservation,74.0
+Australia,2010-11,Other lease,Nature conservation,491.0
+Australia,2010-11,Nature conservation reserve,Nature conservation,40711.0
+Australia,2010-11,Multiple-use public forest,Nature conservation,919.0
+Australia,2010-11,Other Crown purposes,Nature conservation,785.0
+Australia,2010-11,Other Crown land,Nature conservation,5251.0
+Australia,2010-11,Freehold,Managed resource protection,72590.0
+Australia,2010-11,Freeholding lease,Managed resource protection,9.0
+Australia,2010-11,Pastoral perpetual lease,Managed resource protection,1338.0
+Australia,2010-11,Other perpetual lease,Managed resource protection,1997.0
+Australia,2010-11,Pastoral term lease,Managed resource protection,2343.0
+Australia,2010-11,Other term lease,Managed resource protection,224.0
+Australia,2010-11,Other lease,Managed resource protection,6626.0
+Australia,2010-11,Nature conservation reserve,Managed resource protection,13475.0
+Australia,2010-11,Multiple-use public forest,Managed resource protection,33.0
+Australia,2010-11,Other Crown purposes,Managed resource protection,19926.0
+Australia,2010-11,Other Crown land,Managed resource protection,6571.0
+Australia,2010-11,Freehold,Other minimal use,9868.0
+Australia,2010-11,Freeholding lease,Other minimal use,175.0
+Australia,2010-11,Pastoral perpetual lease,Other minimal use,1948.0
+Australia,2010-11,Other perpetual lease,Other minimal use,2034.0
+Australia,2010-11,Pastoral term lease,Other minimal use,6343.0
+Australia,2010-11,Other term lease,Other minimal use,1007.0
+Australia,2010-11,Other lease,Other minimal use,647.0
+Australia,2010-11,Multiple-use public forest,Other minimal use,1333.0
+Australia,2010-11,Other Crown purposes,Other minimal use,7275.0
+Australia,2010-11,Other Crown land,Other minimal use,87579.0
+Australia,2010-11,Freehold,Grazing native vegetation,21233.0
+Australia,2010-11,Freeholding lease,Grazing native vegetation,1199.0
+Australia,2010-11,Pastoral perpetual lease,Grazing native vegetation,75468.0
+Australia,2010-11,Other perpetual lease,Grazing native vegetation,15332.0
+Australia,2010-11,Pastoral term lease,Grazing native vegetation,192224.0
+Australia,2010-11,Other term lease,Grazing native vegetation,1076.0
+Australia,2010-11,Other lease,Grazing native vegetation,5433.0
+Australia,2010-11,Freehold,Production native forests,253.0
+Australia,2010-11,Nature conservation reserve,Production native forests,3.0
+Australia,2010-11,Multiple-use public forest,Production native forests,8879.0
+Australia,2010-11,Other Crown purposes,Production native forests,1.0
+Australia,2010-11,Other Crown land,Production native forests,1.0
+Australia,2010-11,Freehold,Plantation forests (a),1295.0
+Australia,2010-11,Other perpetual lease,Plantation forests (a),19.0
+Australia,2010-11,Other lease,Plantation forests (a),11.0
+Australia,2010-11,Multiple-use public forest,Plantation forests (a),878.0
+Australia,2010-11,Other Crown purposes,Plantation forests (a),20.0
+Australia,2010-11,Other Crown land,Plantation forests (a),7.0
+Australia,2010-11,Freehold,Grazing modified pastures,58273.0
+Australia,2010-11,Freeholding lease,Grazing modified pastures,1495.0
+Australia,2010-11,Pastoral perpetual lease,Grazing modified pastures,2080.0
+Australia,2010-11,Other perpetual lease,Grazing modified pastures,3798.0
+Australia,2010-11,Pastoral term lease,Grazing modified pastures,3962.0
+Australia,2010-11,Other term lease,Grazing modified pastures,151.0
+Australia,2010-11,Other lease,Grazing modified pastures,2844.0
+Australia,2010-11,Freehold,Dryland cropping,30012.0
+Australia,2010-11,Freeholding lease,Dryland cropping,288.0
+Australia,2010-11,Pastoral perpetual lease,Dryland cropping,234.0
+Australia,2010-11,Other perpetual lease,Dryland cropping,371.0
+Australia,2010-11,Pastoral term lease,Dryland cropping,55.0
+Australia,2010-11,Other term lease,Dryland cropping,7.0
+Australia,2010-11,Other lease,Dryland cropping,281.0
+Australia,2010-11,Freehold,Dryland horticulture,214.0
+Australia,2010-11,Freeholding lease,Dryland horticulture,1.0
+Australia,2010-11,Pastoral perpetual lease,Dryland horticulture,3.0
+Australia,2010-11,Other perpetual lease,Dryland horticulture,2.0
+Australia,2010-11,Other term lease,Dryland horticulture,2.0
+Australia,2010-11,Other lease,Dryland horticulture,1.0
+Australia,2010-11,Freehold,Irrigated pastures,628.0
+Australia,2010-11,Freeholding lease,Irrigated pastures,4.0
+Australia,2010-11,Other perpetual lease,Irrigated pastures,7.0
+Australia,2010-11,Other lease,Irrigated pastures,1.0
+Australia,2010-11,Freehold,Irrigated cropping,768.0
+Australia,2010-11,Freeholding lease,Irrigated cropping,21.0
+Australia,2010-11,Pastoral perpetual lease,Irrigated cropping,8.0
+Australia,2010-11,Other perpetual lease,Irrigated cropping,17.0
+Australia,2010-11,Pastoral term lease,Irrigated cropping,3.0
+Australia,2010-11,Other lease,Irrigated cropping,5.0
+Australia,2010-11,Freehold,Irrigated horticulture,429.0
+Australia,2010-11,Freeholding lease,Irrigated horticulture,2.0
+Australia,2010-11,Pastoral perpetual lease,Irrigated horticulture,2.0
+Australia,2010-11,Other perpetual lease,Irrigated horticulture,5.0
+Australia,2010-11,Other term lease,Irrigated horticulture,1.0
+Australia,2010-11,Other lease,Irrigated horticulture,1.0
+Australia,2010-11,Freehold,Intensive horticulture and animal production,97.0
+Australia,2010-11,Pastoral term lease,Intensive horticulture and animal production,1.0
+Australia,2010-11,Other lease,Intensive horticulture and animal production,1.0
+Australia,2010-11,Other Crown purposes,Intensive horticulture and animal production,1.0
+Australia,2010-11,Freehold,Rural residential and farm infrastructure,1542.0
+Australia,2010-11,Freeholding lease,Rural residential and farm infrastructure,1.0
+Australia,2010-11,Pastoral perpetual lease,Rural residential and farm infrastructure,10.0
+Australia,2010-11,Other perpetual lease,Rural residential and farm infrastructure,5.0
+Australia,2010-11,Pastoral term lease,Rural residential and farm infrastructure,4.0
+Australia,2010-11,Other term lease,Rural residential and farm infrastructure,2.0
+Australia,2010-11,Other lease,Rural residential and farm infrastructure,3.0
+Australia,2010-11,Nature conservation reserve,Rural residential and farm infrastructure,11.0
+Australia,2010-11,Multiple-use public forest,Rural residential and farm infrastructure,6.0
+Australia,2010-11,Other Crown purposes,Rural residential and farm infrastructure,50.0
+Australia,2010-11,Other Crown land,Rural residential and farm infrastructure,20.0
+Australia,2010-11,Freehold,Urban residential,1245.0
+Australia,2010-11,Freeholding lease,Urban residential,1.0
+Australia,2010-11,Pastoral perpetual lease,Urban residential,1.0
+Australia,2010-11,Other perpetual lease,Urban residential,2.0
+Australia,2010-11,Other term lease,Urban residential,14.0
+Australia,2010-11,Other lease,Urban residential,5.0
+Australia,2010-11,Nature conservation reserve,Urban residential,8.0
+Australia,2010-11,Multiple-use public forest,Urban residential,1.0
+Australia,2010-11,Other Crown purposes,Urban residential,66.0
+Australia,2010-11,Other Crown land,Urban residential,17.0
+Australia,2010-11,Freehold,Other intensive uses,705.0
+Australia,2010-11,Pastoral perpetual lease,Other intensive uses,2.0
+Australia,2010-11,Other perpetual lease,Other intensive uses,5.0
+Australia,2010-11,Pastoral term lease,Other intensive uses,6.0
+Australia,2010-11,Other term lease,Other intensive uses,20.0
+Australia,2010-11,Other lease,Other intensive uses,10.0
+Australia,2010-11,Nature conservation reserve,Other intensive uses,15.0
+Australia,2010-11,Multiple-use public forest,Other intensive uses,25.0
+Australia,2010-11,Other Crown purposes,Other intensive uses,228.0
+Australia,2010-11,Other Crown land,Other intensive uses,63.0
+Australia,2010-11,Freehold,Mining and waste,257.0
+Australia,2010-11,Freeholding lease,Mining and waste,1.0
+Australia,2010-11,Pastoral perpetual lease,Mining and waste,11.0
+Australia,2010-11,Other perpetual lease,Mining and waste,13.0
+Australia,2010-11,Pastoral term lease,Mining and waste,115.0
+Australia,2010-11,Other term lease,Mining and waste,49.0
+Australia,2010-11,Other lease,Mining and waste,52.0
+Australia,2010-11,Nature conservation reserve,Mining and waste,11.0
+Australia,2010-11,Multiple-use public forest,Mining and waste,14.0
+Australia,2010-11,Other Crown purposes,Mining and waste,43.0
+Australia,2010-11,Other Crown land,Mining and waste,64.0
+Australia,2010-11,Freehold,Water,4835.0
+Australia,2010-11,Freeholding lease,Water,43.0
+Australia,2010-11,Pastoral perpetual lease,Water,3504.0
+Australia,2010-11,Other perpetual lease,Water,702.0
+Australia,2010-11,Pastoral term lease,Water,8202.0
+Australia,2010-11,Other term lease,Water,179.0
+Australia,2010-11,Other lease,Water,302.0
+Australia,2010-11,Nature conservation reserve,Water,4019.0
+Australia,2010-11,Multiple-use public forest,Water,30.0
+Australia,2010-11,Other Crown purposes,Water,1949.0
+Australia,2010-11,Other Crown land,Water,2689.0
+Australia,2015-16,Freehold,Nature conservation,12742.0
+Australia,2015-16,Freeholding lease,Nature conservation,3.0
+Australia,2015-16,Pastoral perpetual lease,Nature conservation,930.0
+Australia,2015-16,Other perpetual lease,Nature conservation,1367.0
+Australia,2015-16,Pastoral term lease,Nature conservation,4894.0
+Australia,2015-16,Other term lease,Nature conservation,75.0
+Australia,2015-16,Other lease,Nature conservation,15.0
+Australia,2015-16,Nature conservation reserve,Nature conservation,42208.0
+Australia,2015-16,Multiple-use public forest,Nature conservation,565.0
+Australia,2015-16,Other Crown purposes,Nature conservation,990.0
+Australia,2015-16,Other Crown land,Nature conservation,8136.0
+Australia,2015-16,Freehold,Managed resource protection,77209.0
+Australia,2015-16,Freeholding lease,Managed resource protection,9.0
+Australia,2015-16,Pastoral perpetual lease,Managed resource protection,376.0
+Australia,2015-16,Other perpetual lease,Managed resource protection,1502.0
+Australia,2015-16,Pastoral term lease,Managed resource protection,4293.0
+Australia,2015-16,Other term lease,Managed resource protection,388.0
+Australia,2015-16,Other lease,Managed resource protection,5959.0
+Australia,2015-16,Nature conservation reserve,Managed resource protection,12598.0
+Australia,2015-16,Multiple-use public forest,Managed resource protection,68.0
+Australia,2015-16,Other Crown purposes,Managed resource protection,19713.0
+Australia,2015-16,Other Crown land,Managed resource protection,14620.0
+Australia,2015-16,Freehold,Other minimal use,8900.0
+Australia,2015-16,Freeholding lease,Other minimal use,148.0
+Australia,2015-16,Pastoral perpetual lease,Other minimal use,1646.0
+Australia,2015-16,Other perpetual lease,Other minimal use,1232.0
+Australia,2015-16,Pastoral term lease,Other minimal use,4293.0
+Australia,2015-16,Other term lease,Other minimal use,976.0
+Australia,2015-16,Other lease,Other minimal use,175.0
+Australia,2015-16,Multiple-use public forest,Other minimal use,1125.0
+Australia,2015-16,Other Crown purposes,Other minimal use,6154.0
+Australia,2015-16,Other Crown land,Other minimal use,75384.0
+Australia,2015-16,Freehold,Grazing native vegetation,24623.0
+Australia,2015-16,Freeholding lease,Grazing native vegetation,1326.0
+Australia,2015-16,Pastoral perpetual lease,Grazing native vegetation,77161.0
+Australia,2015-16,Other perpetual lease,Grazing native vegetation,14428.0
+Australia,2015-16,Pastoral term lease,Grazing native vegetation,190205.0
+Australia,2015-16,Other term lease,Grazing native vegetation,1245.0
+Australia,2015-16,Other lease,Grazing native vegetation,1294.0
+Australia,2015-16,Freehold,Production native forests,253.0
+Australia,2015-16,Nature conservation reserve,Production native forests,65.0
+Australia,2015-16,Multiple-use public forest,Production native forests,8559.0
+Australia,2015-16,Other Crown purposes,Production native forests,227.0
+Australia,2015-16,Other Crown land,Production native forests,1.0
+Australia,2015-16,Freehold,Plantation forests (a),1438.0
+Australia,2015-16,Other perpetual lease,Plantation forests (a),18.0
+Australia,2015-16,Other lease,Plantation forests (a),9.0
+Australia,2015-16,Multiple-use public forest,Plantation forests (a),806.0
+Australia,2015-16,Other Crown purposes,Plantation forests (a),21.0
+Australia,2015-16,Other Crown land,Plantation forests (a),3.0
+Australia,2015-16,Freehold,Grazing modified pastures,52864.0
+Australia,2015-16,Freeholding lease,Grazing modified pastures,1177.0
+Australia,2015-16,Pastoral perpetual lease,Grazing modified pastures,1744.0
+Australia,2015-16,Other perpetual lease,Grazing modified pastures,3449.0
+Australia,2015-16,Pastoral term lease,Grazing modified pastures,3913.0
+Australia,2015-16,Other term lease,Grazing modified pastures,148.0
+Australia,2015-16,Other lease,Grazing modified pastures,322.0
+Australia,2015-16,Freehold,Dryland cropping,38376.0
+Australia,2015-16,Freeholding lease,Dryland cropping,279.0
+Australia,2015-16,Pastoral perpetual lease,Dryland cropping,593.0
+Australia,2015-16,Other perpetual lease,Dryland cropping,226.0
+Australia,2015-16,Pastoral term lease,Dryland cropping,102.0
+Australia,2015-16,Other term lease,Dryland cropping,8.0
+Australia,2015-16,Other lease,Dryland cropping,287.0
+Australia,2015-16,Freehold,Dryland horticulture,106.0
+Australia,2015-16,Pastoral perpetual lease,Dryland horticulture,3.0
+Australia,2015-16,Other perpetual lease,Dryland horticulture,2.0
+Australia,2015-16,Freehold,Irrigated pastures,834.0
+Australia,2015-16,Freeholding lease,Irrigated pastures,1.0
+Australia,2015-16,Other perpetual lease,Irrigated pastures,5.0
+Australia,2015-16,Freehold,Irrigated cropping,1478.0
+Australia,2015-16,Freeholding lease,Irrigated cropping,20.0
+Australia,2015-16,Pastoral perpetual lease,Irrigated cropping,9.0
+Australia,2015-16,Other perpetual lease,Irrigated cropping,17.0
+Australia,2015-16,Pastoral term lease,Irrigated cropping,8.0
+Australia,2015-16,Other term lease,Irrigated cropping,2.0
+Australia,2015-16,Other lease,Irrigated cropping,4.0
+Australia,2015-16,Freehold,Irrigated horticulture,583.0
+Australia,2015-16,Freeholding lease,Irrigated horticulture,1.0
+Australia,2015-16,Pastoral perpetual lease,Irrigated horticulture,3.0
+Australia,2015-16,Other perpetual lease,Irrigated horticulture,6.0
+Australia,2015-16,Other lease,Irrigated horticulture,1.0
+Australia,2015-16,Freehold,Intensive horticulture and animal production,125.0
+Australia,2015-16,Other perpetual lease,Intensive horticulture and animal production,1.0
+Australia,2015-16,Pastoral term lease,Intensive horticulture and animal production,2.0
+Australia,2015-16,Other lease,Intensive horticulture and animal production,1.0
+Australia,2015-16,Other Crown purposes,Intensive horticulture and animal production,1.0
+Australia,2015-16,Freehold,Rural residential and farm infrastructure,1928.0
+Australia,2015-16,Freeholding lease,Rural residential and farm infrastructure,2.0
+Australia,2015-16,Pastoral perpetual lease,Rural residential and farm infrastructure,11.0
+Australia,2015-16,Other perpetual lease,Rural residential and farm infrastructure,5.0
+Australia,2015-16,Pastoral term lease,Rural residential and farm infrastructure,6.0
+Australia,2015-16,Other term lease,Rural residential and farm infrastructure,2.0
+Australia,2015-16,Other lease,Rural residential and farm infrastructure,5.0
+Australia,2015-16,Nature conservation reserve,Rural residential and farm infrastructure,17.0
+Australia,2015-16,Multiple-use public forest,Rural residential and farm infrastructure,8.0
+Australia,2015-16,Other Crown purposes,Rural residential and farm infrastructure,54.0
+Australia,2015-16,Other Crown land,Rural residential and farm infrastructure,21.0
+Australia,2015-16,Freehold,Urban residential,1318.0
+Australia,2015-16,Freeholding lease,Urban residential,1.0
+Australia,2015-16,Other perpetual lease,Urban residential,1.0
+Australia,2015-16,Other term lease,Urban residential,15.0
+Australia,2015-16,Other lease,Urban residential,1.0
+Australia,2015-16,Nature conservation reserve,Urban residential,12.0
+Australia,2015-16,Multiple-use public forest,Urban residential,1.0
+Australia,2015-16,Other Crown purposes,Urban residential,65.0
+Australia,2015-16,Other Crown land,Urban residential,17.0
+Australia,2015-16,Freehold,Other intensive uses,743.0
+Australia,2015-16,Pastoral perpetual lease,Other intensive uses,3.0
+Australia,2015-16,Other perpetual lease,Other intensive uses,6.0
+Australia,2015-16,Pastoral term lease,Other intensive uses,6.0
+Australia,2015-16,Other term lease,Other intensive uses,17.0
+Australia,2015-16,Other lease,Other intensive uses,14.0
+Australia,2015-16,Nature conservation reserve,Other intensive uses,18.0
+Australia,2015-16,Multiple-use public forest,Other intensive uses,13.0
+Australia,2015-16,Other Crown purposes,Other intensive uses,233.0
+Australia,2015-16,Other Crown land,Other intensive uses,85.0
+Australia,2015-16,Freehold,Mining and waste,323.0
+Australia,2015-16,Freeholding lease,Mining and waste,2.0
+Australia,2015-16,Pastoral perpetual lease,Mining and waste,16.0
+Australia,2015-16,Other perpetual lease,Mining and waste,19.0
+Australia,2015-16,Pastoral term lease,Mining and waste,116.0
+Australia,2015-16,Other term lease,Mining and waste,53.0
+Australia,2015-16,Other lease,Mining and waste,40.0
+Australia,2015-16,Nature conservation reserve,Mining and waste,12.0
+Australia,2015-16,Multiple-use public forest,Mining and waste,15.0
+Australia,2015-16,Other Crown purposes,Mining and waste,42.0
+Australia,2015-16,Other Crown land,Mining and waste,57.0
+Australia,2015-16,Freehold,Water,5087.0
+Australia,2015-16,Freeholding lease,Water,40.0
+Australia,2015-16,Pastoral perpetual lease,Water,3407.0
+Australia,2015-16,Other perpetual lease,Water,671.0
+Australia,2015-16,Pastoral term lease,Water,8058.0
+Australia,2015-16,Other term lease,Water,201.0
+Australia,2015-16,Other lease,Water,168.0
+Australia,2015-16,Nature conservation reserve,Water,4114.0
+Australia,2015-16,Multiple-use public forest,Water,25.0
+Australia,2015-16,Other Crown purposes,Water,1852.0
+Australia,2015-16,Other Crown land,Water,2698.0
+Australia,2020-21,Freehold,Nature conservation,13876.0
+Australia,2020-21,Freeholding lease,Nature conservation,4.0
+Australia,2020-21,Pastoral perpetual lease,Nature conservation,841.0
+Australia,2020-21,Other perpetual lease,Nature conservation,996.0
+Australia,2020-21,Pastoral term lease,Nature conservation,3798.0
+Australia,2020-21,Other term lease,Nature conservation,164.0
+Australia,2020-21,Other lease,Nature conservation,17.0
+Australia,2020-21,Nature conservation reserve,Nature conservation,42920.0
+Australia,2020-21,Multiple-use public forest,Nature conservation,576.0
+Australia,2020-21,Other Crown purposes,Nature conservation,985.0
+Australia,2020-21,Other Crown land,Nature conservation,8063.0
+Australia,2020-21,Freehold,Managed resource protection,77309.0
+Australia,2020-21,Pastoral perpetual lease,Managed resource protection,464.0
+Australia,2020-21,Other perpetual lease,Managed resource protection,1735.0
+Australia,2020-21,Pastoral term lease,Managed resource protection,5698.0
+Australia,2020-21,Other term lease,Managed resource protection,388.0
+Australia,2020-21,Other lease,Managed resource protection,5989.0
+Australia,2020-21,Nature conservation reserve,Managed resource protection,12536.0
+Australia,2020-21,Multiple-use public forest,Managed resource protection,68.0
+Australia,2020-21,Other Crown purposes,Managed resource protection,19722.0
+Australia,2020-21,Other Crown land,Managed resource protection,19368.0
+Australia,2020-21,Freehold,Other minimal use,7917.0
+Australia,2020-21,Freeholding lease,Other minimal use,53.0
+Australia,2020-21,Pastoral perpetual lease,Other minimal use,1397.0
+Australia,2020-21,Other perpetual lease,Other minimal use,791.0
+Australia,2020-21,Pastoral term lease,Other minimal use,2525.0
+Australia,2020-21,Other term lease,Other minimal use,936.0
+Australia,2020-21,Other lease,Other minimal use,150.0
+Australia,2020-21,Multiple-use public forest,Other minimal use,1173.0
+Australia,2020-21,Other Crown purposes,Other minimal use,6071.0
+Australia,2020-21,Other Crown land,Other minimal use,70444.0
+Australia,2020-21,Freehold,Grazing native vegetation,29155.0
+Australia,2020-21,Freeholding lease,Grazing native vegetation,1035.0
+Australia,2020-21,Pastoral perpetual lease,Grazing native vegetation,77103.0
+Australia,2020-21,Other perpetual lease,Grazing native vegetation,12708.0
+Australia,2020-21,Pastoral term lease,Grazing native vegetation,188929.0
+Australia,2020-21,Other term lease,Grazing native vegetation,1303.0
+Australia,2020-21,Other lease,Grazing native vegetation,1060.0
+Australia,2020-21,Freehold,Production native forests,247.0
+Australia,2020-21,Nature conservation reserve,Production native forests,4.0
+Australia,2020-21,Multiple-use public forest,Production native forests,8482.0
+Australia,2020-21,Other Crown purposes,Production native forests,6.0
+Australia,2020-21,Freehold,Plantation forests (a),1162.0
+Australia,2020-21,Other perpetual lease,Plantation forests (a),17.0
+Australia,2020-21,Other term lease,Plantation forests (a),3.0
+Australia,2020-21,Other lease,Plantation forests (a),6.0
+Australia,2020-21,Multiple-use public forest,Plantation forests (a),792.0
+Australia,2020-21,Other Crown purposes,Plantation forests (a),27.0
+Australia,2020-21,Other Crown land,Plantation forests (a),4.0
+Australia,2020-21,Freehold,Grazing modified pastures,54780.0
+Australia,2020-21,Freeholding lease,Grazing modified pastures,693.0
+Australia,2020-21,Pastoral perpetual lease,Grazing modified pastures,1650.0
+Australia,2020-21,Other perpetual lease,Grazing modified pastures,2516.0
+Australia,2020-21,Pastoral term lease,Grazing modified pastures,3924.0
+Australia,2020-21,Other term lease,Grazing modified pastures,156.0
+Australia,2020-21,Other lease,Grazing modified pastures,161.0
+Australia,2020-21,Freehold,Dryland cropping,39808.0
+Australia,2020-21,Freeholding lease,Dryland cropping,147.0
+Australia,2020-21,Pastoral perpetual lease,Dryland cropping,482.0
+Australia,2020-21,Other perpetual lease,Dryland cropping,175.0
+Australia,2020-21,Pastoral term lease,Dryland cropping,113.0
+Australia,2020-21,Other term lease,Dryland cropping,7.0
+Australia,2020-21,Other lease,Dryland cropping,274.0
+Australia,2020-21,Freehold,Dryland horticulture,71.0
+Australia,2020-21,Pastoral perpetual lease,Dryland horticulture,1.0
+Australia,2020-21,Other perpetual lease,Dryland horticulture,1.0
+Australia,2020-21,Freehold,Irrigated pastures,551.0
+Australia,2020-21,Other perpetual lease,Irrigated pastures,5.0
+Australia,2020-21,Freehold,Irrigated cropping,1390.0
+Australia,2020-21,Freeholding lease,Irrigated cropping,7.0
+Australia,2020-21,Pastoral perpetual lease,Irrigated cropping,21.0
+Australia,2020-21,Other perpetual lease,Irrigated cropping,14.0
+Australia,2020-21,Pastoral term lease,Irrigated cropping,5.0
+Australia,2020-21,Other term lease,Irrigated cropping,1.0
+Australia,2020-21,Other lease,Irrigated cropping,2.0
+Australia,2020-21,Freehold,Irrigated horticulture,740.0
+Australia,2020-21,Pastoral perpetual lease,Irrigated horticulture,4.0
+Australia,2020-21,Other perpetual lease,Irrigated horticulture,5.0
+Australia,2020-21,Other lease,Irrigated horticulture,1.0
+Australia,2020-21,Freehold,Intensive horticulture and animal production,132.0
+Australia,2020-21,Other perpetual lease,Intensive horticulture and animal production,1.0
+Australia,2020-21,Pastoral term lease,Intensive horticulture and animal production,2.0
+Australia,2020-21,Other lease,Intensive horticulture and animal production,1.0
+Australia,2020-21,Other Crown purposes,Intensive horticulture and animal production,1.0
+Australia,2020-21,Freehold,Rural residential and farm infrastructure,2115.0
+Australia,2020-21,Freeholding lease,Rural residential and farm infrastructure,1.0
+Australia,2020-21,Pastoral perpetual lease,Rural residential and farm infrastructure,11.0
+Australia,2020-21,Other perpetual lease,Rural residential and farm infrastructure,8.0
+Australia,2020-21,Pastoral term lease,Rural residential and farm infrastructure,6.0
+Australia,2020-21,Other term lease,Rural residential and farm infrastructure,2.0
+Australia,2020-21,Other lease,Rural residential and farm infrastructure,5.0
+Australia,2020-21,Nature conservation reserve,Rural residential and farm infrastructure,17.0
+Australia,2020-21,Multiple-use public forest,Rural residential and farm infrastructure,9.0
+Australia,2020-21,Other Crown purposes,Rural residential and farm infrastructure,54.0
+Australia,2020-21,Other Crown land,Rural residential and farm infrastructure,20.0
+Australia,2020-21,Freehold,Urban residential,1441.0
+Australia,2020-21,Other perpetual lease,Urban residential,1.0
+Australia,2020-21,Other term lease,Urban residential,15.0
+Australia,2020-21,Other lease,Urban residential,1.0
+Australia,2020-21,Nature conservation reserve,Urban residential,14.0
+Australia,2020-21,Multiple-use public forest,Urban residential,2.0
+Australia,2020-21,Other Crown purposes,Urban residential,67.0
+Australia,2020-21,Other Crown land,Urban residential,15.0
+Australia,2020-21,Freehold,Other intensive uses,750.0
+Australia,2020-21,Pastoral perpetual lease,Other intensive uses,5.0
+Australia,2020-21,Other perpetual lease,Other intensive uses,6.0
+Australia,2020-21,Pastoral term lease,Other intensive uses,6.0
+Australia,2020-21,Other term lease,Other intensive uses,16.0
+Australia,2020-21,Other lease,Other intensive uses,9.0
+Australia,2020-21,Nature conservation reserve,Other intensive uses,13.0
+Australia,2020-21,Multiple-use public forest,Other intensive uses,12.0
+Australia,2020-21,Other Crown purposes,Other intensive uses,215.0
+Australia,2020-21,Other Crown land,Other intensive uses,59.0
+Australia,2020-21,Freehold,Mining and waste,333.0
+Australia,2020-21,Freeholding lease,Mining and waste,2.0
+Australia,2020-21,Pastoral perpetual lease,Mining and waste,13.0
+Australia,2020-21,Other perpetual lease,Mining and waste,16.0
+Australia,2020-21,Pastoral term lease,Mining and waste,115.0
+Australia,2020-21,Other term lease,Mining and waste,53.0
+Australia,2020-21,Other lease,Mining and waste,39.0
+Australia,2020-21,Nature conservation reserve,Mining and waste,13.0
+Australia,2020-21,Multiple-use public forest,Mining and waste,16.0
+Australia,2020-21,Other Crown purposes,Mining and waste,41.0
+Australia,2020-21,Other Crown land,Mining and waste,57.0
+Australia,2020-21,Freehold,Water,5178.0
+Australia,2020-21,Freeholding lease,Water,28.0
+Australia,2020-21,Pastoral perpetual lease,Water,3375.0
+Australia,2020-21,Other perpetual lease,Water,639.0
+Australia,2020-21,Pastoral term lease,Water,7979.0
+Australia,2020-21,Other term lease,Water,198.0
+Australia,2020-21,Other lease,Water,163.0
+Australia,2020-21,Nature conservation reserve,Water,4139.0
+Australia,2020-21,Multiple-use public forest,Water,25.0
+Australia,2020-21,Other Crown purposes,Water,1841.0
+Australia,2020-21,Other Crown land,Water,2701.0
+NSW,2010-11,Freehold,Nature conservation,198.0
+NSW,2010-11,Freeholding lease,Nature conservation,7.0
+NSW,2010-11,Pastoral perpetual lease,Nature conservation,105.0
+NSW,2010-11,Other perpetual lease,Nature conservation,7.0
+NSW,2010-11,Nature conservation reserve,Nature conservation,6881.0
+NSW,2010-11,Multiple-use public forest,Nature conservation,195.0
+NSW,2010-11,Other Crown purposes,Nature conservation,18.0
+NSW,2010-11,Other Crown land,Nature conservation,1.0
+NSW,2010-11,Freehold,Managed resource protection,115.0
+NSW,2010-11,Pastoral perpetual lease,Managed resource protection,1.0
+NSW,2010-11,Other perpetual lease,Managed resource protection,2.0
+NSW,2010-11,Other Crown purposes,Managed resource protection,1.0
+NSW,2010-11,Freehold,Other minimal use,3735.0
+NSW,2010-11,Freeholding lease,Other minimal use,63.0
+NSW,2010-11,Pastoral perpetual lease,Other minimal use,1058.0
+NSW,2010-11,Other perpetual lease,Other minimal use,186.0
+NSW,2010-11,Pastoral term lease,Other minimal use,1.0
+NSW,2010-11,Other term lease,Other minimal use,5.0
+NSW,2010-11,Multiple-use public forest,Other minimal use,336.0
+NSW,2010-11,Other Crown purposes,Other minimal use,1292.0
+NSW,2010-11,Other Crown land,Other minimal use,441.0
+NSW,2010-11,Freehold,Grazing native vegetation,5198.0
+NSW,2010-11,Freeholding lease,Grazing native vegetation,193.0
+NSW,2010-11,Pastoral perpetual lease,Grazing native vegetation,25122.0
+NSW,2010-11,Other perpetual lease,Grazing native vegetation,535.0
+NSW,2010-11,Pastoral term lease,Grazing native vegetation,20.0
+NSW,2010-11,Other term lease,Grazing native vegetation,5.0
+NSW,2010-11,Other lease,Grazing native vegetation,1.0
+NSW,2010-11,Multiple-use public forest,Production native forests,1379.0
+NSW,2010-11,Freehold,Plantation forests (a),169.0
+NSW,2010-11,Other perpetual lease,Plantation forests (a),1.0
+NSW,2010-11,Multiple-use public forest,Plantation forests (a),283.0
+NSW,2010-11,Other Crown purposes,Plantation forests (a),2.0
+NSW,2010-11,Other Crown land,Plantation forests (a),1.0
+NSW,2010-11,Freehold,Grazing modified pastures,17314.0
+NSW,2010-11,Freeholding lease,Grazing modified pastures,363.0
+NSW,2010-11,Pastoral perpetual lease,Grazing modified pastures,1907.0
+NSW,2010-11,Other perpetual lease,Grazing modified pastures,395.0
+NSW,2010-11,Pastoral term lease,Grazing modified pastures,2.0
+NSW,2010-11,Other term lease,Grazing modified pastures,4.0
+NSW,2010-11,Other lease,Grazing modified pastures,1.0
+NSW,2010-11,Freehold,Dryland cropping,7867.0
+NSW,2010-11,Freeholding lease,Dryland cropping,239.0
+NSW,2010-11,Pastoral perpetual lease,Dryland cropping,225.0
+NSW,2010-11,Other perpetual lease,Dryland cropping,228.0
+NSW,2010-11,Freehold,Dryland horticulture,60.0
+NSW,2010-11,Pastoral perpetual lease,Dryland horticulture,3.0
+NSW,2010-11,Other perpetual lease,Dryland horticulture,1.0
+NSW,2010-11,Freehold,Irrigated pastures,143.0
+NSW,2010-11,Freeholding lease,Irrigated pastures,4.0
+NSW,2010-11,Other perpetual lease,Irrigated pastures,1.0
+NSW,2010-11,Freehold,Irrigated cropping,417.0
+NSW,2010-11,Freeholding lease,Irrigated cropping,17.0
+NSW,2010-11,Pastoral perpetual lease,Irrigated cropping,8.0
+NSW,2010-11,Other perpetual lease,Irrigated cropping,13.0
+NSW,2010-11,Freehold,Irrigated horticulture,61.0
+NSW,2010-11,Freeholding lease,Irrigated horticulture,1.0
+NSW,2010-11,Pastoral perpetual lease,Irrigated horticulture,2.0
+NSW,2010-11,Other perpetual lease,Irrigated horticulture,2.0
+NSW,2010-11,Other term lease,Irrigated horticulture,1.0
+NSW,2010-11,Freehold,Intensive horticulture and animal production,29.0
+NSW,2010-11,Freehold,Rural residential and farm infrastructure,374.0
+NSW,2010-11,Freeholding lease,Rural residential and farm infrastructure,1.0
+NSW,2010-11,Pastoral perpetual lease,Rural residential and farm infrastructure,9.0
+NSW,2010-11,Other perpetual lease,Rural residential and farm infrastructure,1.0
+NSW,2010-11,Nature conservation reserve,Rural residential and farm infrastructure,2.0
+NSW,2010-11,Multiple-use public forest,Rural residential and farm infrastructure,1.0
+NSW,2010-11,Other Crown purposes,Rural residential and farm infrastructure,10.0
+NSW,2010-11,Other Crown land,Rural residential and farm infrastructure,1.0
+NSW,2010-11,Freehold,Urban residential,396.0
+NSW,2010-11,Freeholding lease,Urban residential,1.0
+NSW,2010-11,Other perpetual lease,Urban residential,1.0
+NSW,2010-11,Nature conservation reserve,Urban residential,2.0
+NSW,2010-11,Other Crown purposes,Urban residential,13.0
+NSW,2010-11,Other Crown land,Urban residential,1.0
+NSW,2010-11,Freehold,Other intensive uses,202.0
+NSW,2010-11,Pastoral perpetual lease,Other intensive uses,1.0
+NSW,2010-11,Other perpetual lease,Other intensive uses,1.0
+NSW,2010-11,Nature conservation reserve,Other intensive uses,1.0
+NSW,2010-11,Multiple-use public forest,Other intensive uses,1.0
+NSW,2010-11,Other Crown purposes,Other intensive uses,61.0
+NSW,2010-11,Other Crown land,Other intensive uses,2.0
+NSW,2010-11,Freehold,Mining and waste,70.0
+NSW,2010-11,Pastoral perpetual lease,Mining and waste,7.0
+NSW,2010-11,Other perpetual lease,Mining and waste,1.0
+NSW,2010-11,Other Crown purposes,Mining and waste,7.0
+NSW,2010-11,Other Crown land,Mining and waste,1.0
+NSW,2010-11,Freehold,Water,608.0
+NSW,2010-11,Freeholding lease,Water,11.0
+NSW,2010-11,Pastoral perpetual lease,Water,785.0
+NSW,2010-11,Other perpetual lease,Water,17.0
+NSW,2010-11,Other term lease,Water,1.0
+NSW,2010-11,Other lease,Water,1.0
+NSW,2010-11,Nature conservation reserve,Water,167.0
+NSW,2010-11,Multiple-use public forest,Water,3.0
+NSW,2010-11,Other Crown purposes,Water,93.0
+NSW,2010-11,Other Crown land,Water,16.0
+NSW,2015-16,Freehold,Nature conservation,181.0
+NSW,2015-16,Freeholding lease,Nature conservation,3.0
+NSW,2015-16,Pastoral perpetual lease,Nature conservation,180.0
+NSW,2015-16,Other perpetual lease,Nature conservation,54.0
+NSW,2015-16,Nature conservation reserve,Nature conservation,6918.0
+NSW,2015-16,Multiple-use public forest,Nature conservation,357.0
+NSW,2015-16,Other Crown purposes,Nature conservation,27.0
+NSW,2015-16,Other Crown land,Nature conservation,2.0
+NSW,2015-16,Freehold,Managed resource protection,91.0
+NSW,2015-16,Pastoral perpetual lease,Managed resource protection,14.0
+NSW,2015-16,Other perpetual lease,Managed resource protection,2.0
+NSW,2015-16,Other Crown purposes,Managed resource protection,1.0
+NSW,2015-16,Freehold,Other minimal use,3103.0
+NSW,2015-16,Freeholding lease,Other minimal use,49.0
+NSW,2015-16,Pastoral perpetual lease,Other minimal use,933.0
+NSW,2015-16,Other perpetual lease,Other minimal use,45.0
+NSW,2015-16,Other term lease,Other minimal use,3.0
+NSW,2015-16,Other lease,Other minimal use,1.0
+NSW,2015-16,Multiple-use public forest,Other minimal use,195.0
+NSW,2015-16,Other Crown purposes,Other minimal use,1412.0
+NSW,2015-16,Other Crown land,Other minimal use,375.0
+NSW,2015-16,Freehold,Grazing native vegetation,5668.0
+NSW,2015-16,Freeholding lease,Grazing native vegetation,309.0
+NSW,2015-16,Pastoral perpetual lease,Grazing native vegetation,24991.0
+NSW,2015-16,Other perpetual lease,Grazing native vegetation,275.0
+NSW,2015-16,Pastoral term lease,Grazing native vegetation,15.0
+NSW,2015-16,Other term lease,Grazing native vegetation,4.0
+NSW,2015-16,Other lease,Grazing native vegetation,1.0
+NSW,2015-16,Multiple-use public forest,Production native forests,1347.0
+NSW,2015-16,Freehold,Plantation forests (a),177.0
+NSW,2015-16,Multiple-use public forest,Plantation forests (a),282.0
+NSW,2015-16,Other Crown purposes,Plantation forests (a),2.0
+NSW,2015-16,Other Crown land,Plantation forests (a),1.0
+NSW,2015-16,Freehold,Grazing modified pastures,14191.0
+NSW,2015-16,Freeholding lease,Grazing modified pastures,124.0
+NSW,2015-16,Pastoral perpetual lease,Grazing modified pastures,1534.0
+NSW,2015-16,Other perpetual lease,Grazing modified pastures,63.0
+NSW,2015-16,Pastoral term lease,Grazing modified pastures,2.0
+NSW,2015-16,Other term lease,Grazing modified pastures,2.0
+NSW,2015-16,Other lease,Grazing modified pastures,2.0
+NSW,2015-16,Freehold,Dryland cropping,12026.0
+NSW,2015-16,Freeholding lease,Dryland cropping,156.0
+NSW,2015-16,Pastoral perpetual lease,Dryland cropping,586.0
+NSW,2015-16,Other perpetual lease,Dryland cropping,89.0
+NSW,2015-16,Other term lease,Dryland cropping,1.0
+NSW,2015-16,Freehold,Dryland horticulture,45.0
+NSW,2015-16,Pastoral perpetual lease,Dryland horticulture,3.0
+NSW,2015-16,Other perpetual lease,Dryland horticulture,1.0
+NSW,2015-16,Freehold,Irrigated pastures,136.0
+NSW,2015-16,Freeholding lease,Irrigated pastures,1.0
+NSW,2015-16,Freehold,Irrigated cropping,673.0
+NSW,2015-16,Freeholding lease,Irrigated cropping,12.0
+NSW,2015-16,Pastoral perpetual lease,Irrigated cropping,9.0
+NSW,2015-16,Other perpetual lease,Irrigated cropping,4.0
+NSW,2015-16,Freehold,Irrigated horticulture,86.0
+NSW,2015-16,Freeholding lease,Irrigated horticulture,1.0
+NSW,2015-16,Pastoral perpetual lease,Irrigated horticulture,3.0
+NSW,2015-16,Other perpetual lease,Irrigated horticulture,2.0
+NSW,2015-16,Freehold,Intensive horticulture and animal production,37.0
+NSW,2015-16,Freehold,Rural residential and farm infrastructure,452.0
+NSW,2015-16,Freeholding lease,Rural residential and farm infrastructure,1.0
+NSW,2015-16,Pastoral perpetual lease,Rural residential and farm infrastructure,9.0
+NSW,2015-16,Other perpetual lease,Rural residential and farm infrastructure,1.0
+NSW,2015-16,Nature conservation reserve,Rural residential and farm infrastructure,2.0
+NSW,2015-16,Multiple-use public forest,Rural residential and farm infrastructure,1.0
+NSW,2015-16,Other Crown purposes,Rural residential and farm infrastructure,11.0
+NSW,2015-16,Other Crown land,Rural residential and farm infrastructure,1.0
+NSW,2015-16,Freehold,Urban residential,378.0
+NSW,2015-16,Freeholding lease,Urban residential,1.0
+NSW,2015-16,Nature conservation reserve,Urban residential,2.0
+NSW,2015-16,Other Crown purposes,Urban residential,12.0
+NSW,2015-16,Other Crown land,Urban residential,1.0
+NSW,2015-16,Freehold,Other intensive uses,217.0
+NSW,2015-16,Pastoral perpetual lease,Other intensive uses,1.0
+NSW,2015-16,Other perpetual lease,Other intensive uses,1.0
+NSW,2015-16,Other lease,Other intensive uses,1.0
+NSW,2015-16,Nature conservation reserve,Other intensive uses,1.0
+NSW,2015-16,Multiple-use public forest,Other intensive uses,1.0
+NSW,2015-16,Other Crown purposes,Other intensive uses,59.0
+NSW,2015-16,Other Crown land,Other intensive uses,3.0
+NSW,2015-16,Freehold,Mining and waste,82.0
+NSW,2015-16,Pastoral perpetual lease,Mining and waste,8.0
+NSW,2015-16,Other perpetual lease,Mining and waste,1.0
+NSW,2015-16,Multiple-use public forest,Mining and waste,2.0
+NSW,2015-16,Other Crown purposes,Mining and waste,9.0
+NSW,2015-16,Other Crown land,Mining and waste,1.0
+NSW,2015-16,Freehold,Water,587.0
+NSW,2015-16,Freeholding lease,Water,8.0
+NSW,2015-16,Pastoral perpetual lease,Water,781.0
+NSW,2015-16,Other perpetual lease,Water,9.0
+NSW,2015-16,Nature conservation reserve,Water,167.0
+NSW,2015-16,Multiple-use public forest,Water,3.0
+NSW,2015-16,Other Crown purposes,Water,104.0
+NSW,2015-16,Other Crown land,Water,16.0
+NSW,2020-21,Freehold,Nature conservation,189.0
+NSW,2020-21,Freeholding lease,Nature conservation,4.0
+NSW,2020-21,Pastoral perpetual lease,Nature conservation,161.0
+NSW,2020-21,Other perpetual lease,Nature conservation,53.0
+NSW,2020-21,Nature conservation reserve,Nature conservation,7273.0
+NSW,2020-21,Multiple-use public forest,Nature conservation,354.0
+NSW,2020-21,Other Crown purposes,Nature conservation,17.0
+NSW,2020-21,Other Crown land,Nature conservation,2.0
+NSW,2020-21,Freehold,Managed resource protection,71.0
+NSW,2020-21,Pastoral perpetual lease,Managed resource protection,15.0
+NSW,2020-21,Other perpetual lease,Managed resource protection,2.0
+NSW,2020-21,Other Crown purposes,Managed resource protection,1.0
+NSW,2020-21,Freehold,Other minimal use,2930.0
+NSW,2020-21,Freeholding lease,Other minimal use,12.0
+NSW,2020-21,Pastoral perpetual lease,Other minimal use,775.0
+NSW,2020-21,Other perpetual lease,Other minimal use,38.0
+NSW,2020-21,Other term lease,Other minimal use,1.0
+NSW,2020-21,Other lease,Other minimal use,1.0
+NSW,2020-21,Multiple-use public forest,Other minimal use,231.0
+NSW,2020-21,Other Crown purposes,Other minimal use,1402.0
+NSW,2020-21,Other Crown land,Other minimal use,620.0
+NSW,2020-21,Freehold,Grazing native vegetation,6093.0
+NSW,2020-21,Freeholding lease,Grazing native vegetation,356.0
+NSW,2020-21,Pastoral perpetual lease,Grazing native vegetation,24130.0
+NSW,2020-21,Other perpetual lease,Grazing native vegetation,263.0
+NSW,2020-21,Pastoral term lease,Grazing native vegetation,15.0
+NSW,2020-21,Other term lease,Grazing native vegetation,3.0
+NSW,2020-21,Multiple-use public forest,Production native forests,1309.0
+NSW,2020-21,Freehold,Plantation forests (a),143.0
+NSW,2020-21,Multiple-use public forest,Plantation forests (a),275.0
+NSW,2020-21,Other Crown purposes,Plantation forests (a),8.0
+NSW,2020-21,Other Crown land,Plantation forests (a),1.0
+NSW,2020-21,Freehold,Grazing modified pastures,14584.0
+NSW,2020-21,Freeholding lease,Grazing modified pastures,58.0
+NSW,2020-21,Pastoral perpetual lease,Grazing modified pastures,1407.0
+NSW,2020-21,Other perpetual lease,Grazing modified pastures,54.0
+NSW,2020-21,Pastoral term lease,Grazing modified pastures,2.0
+NSW,2020-21,Other term lease,Grazing modified pastures,1.0
+NSW,2020-21,Other lease,Grazing modified pastures,2.0
+NSW,2020-21,Freehold,Dryland cropping,12375.0
+NSW,2020-21,Freeholding lease,Dryland cropping,84.0
+NSW,2020-21,Pastoral perpetual lease,Dryland cropping,461.0
+NSW,2020-21,Other perpetual lease,Dryland cropping,70.0
+NSW,2020-21,Freehold,Dryland horticulture,27.0
+NSW,2020-21,Pastoral perpetual lease,Dryland horticulture,1.0
+NSW,2020-21,Other perpetual lease,Dryland horticulture,1.0
+NSW,2020-21,Freehold,Irrigated pastures,77.0
+NSW,2020-21,Freehold,Irrigated cropping,673.0
+NSW,2020-21,Freeholding lease,Irrigated cropping,4.0
+NSW,2020-21,Pastoral perpetual lease,Irrigated cropping,13.0
+NSW,2020-21,Other perpetual lease,Irrigated cropping,6.0
+NSW,2020-21,Freehold,Irrigated horticulture,111.0
+NSW,2020-21,Pastoral perpetual lease,Irrigated horticulture,3.0
+NSW,2020-21,Other perpetual lease,Irrigated horticulture,1.0
+NSW,2020-21,Freehold,Intensive horticulture and animal production,37.0
+NSW,2020-21,Other Crown purposes,Intensive horticulture and animal production,1.0
+NSW,2020-21,Freehold,Rural residential and farm infrastructure,450.0
+NSW,2020-21,Pastoral perpetual lease,Rural residential and farm infrastructure,9.0
+NSW,2020-21,Other perpetual lease,Rural residential and farm infrastructure,1.0
+NSW,2020-21,Nature conservation reserve,Rural residential and farm infrastructure,2.0
+NSW,2020-21,Multiple-use public forest,Rural residential and farm infrastructure,1.0
+NSW,2020-21,Other Crown purposes,Rural residential and farm infrastructure,11.0
+NSW,2020-21,Other Crown land,Rural residential and farm infrastructure,1.0
+NSW,2020-21,Freehold,Urban residential,394.0
+NSW,2020-21,Nature conservation reserve,Urban residential,2.0
+NSW,2020-21,Other Crown purposes,Urban residential,13.0
+NSW,2020-21,Other Crown land,Urban residential,1.0
+NSW,2020-21,Freehold,Other intensive uses,210.0
+NSW,2020-21,Pastoral perpetual lease,Other intensive uses,1.0
+NSW,2020-21,Other perpetual lease,Other intensive uses,1.0
+NSW,2020-21,Other lease,Other intensive uses,1.0
+NSW,2020-21,Nature conservation reserve,Other intensive uses,1.0
+NSW,2020-21,Multiple-use public forest,Other intensive uses,1.0
+NSW,2020-21,Other Crown purposes,Other intensive uses,62.0
+NSW,2020-21,Other Crown land,Other intensive uses,2.0
+NSW,2020-21,Freehold,Mining and waste,81.0
+NSW,2020-21,Pastoral perpetual lease,Mining and waste,5.0
+NSW,2020-21,Other perpetual lease,Mining and waste,1.0
+NSW,2020-21,Multiple-use public forest,Mining and waste,2.0
+NSW,2020-21,Other Crown purposes,Mining and waste,10.0
+NSW,2020-21,Other Crown land,Mining and waste,2.0
+NSW,2020-21,Freehold,Water,598.0
+NSW,2020-21,Freeholding lease,Water,6.0
+NSW,2020-21,Pastoral perpetual lease,Water,735.0
+NSW,2020-21,Other perpetual lease,Water,9.0
+NSW,2020-21,Nature conservation reserve,Water,173.0
+NSW,2020-21,Multiple-use public forest,Water,3.0
+NSW,2020-21,Other Crown purposes,Water,103.0
+NSW,2020-21,Other Crown land,Water,44.0
+Vic,2010-11,Freehold,Nature conservation,60.0
+Vic,2010-11,Nature conservation reserve,Nature conservation,3806.0
+Vic,2010-11,Multiple-use public forest,Nature conservation,100.0
+Vic,2010-11,Other Crown purposes,Nature conservation,20.0
+Vic,2010-11,Other Crown land,Nature conservation,26.0
+Vic,2010-11,Freehold,Managed resource protection,11.0
+Vic,2010-11,Nature conservation reserve,Managed resource protection,80.0
+Vic,2010-11,Multiple-use public forest,Managed resource protection,21.0
+Vic,2010-11,Other Crown purposes,Managed resource protection,3.0
+Vic,2010-11,Other Crown land,Managed resource protection,1.0
+Vic,2010-11,Freehold,Other minimal use,320.0
+Vic,2010-11,Multiple-use public forest,Other minimal use,890.0
+Vic,2010-11,Other Crown purposes,Other minimal use,111.0
+Vic,2010-11,Other Crown land,Other minimal use,40.0
+Vic,2010-11,Freehold,Grazing native vegetation,451.0
+Vic,2010-11,Multiple-use public forest,Production native forests,2297.0
+Vic,2010-11,Freehold,Plantation forests (a),346.0
+Vic,2010-11,Multiple-use public forest,Plantation forests (a),127.0
+Vic,2010-11,Other Crown purposes,Plantation forests (a),1.0
+Vic,2010-11,Other Crown land,Plantation forests (a),1.0
+Vic,2010-11,Freehold,Grazing modified pastures,6948.0
+Vic,2010-11,Other perpetual lease,Grazing modified pastures,4.0
+Vic,2010-11,Freehold,Dryland cropping,5105.0
+Vic,2010-11,Other perpetual lease,Dryland cropping,1.0
+Vic,2010-11,Freehold,Dryland horticulture,62.0
+Vic,2010-11,Freehold,Irrigated pastures,364.0
+Vic,2010-11,Freehold,Irrigated cropping,97.0
+Vic,2010-11,Freehold,Irrigated horticulture,126.0
+Vic,2010-11,Freehold,Intensive horticulture and animal production,39.0
+Vic,2010-11,Freehold,Rural residential and farm infrastructure,394.0
+Vic,2010-11,Nature conservation reserve,Rural residential and farm infrastructure,5.0
+Vic,2010-11,Multiple-use public forest,Rural residential and farm infrastructure,4.0
+Vic,2010-11,Other Crown purposes,Rural residential and farm infrastructure,6.0
+Vic,2010-11,Other Crown land,Rural residential and farm infrastructure,2.0
+Vic,2010-11,Freehold,Urban residential,279.0
+Vic,2010-11,Nature conservation reserve,Urban residential,3.0
+Vic,2010-11,Multiple-use public forest,Urban residential,1.0
+Vic,2010-11,Other Crown purposes,Urban residential,2.0
+Vic,2010-11,Other Crown land,Urban residential,1.0
+Vic,2010-11,Freehold,Other intensive uses,177.0
+Vic,2010-11,Other term lease,Other intensive uses,1.0
+Vic,2010-11,Nature conservation reserve,Other intensive uses,10.0
+Vic,2010-11,Multiple-use public forest,Other intensive uses,8.0
+Vic,2010-11,Other Crown purposes,Other intensive uses,54.0
+Vic,2010-11,Other Crown land,Other intensive uses,6.0
+Vic,2010-11,Freehold,Mining and waste,31.0
+Vic,2010-11,Nature conservation reserve,Mining and waste,4.0
+Vic,2010-11,Multiple-use public forest,Mining and waste,1.0
+Vic,2010-11,Other Crown purposes,Mining and waste,4.0
+Vic,2010-11,Other Crown land,Mining and waste,8.0
+Vic,2010-11,Freehold,Water,53.0
+Vic,2010-11,Other perpetual lease,Water,4.0
+Vic,2010-11,Other term lease,Water,4.0
+Vic,2010-11,Nature conservation reserve,Water,110.0
+Vic,2010-11,Multiple-use public forest,Water,4.0
+Vic,2010-11,Other Crown purposes,Water,139.0
+Vic,2010-11,Other Crown land,Water,10.0
+Vic,2015-16,Freehold,Nature conservation,60.0
+Vic,2015-16,Nature conservation reserve,Nature conservation,3813.0
+Vic,2015-16,Multiple-use public forest,Nature conservation,56.0
+Vic,2015-16,Other Crown purposes,Nature conservation,27.0
+Vic,2015-16,Other Crown land,Nature conservation,27.0
+Vic,2015-16,Freehold,Managed resource protection,6.0
+Vic,2015-16,Nature conservation reserve,Managed resource protection,70.0
+Vic,2015-16,Multiple-use public forest,Managed resource protection,17.0
+Vic,2015-16,Freehold,Other minimal use,267.0
+Vic,2015-16,Multiple-use public forest,Other minimal use,896.0
+Vic,2015-16,Other Crown purposes,Other minimal use,107.0
+Vic,2015-16,Other Crown land,Other minimal use,50.0
+Vic,2015-16,Freehold,Grazing native vegetation,421.0
+Vic,2015-16,Multiple-use public forest,Production native forests,2290.0
+Vic,2015-16,Freehold,Plantation forests (a),357.0
+Vic,2015-16,Multiple-use public forest,Plantation forests (a),127.0
+Vic,2015-16,Other Crown purposes,Plantation forests (a),2.0
+Vic,2015-16,Other Crown land,Plantation forests (a),1.0
+Vic,2015-16,Freehold,Grazing modified pastures,6968.0
+Vic,2015-16,Freehold,Dryland cropping,4665.0
+Vic,2015-16,Freehold,Dryland horticulture,23.0
+Vic,2015-16,Freehold,Irrigated pastures,543.0
+Vic,2015-16,Freehold,Irrigated cropping,169.0
+Vic,2015-16,Freehold,Irrigated horticulture,189.0
+Vic,2015-16,Freehold,Intensive horticulture and animal production,48.0
+Vic,2015-16,Freehold,Rural residential and farm infrastructure,532.0
+Vic,2015-16,Nature conservation reserve,Rural residential and farm infrastructure,7.0
+Vic,2015-16,Multiple-use public forest,Rural residential and farm infrastructure,5.0
+Vic,2015-16,Other Crown purposes,Rural residential and farm infrastructure,6.0
+Vic,2015-16,Other Crown land,Rural residential and farm infrastructure,2.0
+Vic,2015-16,Freehold,Urban residential,339.0
+Vic,2015-16,Nature conservation reserve,Urban residential,6.0
+Vic,2015-16,Multiple-use public forest,Urban residential,1.0
+Vic,2015-16,Other Crown purposes,Urban residential,8.0
+Vic,2015-16,Other Crown land,Urban residential,1.0
+Vic,2015-16,Freehold,Other intensive uses,146.0
+Vic,2015-16,Other term lease,Other intensive uses,1.0
+Vic,2015-16,Nature conservation reserve,Other intensive uses,14.0
+Vic,2015-16,Multiple-use public forest,Other intensive uses,5.0
+Vic,2015-16,Other Crown purposes,Other intensive uses,51.0
+Vic,2015-16,Other Crown land,Other intensive uses,8.0
+Vic,2015-16,Freehold,Mining and waste,53.0
+Vic,2015-16,Nature conservation reserve,Mining and waste,1.0
+Vic,2015-16,Multiple-use public forest,Mining and waste,1.0
+Vic,2015-16,Other Crown purposes,Mining and waste,3.0
+Vic,2015-16,Other Crown land,Mining and waste,1.0
+Vic,2015-16,Freehold,Water,65.0
+Vic,2015-16,Other term lease,Water,4.0
+Vic,2015-16,Nature conservation reserve,Water,167.0
+Vic,2015-16,Multiple-use public forest,Water,4.0
+Vic,2015-16,Other Crown purposes,Water,129.0
+Vic,2015-16,Other Crown land,Water,17.0
+Vic,2020-21,Freehold,Nature conservation,61.0
+Vic,2020-21,Nature conservation reserve,Nature conservation,3890.0
+Vic,2020-21,Multiple-use public forest,Nature conservation,52.0
+Vic,2020-21,Other Crown purposes,Nature conservation,40.0
+Vic,2020-21,Other Crown land,Nature conservation,27.0
+Vic,2020-21,Freehold,Managed resource protection,6.0
+Vic,2020-21,Nature conservation reserve,Managed resource protection,75.0
+Vic,2020-21,Multiple-use public forest,Managed resource protection,17.0
+Vic,2020-21,Freehold,Other minimal use,245.0
+Vic,2020-21,Multiple-use public forest,Other minimal use,744.0
+Vic,2020-21,Other Crown purposes,Other minimal use,112.0
+Vic,2020-21,Other Crown land,Other minimal use,30.0
+Vic,2020-21,Freehold,Grazing native vegetation,406.0
+Vic,2020-21,Multiple-use public forest,Production native forests,2437.0
+Vic,2020-21,Freehold,Plantation forests (a),298.0
+Vic,2020-21,Multiple-use public forest,Plantation forests (a),129.0
+Vic,2020-21,Other Crown purposes,Plantation forests (a),2.0
+Vic,2020-21,Freehold,Grazing modified pastures,6067.0
+Vic,2020-21,Freehold,Dryland cropping,5432.0
+Vic,2020-21,Freehold,Dryland horticulture,16.0
+Vic,2020-21,Freehold,Irrigated pastures,326.0
+Vic,2020-21,Freehold,Irrigated cropping,211.0
+Vic,2020-21,Freehold,Irrigated horticulture,280.0
+Vic,2020-21,Freehold,Intensive horticulture and animal production,56.0
+Vic,2020-21,Freehold,Rural residential and farm infrastructure,753.0
+Vic,2020-21,Nature conservation reserve,Rural residential and farm infrastructure,8.0
+Vic,2020-21,Multiple-use public forest,Rural residential and farm infrastructure,6.0
+Vic,2020-21,Other Crown purposes,Rural residential and farm infrastructure,7.0
+Vic,2020-21,Other Crown land,Rural residential and farm infrastructure,2.0
+Vic,2020-21,Freehold,Urban residential,414.0
+Vic,2020-21,Nature conservation reserve,Urban residential,6.0
+Vic,2020-21,Multiple-use public forest,Urban residential,1.0
+Vic,2020-21,Other Crown purposes,Urban residential,9.0
+Vic,2020-21,Other Crown land,Urban residential,2.0
+Vic,2020-21,Freehold,Other intensive uses,160.0
+Vic,2020-21,Other term lease,Other intensive uses,1.0
+Vic,2020-21,Nature conservation reserve,Other intensive uses,9.0
+Vic,2020-21,Multiple-use public forest,Other intensive uses,5.0
+Vic,2020-21,Other Crown purposes,Other intensive uses,40.0
+Vic,2020-21,Other Crown land,Other intensive uses,5.0
+Vic,2020-21,Freehold,Mining and waste,61.0
+Vic,2020-21,Nature conservation reserve,Mining and waste,2.0
+Vic,2020-21,Multiple-use public forest,Mining and waste,2.0
+Vic,2020-21,Other Crown purposes,Mining and waste,3.0
+Vic,2020-21,Other Crown land,Mining and waste,2.0
+Vic,2020-21,Freehold,Water,58.0
+Vic,2020-21,Other term lease,Water,4.0
+Vic,2020-21,Nature conservation reserve,Water,120.0
+Vic,2020-21,Multiple-use public forest,Water,3.0
+Vic,2020-21,Other Crown purposes,Water,122.0
+Vic,2020-21,Other Crown land,Water,15.0
+Qld,2010-11,Freehold,Nature conservation,686.0
+Qld,2010-11,Other perpetual lease,Nature conservation,5.0
+Qld,2010-11,Pastoral term lease,Nature conservation,211.0
+Qld,2010-11,Other term lease,Nature conservation,15.0
+Qld,2010-11,Other lease,Nature conservation,398.0
+Qld,2010-11,Nature conservation reserve,Nature conservation,7914.0
+Qld,2010-11,Multiple-use public forest,Nature conservation,126.0
+Qld,2010-11,Other Crown purposes,Nature conservation,343.0
+Qld,2010-11,Other Crown land,Nature conservation,80.0
+Qld,2010-11,Freehold,Managed resource protection,2061.0
+Qld,2010-11,Freeholding lease,Managed resource protection,9.0
+Qld,2010-11,Other perpetual lease,Managed resource protection,46.0
+Qld,2010-11,Pastoral term lease,Managed resource protection,1633.0
+Qld,2010-11,Other term lease,Managed resource protection,222.0
+Qld,2010-11,Other lease,Managed resource protection,984.0
+Qld,2010-11,Nature conservation reserve,Managed resource protection,403.0
+Qld,2010-11,Multiple-use public forest,Managed resource protection,10.0
+Qld,2010-11,Other Crown purposes,Managed resource protection,212.0
+Qld,2010-11,Other Crown land,Managed resource protection,47.0
+Qld,2010-11,Freehold,Other minimal use,2786.0
+Qld,2010-11,Freeholding lease,Other minimal use,112.0
+Qld,2010-11,Pastoral perpetual lease,Other minimal use,16.0
+Qld,2010-11,Other perpetual lease,Other minimal use,821.0
+Qld,2010-11,Pastoral term lease,Other minimal use,3014.0
+Qld,2010-11,Other term lease,Other minimal use,78.0
+Qld,2010-11,Other lease,Other minimal use,488.0
+Qld,2010-11,Multiple-use public forest,Other minimal use,61.0
+Qld,2010-11,Other Crown purposes,Other minimal use,2078.0
+Qld,2010-11,Other Crown land,Other minimal use,600.0
+Qld,2010-11,Freehold,Grazing native vegetation,12372.0
+Qld,2010-11,Freeholding lease,Grazing native vegetation,1006.0
+Qld,2010-11,Pastoral perpetual lease,Grazing native vegetation,131.0
+Qld,2010-11,Other perpetual lease,Grazing native vegetation,12286.0
+Qld,2010-11,Pastoral term lease,Grazing native vegetation,70696.0
+Qld,2010-11,Other term lease,Grazing native vegetation,932.0
+Qld,2010-11,Other lease,Grazing native vegetation,4798.0
+Qld,2010-11,Multiple-use public forest,Production native forests,2967.0
+Qld,2010-11,Freehold,Plantation forests (a),57.0
+Qld,2010-11,Multiple-use public forest,Plantation forests (a),199.0
+Qld,2010-11,Freehold,Grazing modified pastures,21374.0
+Qld,2010-11,Freeholding lease,Grazing modified pastures,1132.0
+Qld,2010-11,Pastoral perpetual lease,Grazing modified pastures,28.0
+Qld,2010-11,Other perpetual lease,Grazing modified pastures,3053.0
+Qld,2010-11,Pastoral term lease,Grazing modified pastures,3796.0
+Qld,2010-11,Other term lease,Grazing modified pastures,116.0
+Qld,2010-11,Other lease,Grazing modified pastures,2637.0
+Qld,2010-11,Freehold,Dryland cropping,1226.0
+Qld,2010-11,Freeholding lease,Dryland cropping,49.0
+Qld,2010-11,Other perpetual lease,Dryland cropping,9.0
+Qld,2010-11,Pastoral term lease,Dryland cropping,8.0
+Qld,2010-11,Other lease,Dryland cropping,40.0
+Qld,2010-11,Freehold,Dryland horticulture,42.0
+Qld,2010-11,Freehold,Irrigated pastures,10.0
+Qld,2010-11,Freehold,Irrigated cropping,198.0
+Qld,2010-11,Freeholding lease,Irrigated cropping,4.0
+Qld,2010-11,Other perpetual lease,Irrigated cropping,2.0
+Qld,2010-11,Pastoral term lease,Irrigated cropping,2.0
+Qld,2010-11,Other lease,Irrigated cropping,5.0
+Qld,2010-11,Freehold,Irrigated horticulture,86.0
+Qld,2010-11,Freehold,Intensive horticulture and animal production,15.0
+Qld,2010-11,Pastoral term lease,Intensive horticulture and animal production,1.0
+Qld,2010-11,Freehold,Rural residential and farm infrastructure,407.0
+Qld,2010-11,Other perpetual lease,Rural residential and farm infrastructure,2.0
+Qld,2010-11,Pastoral term lease,Rural residential and farm infrastructure,3.0
+Qld,2010-11,Other term lease,Rural residential and farm infrastructure,1.0
+Qld,2010-11,Other lease,Rural residential and farm infrastructure,2.0
+Qld,2010-11,Nature conservation reserve,Rural residential and farm infrastructure,2.0
+Qld,2010-11,Multiple-use public forest,Rural residential and farm infrastructure,1.0
+Qld,2010-11,Other Crown purposes,Rural residential and farm infrastructure,8.0
+Qld,2010-11,Other Crown land,Rural residential and farm infrastructure,4.0
+Qld,2010-11,Freehold,Urban residential,306.0
+Qld,2010-11,Other term lease,Urban residential,1.0
+Qld,2010-11,Other lease,Urban residential,4.0
+Qld,2010-11,Nature conservation reserve,Urban residential,1.0
+Qld,2010-11,Other Crown purposes,Urban residential,13.0
+Qld,2010-11,Other Crown land,Urban residential,4.0
+Qld,2010-11,Freehold,Other intensive uses,147.0
+Qld,2010-11,Other perpetual lease,Other intensive uses,1.0
+Qld,2010-11,Pastoral term lease,Other intensive uses,2.0
+Qld,2010-11,Other term lease,Other intensive uses,7.0
+Qld,2010-11,Other lease,Other intensive uses,3.0
+Qld,2010-11,Nature conservation reserve,Other intensive uses,1.0
+Qld,2010-11,Multiple-use public forest,Other intensive uses,9.0
+Qld,2010-11,Other Crown purposes,Other intensive uses,46.0
+Qld,2010-11,Other Crown land,Other intensive uses,6.0
+Qld,2010-11,Freehold,Mining and waste,73.0
+Qld,2010-11,Freeholding lease,Mining and waste,1.0
+Qld,2010-11,Other perpetual lease,Mining and waste,3.0
+Qld,2010-11,Pastoral term lease,Mining and waste,22.0
+Qld,2010-11,Other term lease,Mining and waste,47.0
+Qld,2010-11,Other lease,Mining and waste,25.0
+Qld,2010-11,Multiple-use public forest,Mining and waste,1.0
+Qld,2010-11,Other Crown purposes,Mining and waste,4.0
+Qld,2010-11,Other Crown land,Mining and waste,14.0
+Qld,2010-11,Freehold,Water,993.0
+Qld,2010-11,Freeholding lease,Water,32.0
+Qld,2010-11,Pastoral perpetual lease,Water,3.0
+Qld,2010-11,Other perpetual lease,Water,278.0
+Qld,2010-11,Pastoral term lease,Water,4862.0
+Qld,2010-11,Other term lease,Water,65.0
+Qld,2010-11,Other lease,Water,247.0
+Qld,2010-11,Nature conservation reserve,Water,151.0
+Qld,2010-11,Multiple-use public forest,Water,6.0
+Qld,2010-11,Other Crown purposes,Water,168.0
+Qld,2010-11,Other Crown land,Water,123.0
+Qld,2015-16,Freehold,Nature conservation,2510.0
+Qld,2015-16,Other perpetual lease,Nature conservation,86.0
+Qld,2015-16,Pastoral term lease,Nature conservation,670.0
+Qld,2015-16,Other term lease,Nature conservation,16.0
+Qld,2015-16,Other lease,Nature conservation,4.0
+Qld,2015-16,Nature conservation reserve,Nature conservation,7328.0
+Qld,2015-16,Multiple-use public forest,Nature conservation,24.0
+Qld,2015-16,Other Crown purposes,Nature conservation,276.0
+Qld,2015-16,Other Crown land,Nature conservation,157.0
+Qld,2015-16,Freehold,Managed resource protection,3125.0
+Qld,2015-16,Freeholding lease,Managed resource protection,9.0
+Qld,2015-16,Other perpetual lease,Managed resource protection,67.0
+Qld,2015-16,Pastoral term lease,Managed resource protection,2519.0
+Qld,2015-16,Other term lease,Managed resource protection,235.0
+Qld,2015-16,Other lease,Managed resource protection,310.0
+Qld,2015-16,Nature conservation reserve,Managed resource protection,338.0
+Qld,2015-16,Multiple-use public forest,Managed resource protection,50.0
+Qld,2015-16,Other Crown purposes,Managed resource protection,26.0
+Qld,2015-16,Other Crown land,Managed resource protection,17.0
+Qld,2015-16,Freehold,Other minimal use,2856.0
+Qld,2015-16,Freeholding lease,Other minimal use,99.0
+Qld,2015-16,Pastoral perpetual lease,Other minimal use,9.0
+Qld,2015-16,Other perpetual lease,Other minimal use,694.0
+Qld,2015-16,Pastoral term lease,Other minimal use,2197.0
+Qld,2015-16,Other term lease,Other minimal use,56.0
+Qld,2015-16,Other lease,Other minimal use,82.0
+Qld,2015-16,Multiple-use public forest,Other minimal use,5.0
+Qld,2015-16,Other Crown purposes,Other minimal use,1973.0
+Qld,2015-16,Other Crown land,Other minimal use,329.0
+Qld,2015-16,Freehold,Grazing native vegetation,16230.0
+Qld,2015-16,Freeholding lease,Grazing native vegetation,1017.0
+Qld,2015-16,Pastoral perpetual lease,Grazing native vegetation,138.0
+Qld,2015-16,Other perpetual lease,Grazing native vegetation,12297.0
+Qld,2015-16,Pastoral term lease,Grazing native vegetation,70116.0
+Qld,2015-16,Other term lease,Grazing native vegetation,965.0
+Qld,2015-16,Other lease,Grazing native vegetation,769.0
+Qld,2015-16,Multiple-use public forest,Production native forests,2979.0
+Qld,2015-16,Freehold,Plantation forests (a),57.0
+Qld,2015-16,Multiple-use public forest,Plantation forests (a),205.0
+Qld,2015-16,Freehold,Grazing modified pastures,21562.0
+Qld,2015-16,Freeholding lease,Grazing modified pastures,1053.0
+Qld,2015-16,Pastoral perpetual lease,Grazing modified pastures,27.0
+Qld,2015-16,Other perpetual lease,Grazing modified pastures,3008.0
+Qld,2015-16,Pastoral term lease,Grazing modified pastures,3777.0
+Qld,2015-16,Other term lease,Grazing modified pastures,108.0
+Qld,2015-16,Other lease,Grazing modified pastures,218.0
+Qld,2015-16,Freehold,Dryland cropping,3185.0
+Qld,2015-16,Freeholding lease,Dryland cropping,123.0
+Qld,2015-16,Pastoral perpetual lease,Dryland cropping,1.0
+Qld,2015-16,Other perpetual lease,Dryland cropping,46.0
+Qld,2015-16,Pastoral term lease,Dryland cropping,33.0
+Qld,2015-16,Other term lease,Dryland cropping,3.0
+Qld,2015-16,Other lease,Dryland cropping,17.0
+Qld,2015-16,Freehold,Dryland horticulture,15.0
+Qld,2015-16,Freehold,Irrigated pastures,2.0
+Qld,2015-16,Freehold,Irrigated cropping,472.0
+Qld,2015-16,Freeholding lease,Irrigated cropping,9.0
+Qld,2015-16,Other perpetual lease,Irrigated cropping,10.0
+Qld,2015-16,Pastoral term lease,Irrigated cropping,8.0
+Qld,2015-16,Other term lease,Irrigated cropping,1.0
+Qld,2015-16,Other lease,Irrigated cropping,3.0
+Qld,2015-16,Freehold,Irrigated horticulture,121.0
+Qld,2015-16,Freehold,Intensive horticulture and animal production,17.0
+Qld,2015-16,Pastoral term lease,Intensive horticulture and animal production,1.0
+Qld,2015-16,Freehold,Rural residential and farm infrastructure,444.0
+Qld,2015-16,Freeholding lease,Rural residential and farm infrastructure,1.0
+Qld,2015-16,Other perpetual lease,Rural residential and farm infrastructure,2.0
+Qld,2015-16,Pastoral term lease,Rural residential and farm infrastructure,4.0
+Qld,2015-16,Other term lease,Rural residential and farm infrastructure,1.0
+Qld,2015-16,Other lease,Rural residential and farm infrastructure,1.0
+Qld,2015-16,Nature conservation reserve,Rural residential and farm infrastructure,2.0
+Qld,2015-16,Multiple-use public forest,Rural residential and farm infrastructure,1.0
+Qld,2015-16,Other Crown purposes,Rural residential and farm infrastructure,9.0
+Qld,2015-16,Other Crown land,Rural residential and farm infrastructure,3.0
+Qld,2015-16,Freehold,Urban residential,330.0
+Qld,2015-16,Other term lease,Urban residential,1.0
+Qld,2015-16,Other lease,Urban residential,1.0
+Qld,2015-16,Nature conservation reserve,Urban residential,1.0
+Qld,2015-16,Other Crown purposes,Urban residential,13.0
+Qld,2015-16,Other Crown land,Urban residential,2.0
+Qld,2015-16,Freehold,Other intensive uses,170.0
+Qld,2015-16,Other perpetual lease,Other intensive uses,2.0
+Qld,2015-16,Pastoral term lease,Other intensive uses,2.0
+Qld,2015-16,Other term lease,Other intensive uses,7.0
+Qld,2015-16,Other lease,Other intensive uses,3.0
+Qld,2015-16,Multiple-use public forest,Other intensive uses,2.0
+Qld,2015-16,Other Crown purposes,Other intensive uses,48.0
+Qld,2015-16,Other Crown land,Other intensive uses,5.0
+Qld,2015-16,Freehold,Mining and waste,100.0
+Qld,2015-16,Freeholding lease,Mining and waste,2.0
+Qld,2015-16,Other perpetual lease,Mining and waste,5.0
+Qld,2015-16,Pastoral term lease,Mining and waste,24.0
+Qld,2015-16,Other term lease,Mining and waste,51.0
+Qld,2015-16,Other lease,Mining and waste,23.0
+Qld,2015-16,Multiple-use public forest,Mining and waste,2.0
+Qld,2015-16,Other Crown purposes,Mining and waste,4.0
+Qld,2015-16,Other Crown land,Mining and waste,12.0
+Qld,2015-16,Freehold,Water,1158.0
+Qld,2015-16,Freeholding lease,Water,32.0
+Qld,2015-16,Pastoral perpetual lease,Water,3.0
+Qld,2015-16,Other perpetual lease,Water,278.0
+Qld,2015-16,Pastoral term lease,Water,4863.0
+Qld,2015-16,Other term lease,Water,66.0
+Qld,2015-16,Other lease,Water,90.0
+Qld,2015-16,Nature conservation reserve,Water,124.0
+Qld,2015-16,Multiple-use public forest,Water,5.0
+Qld,2015-16,Other Crown purposes,Water,165.0
+Qld,2015-16,Other Crown land,Water,120.0
+Qld,2020-21,Freehold,Nature conservation,2819.0
+Qld,2020-21,Pastoral perpetual lease,Nature conservation,18.0
+Qld,2020-21,Other perpetual lease,Nature conservation,4.0
+Qld,2020-21,Pastoral term lease,Nature conservation,913.0
+Qld,2020-21,Other term lease,Nature conservation,105.0
+Qld,2020-21,Other lease,Nature conservation,4.0
+Qld,2020-21,Nature conservation reserve,Nature conservation,7254.0
+Qld,2020-21,Multiple-use public forest,Nature conservation,25.0
+Qld,2020-21,Other Crown purposes,Nature conservation,66.0
+Qld,2020-21,Other Crown land,Nature conservation,69.0
+Qld,2020-21,Freehold,Managed resource protection,3282.0
+Qld,2020-21,Other perpetual lease,Managed resource protection,62.0
+Qld,2020-21,Pastoral term lease,Managed resource protection,2464.0
+Qld,2020-21,Other term lease,Managed resource protection,236.0
+Qld,2020-21,Other lease,Managed resource protection,340.0
+Qld,2020-21,Nature conservation reserve,Managed resource protection,340.0
+Qld,2020-21,Multiple-use public forest,Managed resource protection,50.0
+Qld,2020-21,Other Crown purposes,Managed resource protection,29.0
+Qld,2020-21,Other Crown land,Managed resource protection,42.0
+Qld,2020-21,Freehold,Other minimal use,2409.0
+Qld,2020-21,Freeholding lease,Other minimal use,42.0
+Qld,2020-21,Pastoral perpetual lease,Other minimal use,1.0
+Qld,2020-21,Other perpetual lease,Other minimal use,306.0
+Qld,2020-21,Pastoral term lease,Other minimal use,992.0
+Qld,2020-21,Other term lease,Other minimal use,29.0
+Qld,2020-21,Other lease,Other minimal use,52.0
+Qld,2020-21,Multiple-use public forest,Other minimal use,83.0
+Qld,2020-21,Other Crown purposes,Other minimal use,1973.0
+Qld,2020-21,Other Crown land,Other minimal use,334.0
+Qld,2020-21,Freehold,Grazing native vegetation,19666.0
+Qld,2020-21,Freeholding lease,Grazing native vegetation,679.0
+Qld,2020-21,Pastoral perpetual lease,Grazing native vegetation,111.0
+Qld,2020-21,Other perpetual lease,Grazing native vegetation,10632.0
+Qld,2020-21,Pastoral term lease,Grazing native vegetation,70172.0
+Qld,2020-21,Other term lease,Grazing native vegetation,1012.0
+Qld,2020-21,Other lease,Grazing native vegetation,605.0
+Qld,2020-21,Multiple-use public forest,Production native forests,2904.0
+Qld,2020-21,Freehold,Plantation forests (a),32.0
+Qld,2020-21,Multiple-use public forest,Plantation forests (a),200.0
+Qld,2020-21,Freehold,Grazing modified pastures,23511.0
+Qld,2020-21,Freeholding lease,Grazing modified pastures,635.0
+Qld,2020-21,Pastoral perpetual lease,Grazing modified pastures,27.0
+Qld,2020-21,Other perpetual lease,Grazing modified pastures,2064.0
+Qld,2020-21,Pastoral term lease,Grazing modified pastures,3784.0
+Qld,2020-21,Other term lease,Grazing modified pastures,117.0
+Qld,2020-21,Other lease,Grazing modified pastures,50.0
+Qld,2020-21,Freehold,Dryland cropping,3389.0
+Qld,2020-21,Freeholding lease,Dryland cropping,63.0
+Qld,2020-21,Pastoral perpetual lease,Dryland cropping,1.0
+Qld,2020-21,Other perpetual lease,Dryland cropping,29.0
+Qld,2020-21,Pastoral term lease,Dryland cropping,40.0
+Qld,2020-21,Other term lease,Dryland cropping,4.0
+Qld,2020-21,Other lease,Dryland cropping,5.0
+Qld,2020-21,Freehold,Dryland horticulture,11.0
+Qld,2020-21,Freehold,Irrigated pastures,2.0
+Qld,2020-21,Freehold,Irrigated cropping,395.0
+Qld,2020-21,Freeholding lease,Irrigated cropping,3.0
+Qld,2020-21,Other perpetual lease,Irrigated cropping,6.0
+Qld,2020-21,Pastoral term lease,Irrigated cropping,5.0
+Qld,2020-21,Other term lease,Irrigated cropping,1.0
+Qld,2020-21,Other lease,Irrigated cropping,1.0
+Qld,2020-21,Freehold,Irrigated horticulture,148.0
+Qld,2020-21,Freehold,Intensive horticulture and animal production,17.0
+Qld,2020-21,Pastoral term lease,Intensive horticulture and animal production,1.0
+Qld,2020-21,Freehold,Rural residential and farm infrastructure,431.0
+Qld,2020-21,Freeholding lease,Rural residential and farm infrastructure,1.0
+Qld,2020-21,Other perpetual lease,Rural residential and farm infrastructure,2.0
+Qld,2020-21,Pastoral term lease,Rural residential and farm infrastructure,4.0
+Qld,2020-21,Other term lease,Rural residential and farm infrastructure,1.0
+Qld,2020-21,Other lease,Rural residential and farm infrastructure,1.0
+Qld,2020-21,Nature conservation reserve,Rural residential and farm infrastructure,2.0
+Qld,2020-21,Multiple-use public forest,Rural residential and farm infrastructure,1.0
+Qld,2020-21,Other Crown purposes,Rural residential and farm infrastructure,9.0
+Qld,2020-21,Other Crown land,Rural residential and farm infrastructure,3.0
+Qld,2020-21,Freehold,Urban residential,347.0
+Qld,2020-21,Other term lease,Urban residential,1.0
+Qld,2020-21,Other lease,Urban residential,1.0
+Qld,2020-21,Nature conservation reserve,Urban residential,1.0
+Qld,2020-21,Other Crown purposes,Urban residential,13.0
+Qld,2020-21,Other Crown land,Urban residential,1.0
+Qld,2020-21,Freehold,Other intensive uses,166.0
+Qld,2020-21,Other perpetual lease,Other intensive uses,2.0
+Qld,2020-21,Pastoral term lease,Other intensive uses,2.0
+Qld,2020-21,Other term lease,Other intensive uses,7.0
+Qld,2020-21,Other lease,Other intensive uses,3.0
+Qld,2020-21,Multiple-use public forest,Other intensive uses,1.0
+Qld,2020-21,Other Crown purposes,Other intensive uses,47.0
+Qld,2020-21,Other Crown land,Other intensive uses,4.0
+Qld,2020-21,Freehold,Mining and waste,101.0
+Qld,2020-21,Freeholding lease,Mining and waste,2.0
+Qld,2020-21,Other perpetual lease,Mining and waste,4.0
+Qld,2020-21,Pastoral term lease,Mining and waste,23.0
+Qld,2020-21,Other term lease,Mining and waste,51.0
+Qld,2020-21,Other lease,Mining and waste,22.0
+Qld,2020-21,Multiple-use public forest,Mining and waste,2.0
+Qld,2020-21,Other Crown purposes,Mining and waste,4.0
+Qld,2020-21,Other Crown land,Mining and waste,11.0
+Qld,2020-21,Freehold,Water,1216.0
+Qld,2020-21,Freeholding lease,Water,22.0
+Qld,2020-21,Pastoral perpetual lease,Water,3.0
+Qld,2020-21,Other perpetual lease,Water,252.0
+Qld,2020-21,Pastoral term lease,Water,4844.0
+Qld,2020-21,Other term lease,Water,69.0
+Qld,2020-21,Other lease,Water,87.0
+Qld,2020-21,Nature conservation reserve,Water,130.0
+Qld,2020-21,Multiple-use public forest,Water,5.0
+Qld,2020-21,Other Crown purposes,Water,164.0
+Qld,2020-21,Other Crown land,Water,111.0
+SA,2010-11,Freehold,Nature conservation,5851.0
+SA,2010-11,Other perpetual lease,Nature conservation,62.0
+SA,2010-11,Pastoral term lease,Nature conservation,1615.0
+SA,2010-11,Nature conservation reserve,Nature conservation,2441.0
+SA,2010-11,Multiple-use public forest,Nature conservation,15.0
+SA,2010-11,Other Crown land,Nature conservation,16.0
+SA,2010-11,Freehold,Managed resource protection,15859.0
+SA,2010-11,Other perpetual lease,Managed resource protection,1852.0
+SA,2010-11,Pastoral term lease,Managed resource protection,27.0
+SA,2010-11,Other term lease,Managed resource protection,1.0
+SA,2010-11,Nature conservation reserve,Managed resource protection,11951.0
+SA,2010-11,Other Crown land,Managed resource protection,217.0
+SA,2010-11,Freehold,Other minimal use,678.0
+SA,2010-11,Other perpetual lease,Other minimal use,591.0
+SA,2010-11,Pastoral term lease,Other minimal use,931.0
+SA,2010-11,Other term lease,Other minimal use,57.0
+SA,2010-11,Multiple-use public forest,Other minimal use,16.0
+SA,2010-11,Other Crown land,Other minimal use,801.0
+SA,2010-11,Freehold,Grazing native vegetation,849.0
+SA,2010-11,Other perpetual lease,Grazing native vegetation,1495.0
+SA,2010-11,Pastoral term lease,Grazing native vegetation,36540.0
+SA,2010-11,Other term lease,Grazing native vegetation,94.0
+SA,2010-11,Freehold,Plantation forests (a),94.0
+SA,2010-11,Other perpetual lease,Plantation forests (a),19.0
+SA,2010-11,Multiple-use public forest,Plantation forests (a),93.0
+SA,2010-11,Other Crown land,Plantation forests (a),4.0
+SA,2010-11,Freehold,Grazing modified pastures,4568.0
+SA,2010-11,Other perpetual lease,Grazing modified pastures,329.0
+SA,2010-11,Pastoral term lease,Grazing modified pastures,15.0
+SA,2010-11,Other term lease,Grazing modified pastures,7.0
+SA,2010-11,Freehold,Dryland cropping,5768.0
+SA,2010-11,Other perpetual lease,Dryland cropping,133.0
+SA,2010-11,Other term lease,Dryland cropping,4.0
+SA,2010-11,Freehold,Dryland horticulture,34.0
+SA,2010-11,Other perpetual lease,Dryland horticulture,1.0
+SA,2010-11,Freehold,Irrigated pastures,48.0
+SA,2010-11,Other perpetual lease,Irrigated pastures,5.0
+SA,2010-11,Freehold,Irrigated cropping,39.0
+SA,2010-11,Other perpetual lease,Irrigated cropping,2.0
+SA,2010-11,Freehold,Irrigated horticulture,115.0
+SA,2010-11,Other perpetual lease,Irrigated horticulture,3.0
+SA,2010-11,Freehold,Intensive horticulture and animal production,5.0
+SA,2010-11,Freehold,Rural residential and farm infrastructure,70.0
+SA,2010-11,Other Crown land,Rural residential and farm infrastructure,4.0
+SA,2010-11,Freehold,Urban residential,89.0
+SA,2010-11,Other Crown land,Urban residential,6.0
+SA,2010-11,Freehold,Other intensive uses,70.0
+SA,2010-11,Other perpetual lease,Other intensive uses,1.0
+SA,2010-11,Pastoral term lease,Other intensive uses,1.0
+SA,2010-11,Other Crown land,Other intensive uses,21.0
+SA,2010-11,Freehold,Mining and waste,52.0
+SA,2010-11,Other perpetual lease,Mining and waste,9.0
+SA,2010-11,Pastoral term lease,Mining and waste,47.0
+SA,2010-11,Other term lease,Mining and waste,1.0
+SA,2010-11,Nature conservation reserve,Mining and waste,5.0
+SA,2010-11,Other Crown land,Mining and waste,14.0
+SA,2010-11,Freehold,Water,357.0
+SA,2010-11,Other perpetual lease,Water,111.0
+SA,2010-11,Pastoral term lease,Water,961.0
+SA,2010-11,Other term lease,Water,22.0
+SA,2010-11,Nature conservation reserve,Water,2963.0
+SA,2010-11,Multiple-use public forest,Water,2.0
+SA,2010-11,Other Crown land,Water,354.0
+SA,2015-16,Freehold,Nature conservation,5880.0
+SA,2015-16,Other perpetual lease,Nature conservation,59.0
+SA,2015-16,Pastoral term lease,Nature conservation,1808.0
+SA,2015-16,Other term lease,Nature conservation,1.0
+SA,2015-16,Nature conservation reserve,Nature conservation,3408.0
+SA,2015-16,Multiple-use public forest,Nature conservation,15.0
+SA,2015-16,Other Crown land,Nature conservation,28.0
+SA,2015-16,Freehold,Managed resource protection,15856.0
+SA,2015-16,Other perpetual lease,Managed resource protection,1300.0
+SA,2015-16,Pastoral term lease,Managed resource protection,564.0
+SA,2015-16,Other term lease,Managed resource protection,152.0
+SA,2015-16,Nature conservation reserve,Managed resource protection,11079.0
+SA,2015-16,Other Crown land,Managed resource protection,13.0
+SA,2015-16,Freehold,Other minimal use,569.0
+SA,2015-16,Other perpetual lease,Other minimal use,61.0
+SA,2015-16,Pastoral term lease,Other minimal use,736.0
+SA,2015-16,Other term lease,Other minimal use,51.0
+SA,2015-16,Multiple-use public forest,Other minimal use,11.0
+SA,2015-16,Other Crown land,Other minimal use,698.0
+SA,2015-16,Freehold,Grazing native vegetation,834.0
+SA,2015-16,Other perpetual lease,Grazing native vegetation,1173.0
+SA,2015-16,Pastoral term lease,Grazing native vegetation,37273.0
+SA,2015-16,Other term lease,Grazing native vegetation,226.0
+SA,2015-16,Freehold,Plantation forests (a),175.0
+SA,2015-16,Other perpetual lease,Plantation forests (a),18.0
+SA,2015-16,Multiple-use public forest,Plantation forests (a),17.0
+SA,2015-16,Freehold,Grazing modified pastures,5288.0
+SA,2015-16,Other perpetual lease,Grazing modified pastures,361.0
+SA,2015-16,Pastoral term lease,Grazing modified pastures,15.0
+SA,2015-16,Other term lease,Grazing modified pastures,7.0
+SA,2015-16,Freehold,Dryland cropping,5190.0
+SA,2015-16,Other perpetual lease,Dryland cropping,90.0
+SA,2015-16,Pastoral term lease,Dryland cropping,1.0
+SA,2015-16,Other term lease,Dryland cropping,4.0
+SA,2015-16,Freehold,Dryland horticulture,12.0
+SA,2015-16,Freehold,Irrigated pastures,57.0
+SA,2015-16,Other perpetual lease,Irrigated pastures,5.0
+SA,2015-16,Freehold,Irrigated cropping,67.0
+SA,2015-16,Other perpetual lease,Irrigated cropping,3.0
+SA,2015-16,Freehold,Irrigated horticulture,125.0
+SA,2015-16,Other perpetual lease,Irrigated horticulture,3.0
+SA,2015-16,Freehold,Intensive horticulture and animal production,8.0
+SA,2015-16,Freehold,Rural residential and farm infrastructure,112.0
+SA,2015-16,Other perpetual lease,Rural residential and farm infrastructure,1.0
+SA,2015-16,Other Crown land,Rural residential and farm infrastructure,4.0
+SA,2015-16,Freehold,Urban residential,94.0
+SA,2015-16,Other Crown land,Urban residential,8.0
+SA,2015-16,Freehold,Other intensive uses,76.0
+SA,2015-16,Other perpetual lease,Other intensive uses,1.0
+SA,2015-16,Pastoral term lease,Other intensive uses,1.0
+SA,2015-16,Other Crown land,Other intensive uses,21.0
+SA,2015-16,Freehold,Mining and waste,51.0
+SA,2015-16,Other perpetual lease,Mining and waste,8.0
+SA,2015-16,Pastoral term lease,Mining and waste,48.0
+SA,2015-16,Other term lease,Mining and waste,1.0
+SA,2015-16,Nature conservation reserve,Mining and waste,5.0
+SA,2015-16,Other Crown land,Mining and waste,14.0
+SA,2015-16,Freehold,Water,342.0
+SA,2015-16,Other perpetual lease,Water,99.0
+SA,2015-16,Pastoral term lease,Water,931.0
+SA,2015-16,Other term lease,Water,47.0
+SA,2015-16,Nature conservation reserve,Water,2961.0
+SA,2015-16,Multiple-use public forest,Water,1.0
+SA,2015-16,Other Crown land,Water,341.0
+SA,2020-21,Freehold,Nature conservation,5821.0
+SA,2020-21,Other perpetual lease,Nature conservation,46.0
+SA,2020-21,Pastoral term lease,Nature conservation,1836.0
+SA,2020-21,Other term lease,Nature conservation,1.0
+SA,2020-21,Nature conservation reserve,Nature conservation,3364.0
+SA,2020-21,Multiple-use public forest,Nature conservation,14.0
+SA,2020-21,Other Crown land,Nature conservation,27.0
+SA,2020-21,Freehold,Managed resource protection,15944.0
+SA,2020-21,Other perpetual lease,Managed resource protection,1299.0
+SA,2020-21,Pastoral term lease,Managed resource protection,564.0
+SA,2020-21,Other term lease,Managed resource protection,152.0
+SA,2020-21,Nature conservation reserve,Managed resource protection,11134.0
+SA,2020-21,Other Crown land,Managed resource protection,10.0
+SA,2020-21,Freehold,Other minimal use,967.0
+SA,2020-21,Other perpetual lease,Other minimal use,55.0
+SA,2020-21,Pastoral term lease,Other minimal use,320.0
+SA,2020-21,Other term lease,Other minimal use,40.0
+SA,2020-21,Multiple-use public forest,Other minimal use,6.0
+SA,2020-21,Other Crown land,Other minimal use,736.0
+SA,2020-21,Freehold,Grazing native vegetation,1498.0
+SA,2020-21,Other perpetual lease,Grazing native vegetation,1098.0
+SA,2020-21,Pastoral term lease,Grazing native vegetation,36459.0
+SA,2020-21,Other term lease,Grazing native vegetation,251.0
+SA,2020-21,Freehold,Plantation forests (a),177.0
+SA,2020-21,Other perpetual lease,Plantation forests (a),16.0
+SA,2020-21,Other term lease,Plantation forests (a),3.0
+SA,2020-21,Multiple-use public forest,Plantation forests (a),12.0
+SA,2020-21,Other Crown land,Plantation forests (a),1.0
+SA,2020-21,Freehold,Grazing modified pastures,5406.0
+SA,2020-21,Other perpetual lease,Grazing modified pastures,376.0
+SA,2020-21,Pastoral term lease,Grazing modified pastures,16.0
+SA,2020-21,Other term lease,Grazing modified pastures,7.0
+SA,2020-21,Freehold,Dryland cropping,5242.0
+SA,2020-21,Other perpetual lease,Dryland cropping,76.0
+SA,2020-21,Pastoral term lease,Dryland cropping,4.0
+SA,2020-21,Other term lease,Dryland cropping,3.0
+SA,2020-21,Freehold,Dryland horticulture,8.0
+SA,2020-21,Freehold,Irrigated pastures,57.0
+SA,2020-21,Other perpetual lease,Irrigated pastures,5.0
+SA,2020-21,Freehold,Irrigated cropping,36.0
+SA,2020-21,Other perpetual lease,Irrigated cropping,1.0
+SA,2020-21,Freehold,Irrigated horticulture,134.0
+SA,2020-21,Other perpetual lease,Irrigated horticulture,3.0
+SA,2020-21,Freehold,Intensive horticulture and animal production,9.0
+SA,2020-21,Freehold,Rural residential and farm infrastructure,110.0
+SA,2020-21,Other perpetual lease,Rural residential and farm infrastructure,1.0
+SA,2020-21,Other Crown land,Rural residential and farm infrastructure,4.0
+SA,2020-21,Freehold,Urban residential,100.0
+SA,2020-21,Other Crown land,Urban residential,6.0
+SA,2020-21,Freehold,Other intensive uses,79.0
+SA,2020-21,Pastoral term lease,Other intensive uses,1.0
+SA,2020-21,Other Crown land,Other intensive uses,18.0
+SA,2020-21,Freehold,Mining and waste,53.0
+SA,2020-21,Other perpetual lease,Mining and waste,7.0
+SA,2020-21,Pastoral term lease,Mining and waste,48.0
+SA,2020-21,Other term lease,Mining and waste,1.0
+SA,2020-21,Nature conservation reserve,Mining and waste,5.0
+SA,2020-21,Other Crown land,Mining and waste,14.0
+SA,2020-21,Freehold,Water,378.0
+SA,2020-21,Other perpetual lease,Water,93.0
+SA,2020-21,Pastoral term lease,Water,896.0
+SA,2020-21,Other term lease,Water,40.0
+SA,2020-21,Nature conservation reserve,Water,2975.0
+SA,2020-21,Multiple-use public forest,Water,1.0
+SA,2020-21,Other Crown land,Water,347.0
+WA,2010-11,Freehold,Nature conservation,25.0
+WA,2010-11,Pastoral term lease,Nature conservation,1080.0
+WA,2010-11,Other lease,Nature conservation,93.0
+WA,2010-11,Nature conservation reserve,Nature conservation,17948.0
+WA,2010-11,Multiple-use public forest,Nature conservation,29.0
+WA,2010-11,Other Crown purposes,Nature conservation,39.0
+WA,2010-11,Other Crown land,Nature conservation,4976.0
+WA,2010-11,Freehold,Managed resource protection,7.0
+WA,2010-11,Pastoral term lease,Managed resource protection,394.0
+WA,2010-11,Other lease,Managed resource protection,5635.0
+WA,2010-11,Nature conservation reserve,Managed resource protection,327.0
+WA,2010-11,Other Crown purposes,Managed resource protection,19708.0
+WA,2010-11,Other Crown land,Managed resource protection,6286.0
+WA,2010-11,Freehold,Other minimal use,1860.0
+WA,2010-11,Pastoral term lease,Other minimal use,2119.0
+WA,2010-11,Other lease,Other minimal use,136.0
+WA,2010-11,Multiple-use public forest,Other minimal use,3.0
+WA,2010-11,Other Crown purposes,Other minimal use,3577.0
+WA,2010-11,Other Crown land,Other minimal use,78991.0
+WA,2010-11,Freehold,Grazing native vegetation,553.0
+WA,2010-11,Pastoral term lease,Grazing native vegetation,82274.0
+WA,2010-11,Other lease,Grazing native vegetation,632.0
+WA,2010-11,Multiple-use public forest,Production native forests,1329.0
+WA,2010-11,Freehold,Plantation forests (a),394.0
+WA,2010-11,Other lease,Plantation forests (a),11.0
+WA,2010-11,Multiple-use public forest,Plantation forests (a),59.0
+WA,2010-11,Other Crown purposes,Plantation forests (a),16.0
+WA,2010-11,Freehold,Grazing modified pastures,6809.0
+WA,2010-11,Pastoral term lease,Grazing modified pastures,117.0
+WA,2010-11,Other lease,Grazing modified pastures,203.0
+WA,2010-11,Freehold,Dryland cropping,9954.0
+WA,2010-11,Pastoral term lease,Dryland cropping,45.0
+WA,2010-11,Other lease,Dryland cropping,241.0
+WA,2010-11,Freehold,Dryland horticulture,11.0
+WA,2010-11,Freehold,Irrigated pastures,19.0
+WA,2010-11,Freehold,Irrigated cropping,4.0
+WA,2010-11,Freehold,Irrigated horticulture,34.0
+WA,2010-11,Other lease,Irrigated horticulture,1.0
+WA,2010-11,Freehold,Intensive horticulture and animal production,6.0
+WA,2010-11,Other lease,Intensive horticulture and animal production,1.0
+WA,2010-11,Freehold,Rural residential and farm infrastructure,89.0
+WA,2010-11,Pastoral term lease,Rural residential and farm infrastructure,1.0
+WA,2010-11,Other lease,Rural residential and farm infrastructure,1.0
+WA,2010-11,Nature conservation reserve,Rural residential and farm infrastructure,2.0
+WA,2010-11,Other Crown purposes,Rural residential and farm infrastructure,24.0
+WA,2010-11,Other Crown land,Rural residential and farm infrastructure,5.0
+WA,2010-11,Freehold,Urban residential,122.0
+WA,2010-11,Other lease,Urban residential,1.0
+WA,2010-11,Nature conservation reserve,Urban residential,1.0
+WA,2010-11,Other Crown purposes,Urban residential,27.0
+WA,2010-11,Other Crown land,Urban residential,4.0
+WA,2010-11,Freehold,Other intensive uses,60.0
+WA,2010-11,Pastoral term lease,Other intensive uses,3.0
+WA,2010-11,Other lease,Other intensive uses,6.0
+WA,2010-11,Nature conservation reserve,Other intensive uses,1.0
+WA,2010-11,Multiple-use public forest,Other intensive uses,5.0
+WA,2010-11,Other Crown purposes,Other intensive uses,51.0
+WA,2010-11,Other Crown land,Other intensive uses,18.0
+WA,2010-11,Freehold,Mining and waste,22.0
+WA,2010-11,Pastoral term lease,Mining and waste,43.0
+WA,2010-11,Other lease,Mining and waste,4.0
+WA,2010-11,Nature conservation reserve,Mining and waste,2.0
+WA,2010-11,Multiple-use public forest,Mining and waste,11.0
+WA,2010-11,Other Crown purposes,Mining and waste,27.0
+WA,2010-11,Other Crown land,Mining and waste,24.0
+WA,2010-11,Freehold,Water,170.0
+WA,2010-11,Pastoral term lease,Water,2145.0
+WA,2010-11,Other lease,Water,53.0
+WA,2010-11,Nature conservation reserve,Water,503.0
+WA,2010-11,Multiple-use public forest,Water,10.0
+WA,2010-11,Other Crown purposes,Water,1472.0
+WA,2010-11,Other Crown land,Water,2093.0
+WA,2015-16,Freehold,Nature conservation,52.0
+WA,2015-16,Pastoral term lease,Nature conservation,2043.0
+WA,2015-16,Other lease,Nature conservation,11.0
+WA,2015-16,Nature conservation reserve,Nature conservation,18753.0
+WA,2015-16,Multiple-use public forest,Nature conservation,28.0
+WA,2015-16,Other Crown purposes,Nature conservation,73.0
+WA,2015-16,Other Crown land,Nature conservation,7350.0
+WA,2015-16,Freehold,Managed resource protection,29.0
+WA,2015-16,Pastoral term lease,Managed resource protection,1209.0
+WA,2015-16,Other lease,Managed resource protection,5646.0
+WA,2015-16,Nature conservation reserve,Managed resource protection,364.0
+WA,2015-16,Other Crown purposes,Managed resource protection,19682.0
+WA,2015-16,Other Crown land,Managed resource protection,14421.0
+WA,2015-16,Freehold,Other minimal use,1756.0
+WA,2015-16,Pastoral term lease,Other minimal use,1253.0
+WA,2015-16,Other lease,Other minimal use,83.0
+WA,2015-16,Multiple-use public forest,Other minimal use,4.0
+WA,2015-16,Other Crown purposes,Other minimal use,2549.0
+WA,2015-16,Other Crown land,Other minimal use,69213.0
+WA,2015-16,Freehold,Grazing native vegetation,844.0
+WA,2015-16,Pastoral term lease,Grazing native vegetation,80630.0
+WA,2015-16,Other lease,Grazing native vegetation,525.0
+WA,2015-16,Multiple-use public forest,Production native forests,1328.0
+WA,2015-16,Freehold,Plantation forests (a),397.0
+WA,2015-16,Other lease,Plantation forests (a),8.0
+WA,2015-16,Multiple-use public forest,Plantation forests (a),59.0
+WA,2015-16,Other Crown purposes,Plantation forests (a),16.0
+WA,2015-16,Freehold,Grazing modified pastures,3612.0
+WA,2015-16,Pastoral term lease,Grazing modified pastures,103.0
+WA,2015-16,Other lease,Grazing modified pastures,102.0
+WA,2015-16,Freehold,Dryland cropping,13232.0
+WA,2015-16,Pastoral term lease,Dryland cropping,68.0
+WA,2015-16,Other lease,Dryland cropping,270.0
+WA,2015-16,Freehold,Dryland horticulture,8.0
+WA,2015-16,Freehold,Irrigated pastures,16.0
+WA,2015-16,Freehold,Irrigated cropping,63.0
+WA,2015-16,Freehold,Irrigated horticulture,47.0
+WA,2015-16,Freehold,Intensive horticulture and animal production,9.0
+WA,2015-16,Other lease,Intensive horticulture and animal production,1.0
+WA,2015-16,Freehold,Rural residential and farm infrastructure,98.0
+WA,2015-16,Pastoral term lease,Rural residential and farm infrastructure,2.0
+WA,2015-16,Other lease,Rural residential and farm infrastructure,4.0
+WA,2015-16,Nature conservation reserve,Rural residential and farm infrastructure,3.0
+WA,2015-16,Other Crown purposes,Rural residential and farm infrastructure,23.0
+WA,2015-16,Other Crown land,Rural residential and farm infrastructure,4.0
+WA,2015-16,Freehold,Urban residential,128.0
+WA,2015-16,Nature conservation reserve,Urban residential,1.0
+WA,2015-16,Other Crown purposes,Urban residential,24.0
+WA,2015-16,Other Crown land,Urban residential,3.0
+WA,2015-16,Freehold,Other intensive uses,73.0
+WA,2015-16,Pastoral term lease,Other intensive uses,3.0
+WA,2015-16,Other lease,Other intensive uses,9.0
+WA,2015-16,Nature conservation reserve,Other intensive uses,1.0
+WA,2015-16,Multiple-use public forest,Other intensive uses,4.0
+WA,2015-16,Other Crown purposes,Other intensive uses,51.0
+WA,2015-16,Other Crown land,Other intensive uses,35.0
+WA,2015-16,Freehold,Mining and waste,25.0
+WA,2015-16,Pastoral term lease,Mining and waste,42.0
+WA,2015-16,Other lease,Mining and waste,3.0
+WA,2015-16,Nature conservation reserve,Mining and waste,5.0
+WA,2015-16,Multiple-use public forest,Mining and waste,9.0
+WA,2015-16,Other Crown purposes,Mining and waste,23.0
+WA,2015-16,Other Crown land,Mining and waste,25.0
+WA,2015-16,Freehold,Water,218.0
+WA,2015-16,Pastoral term lease,Water,2118.0
+WA,2015-16,Other lease,Water,77.0
+WA,2015-16,Nature conservation reserve,Water,573.0
+WA,2015-16,Multiple-use public forest,Water,10.0
+WA,2015-16,Other Crown purposes,Water,1376.0
+WA,2015-16,Other Crown land,Water,2114.0
+WA,2020-21,Freehold,Nature conservation,617.0
+WA,2020-21,Pastoral term lease,Nature conservation,868.0
+WA,2020-21,Other lease,Nature conservation,9.0
+WA,2020-21,Nature conservation reserve,Nature conservation,19121.0
+WA,2020-21,Multiple-use public forest,Nature conservation,36.0
+WA,2020-21,Other Crown purposes,Nature conservation,59.0
+WA,2020-21,Other Crown land,Nature conservation,7370.0
+WA,2020-21,Freehold,Managed resource protection,29.0
+WA,2020-21,Pastoral term lease,Managed resource protection,2476.0
+WA,2020-21,Other lease,Managed resource protection,5648.0
+WA,2020-21,Nature conservation reserve,Managed resource protection,226.0
+WA,2020-21,Other Crown purposes,Managed resource protection,19689.0
+WA,2020-21,Other Crown land,Managed resource protection,19300.0
+WA,2020-21,Freehold,Other minimal use,1053.0
+WA,2020-21,Pastoral term lease,Other minimal use,1188.0
+WA,2020-21,Other lease,Other minimal use,78.0
+WA,2020-21,Multiple-use public forest,Other minimal use,97.0
+WA,2020-21,Other Crown purposes,Other minimal use,2498.0
+WA,2020-21,Other Crown land,Other minimal use,64211.0
+WA,2020-21,Freehold,Grazing native vegetation,838.0
+WA,2020-21,Pastoral term lease,Grazing native vegetation,80590.0
+WA,2020-21,Other lease,Grazing native vegetation,454.0
+WA,2020-21,Multiple-use public forest,Production native forests,1230.0
+WA,2020-21,Freehold,Plantation forests (a),273.0
+WA,2020-21,Other lease,Plantation forests (a),6.0
+WA,2020-21,Multiple-use public forest,Plantation forests (a),58.0
+WA,2020-21,Other Crown purposes,Plantation forests (a),16.0
+WA,2020-21,Freehold,Grazing modified pastures,3881.0
+WA,2020-21,Pastoral term lease,Grazing modified pastures,105.0
+WA,2020-21,Other lease,Grazing modified pastures,108.0
+WA,2020-21,Freehold,Dryland cropping,13305.0
+WA,2020-21,Pastoral term lease,Dryland cropping,69.0
+WA,2020-21,Other lease,Dryland cropping,269.0
+WA,2020-21,Freehold,Dryland horticulture,8.0
+WA,2020-21,Freehold,Irrigated pastures,11.0
+WA,2020-21,Freehold,Irrigated cropping,25.0
+WA,2020-21,Other lease,Irrigated cropping,1.0
+WA,2020-21,Freehold,Irrigated horticulture,51.0
+WA,2020-21,Freehold,Intensive horticulture and animal production,9.0
+WA,2020-21,Other lease,Intensive horticulture and animal production,1.0
+WA,2020-21,Freehold,Rural residential and farm infrastructure,94.0
+WA,2020-21,Pastoral term lease,Rural residential and farm infrastructure,2.0
+WA,2020-21,Other lease,Rural residential and farm infrastructure,4.0
+WA,2020-21,Nature conservation reserve,Rural residential and farm infrastructure,3.0
+WA,2020-21,Other Crown purposes,Rural residential and farm infrastructure,22.0
+WA,2020-21,Other Crown land,Rural residential and farm infrastructure,4.0
+WA,2020-21,Freehold,Urban residential,136.0
+WA,2020-21,Nature conservation reserve,Urban residential,2.0
+WA,2020-21,Other Crown purposes,Urban residential,25.0
+WA,2020-21,Other Crown land,Urban residential,3.0
+WA,2020-21,Freehold,Other intensive uses,73.0
+WA,2020-21,Pastoral term lease,Other intensive uses,2.0
+WA,2020-21,Other lease,Other intensive uses,3.0
+WA,2020-21,Nature conservation reserve,Other intensive uses,1.0
+WA,2020-21,Multiple-use public forest,Other intensive uses,4.0
+WA,2020-21,Other Crown purposes,Other intensive uses,44.0
+WA,2020-21,Other Crown land,Other intensive uses,20.0
+WA,2020-21,Freehold,Mining and waste,24.0
+WA,2020-21,Pastoral term lease,Mining and waste,42.0
+WA,2020-21,Other lease,Mining and waste,3.0
+WA,2020-21,Nature conservation reserve,Mining and waste,5.0
+WA,2020-21,Multiple-use public forest,Mining and waste,9.0
+WA,2020-21,Other Crown purposes,Mining and waste,22.0
+WA,2020-21,Other Crown land,Mining and waste,25.0
+WA,2020-21,Freehold,Water,220.0
+WA,2020-21,Pastoral term lease,Water,2114.0
+WA,2020-21,Other lease,Water,75.0
+WA,2020-21,Nature conservation reserve,Water,602.0
+WA,2020-21,Multiple-use public forest,Water,10.0
+WA,2020-21,Other Crown purposes,Water,1373.0
+WA,2020-21,Other Crown land,Water,2095.0
+Tas,2010-11,Freehold,Nature conservation,95.0
+Tas,2010-11,Nature conservation reserve,Nature conservation,1578.0
+Tas,2010-11,Multiple-use public forest,Nature conservation,453.0
+Tas,2010-11,Other Crown purposes,Nature conservation,10.0
+Tas,2010-11,Other Crown land,Nature conservation,6.0
+Tas,2010-11,Freehold,Managed resource protection,67.0
+Tas,2010-11,Nature conservation reserve,Managed resource protection,709.0
+Tas,2010-11,Multiple-use public forest,Managed resource protection,2.0
+Tas,2010-11,Other Crown purposes,Managed resource protection,1.0
+Tas,2010-11,Other Crown land,Managed resource protection,9.0
+Tas,2010-11,Freehold,Other minimal use,335.0
+Tas,2010-11,Other lease,Other minimal use,22.0
+Tas,2010-11,Multiple-use public forest,Other minimal use,17.0
+Tas,2010-11,Other Crown purposes,Other minimal use,50.0
+Tas,2010-11,Other Crown land,Other minimal use,54.0
+Tas,2010-11,Freehold,Grazing native vegetation,222.0
+Tas,2010-11,Other lease,Grazing native vegetation,1.0
+Tas,2010-11,Freehold,Production native forests,253.0
+Tas,2010-11,Nature conservation reserve,Production native forests,3.0
+Tas,2010-11,Multiple-use public forest,Production native forests,908.0
+Tas,2010-11,Other Crown purposes,Production native forests,1.0
+Tas,2010-11,Other Crown land,Production native forests,1.0
+Tas,2010-11,Freehold,Plantation forests (a),221.0
+Tas,2010-11,Multiple-use public forest,Plantation forests (a),107.0
+Tas,2010-11,Other Crown purposes,Plantation forests (a),1.0
+Tas,2010-11,Freehold,Grazing modified pastures,1180.0
+Tas,2010-11,Other lease,Grazing modified pastures,3.0
+Tas,2010-11,Freehold,Dryland cropping,84.0
+Tas,2010-11,Freehold,Dryland horticulture,3.0
+Tas,2010-11,Freehold,Irrigated pastures,43.0
+Tas,2010-11,Freehold,Irrigated cropping,12.0
+Tas,2010-11,Freehold,Irrigated horticulture,4.0
+Tas,2010-11,Freehold,Intensive horticulture and animal production,1.0
+Tas,2010-11,Freehold,Rural residential and farm infrastructure,115.0
+Tas,2010-11,Nature conservation reserve,Rural residential and farm infrastructure,1.0
+Tas,2010-11,Multiple-use public forest,Rural residential and farm infrastructure,1.0
+Tas,2010-11,Other Crown purposes,Rural residential and farm infrastructure,3.0
+Tas,2010-11,Other Crown land,Rural residential and farm infrastructure,1.0
+Tas,2010-11,Freehold,Urban residential,40.0
+Tas,2010-11,Other Crown purposes,Urban residential,7.0
+Tas,2010-11,Freehold,Other intensive uses,14.0
+Tas,2010-11,Other Crown purposes,Other intensive uses,8.0
+Tas,2010-11,Other Crown land,Other intensive uses,1.0
+Tas,2010-11,Freehold,Mining and waste,1.0
+Tas,2010-11,Multiple-use public forest,Mining and waste,1.0
+Tas,2010-11,Other Crown purposes,Mining and waste,1.0
+Tas,2010-11,Other Crown land,Mining and waste,2.0
+Tas,2010-11,Freehold,Water,32.0
+Tas,2010-11,Other lease,Water,1.0
+Tas,2010-11,Nature conservation reserve,Water,116.0
+Tas,2010-11,Multiple-use public forest,Water,5.0
+Tas,2010-11,Other Crown purposes,Water,51.0
+Tas,2010-11,Other Crown land,Water,5.0
+Tas,2015-16,Freehold,Nature conservation,121.0
+Tas,2015-16,Nature conservation reserve,Nature conservation,1837.0
+Tas,2015-16,Multiple-use public forest,Nature conservation,86.0
+Tas,2015-16,Other Crown purposes,Nature conservation,149.0
+Tas,2015-16,Other Crown land,Nature conservation,5.0
+Tas,2015-16,Freehold,Managed resource protection,55.0
+Tas,2015-16,Nature conservation reserve,Managed resource protection,747.0
+Tas,2015-16,Other Crown purposes,Managed resource protection,1.0
+Tas,2015-16,Freehold,Other minimal use,261.0
+Tas,2015-16,Multiple-use public forest,Other minimal use,4.0
+Tas,2015-16,Other Crown purposes,Other minimal use,51.0
+Tas,2015-16,Other Crown land,Other minimal use,40.0
+Tas,2015-16,Freehold,Grazing native vegetation,196.0
+Tas,2015-16,Freehold,Production native forests,253.0
+Tas,2015-16,Nature conservation reserve,Production native forests,65.0
+Tas,2015-16,Multiple-use public forest,Production native forests,616.0
+Tas,2015-16,Other Crown purposes,Production native forests,227.0
+Tas,2015-16,Other Crown land,Production native forests,1.0
+Tas,2015-16,Freehold,Plantation forests (a),222.0
+Tas,2015-16,Multiple-use public forest,Plantation forests (a),106.0
+Tas,2015-16,Other Crown purposes,Plantation forests (a),1.0
+Tas,2015-16,Freehold,Grazing modified pastures,1162.0
+Tas,2015-16,Freehold,Dryland cropping,69.0
+Tas,2015-16,Freehold,Dryland horticulture,3.0
+Tas,2015-16,Freehold,Irrigated pastures,79.0
+Tas,2015-16,Freehold,Irrigated cropping,33.0
+Tas,2015-16,Freehold,Irrigated horticulture,6.0
+Tas,2015-16,Freehold,Intensive horticulture and animal production,4.0
+Tas,2015-16,Freehold,Rural residential and farm infrastructure,174.0
+Tas,2015-16,Nature conservation reserve,Rural residential and farm infrastructure,3.0
+Tas,2015-16,Multiple-use public forest,Rural residential and farm infrastructure,1.0
+Tas,2015-16,Other Crown purposes,Rural residential and farm infrastructure,3.0
+Tas,2015-16,Other Crown land,Rural residential and farm infrastructure,1.0
+Tas,2015-16,Freehold,Urban residential,35.0
+Tas,2015-16,Other Crown purposes,Urban residential,5.0
+Tas,2015-16,Freehold,Other intensive uses,15.0
+Tas,2015-16,Other Crown purposes,Other intensive uses,13.0
+Tas,2015-16,Other Crown land,Other intensive uses,1.0
+Tas,2015-16,Freehold,Mining and waste,2.0
+Tas,2015-16,Nature conservation reserve,Mining and waste,1.0
+Tas,2015-16,Multiple-use public forest,Mining and waste,1.0
+Tas,2015-16,Other Crown purposes,Mining and waste,2.0
+Tas,2015-16,Freehold,Water,32.0
+Tas,2015-16,Nature conservation reserve,Water,113.0
+Tas,2015-16,Multiple-use public forest,Water,2.0
+Tas,2015-16,Other Crown purposes,Water,51.0
+Tas,2015-16,Other Crown land,Water,3.0
+Tas,2020-21,Freehold,Nature conservation,132.0
+Tas,2020-21,Nature conservation reserve,Nature conservation,1869.0
+Tas,2020-21,Multiple-use public forest,Nature conservation,95.0
+Tas,2020-21,Other Crown purposes,Nature conservation,370.0
+Tas,2020-21,Other Crown land,Nature conservation,3.0
+Tas,2020-21,Freehold,Managed resource protection,51.0
+Tas,2020-21,Nature conservation reserve,Managed resource protection,761.0
+Tas,2020-21,Other Crown purposes,Managed resource protection,2.0
+Tas,2020-21,Freehold,Other minimal use,244.0
+Tas,2020-21,Other lease,Other minimal use,9.0
+Tas,2020-21,Multiple-use public forest,Other minimal use,5.0
+Tas,2020-21,Other Crown purposes,Other minimal use,50.0
+Tas,2020-21,Other Crown land,Other minimal use,30.0
+Tas,2020-21,Freehold,Grazing native vegetation,190.0
+Tas,2020-21,Freehold,Production native forests,247.0
+Tas,2020-21,Nature conservation reserve,Production native forests,4.0
+Tas,2020-21,Multiple-use public forest,Production native forests,603.0
+Tas,2020-21,Other Crown purposes,Production native forests,6.0
+Tas,2020-21,Freehold,Plantation forests (a),186.0
+Tas,2020-21,Multiple-use public forest,Plantation forests (a),107.0
+Tas,2020-21,Other Crown purposes,Plantation forests (a),1.0
+Tas,2020-21,Freehold,Grazing modified pastures,1237.0
+Tas,2020-21,Other lease,Grazing modified pastures,1.0
+Tas,2020-21,Freehold,Dryland cropping,54.0
+Tas,2020-21,Freehold,Dryland horticulture,1.0
+Tas,2020-21,Freehold,Irrigated pastures,77.0
+Tas,2020-21,Freehold,Irrigated cropping,47.0
+Tas,2020-21,Freehold,Irrigated horticulture,8.0
+Tas,2020-21,Freehold,Intensive horticulture and animal production,4.0
+Tas,2020-21,Freehold,Rural residential and farm infrastructure,157.0
+Tas,2020-21,Nature conservation reserve,Rural residential and farm infrastructure,2.0
+Tas,2020-21,Multiple-use public forest,Rural residential and farm infrastructure,1.0
+Tas,2020-21,Other Crown purposes,Rural residential and farm infrastructure,3.0
+Tas,2020-21,Other Crown land,Rural residential and farm infrastructure,1.0
+Tas,2020-21,Freehold,Urban residential,36.0
+Tas,2020-21,Other Crown purposes,Urban residential,5.0
+Tas,2020-21,Freehold,Other intensive uses,15.0
+Tas,2020-21,Other Crown purposes,Other intensive uses,12.0
+Tas,2020-21,Other Crown land,Other intensive uses,1.0
+Tas,2020-21,Freehold,Mining and waste,2.0
+Tas,2020-21,Nature conservation reserve,Mining and waste,1.0
+Tas,2020-21,Multiple-use public forest,Mining and waste,1.0
+Tas,2020-21,Other Crown purposes,Mining and waste,1.0
+Tas,2020-21,Other Crown land,Mining and waste,1.0
+Tas,2020-21,Freehold,Water,35.0
+Tas,2020-21,Other lease,Water,1.0
+Tas,2020-21,Nature conservation reserve,Water,129.0
+Tas,2020-21,Multiple-use public forest,Water,2.0
+Tas,2020-21,Other Crown purposes,Water,54.0
+Tas,2020-21,Other Crown land,Water,4.0
+NT,2010-11,Freehold,Nature conservation,3490.0
+NT,2010-11,Pastoral perpetual lease,Nature conservation,1203.0
+NT,2010-11,Other perpetual lease,Nature conservation,1153.0
+NT,2010-11,Pastoral term lease,Nature conservation,713.0
+NT,2010-11,Other term lease,Nature conservation,57.0
+NT,2010-11,Nature conservation reserve,Nature conservation,4.0
+NT,2010-11,Other Crown purposes,Nature conservation,354.0
+NT,2010-11,Other Crown land,Nature conservation,147.0
+NT,2010-11,Freehold,Managed resource protection,54471.0
+NT,2010-11,Pastoral perpetual lease,Managed resource protection,1338.0
+NT,2010-11,Other perpetual lease,Managed resource protection,97.0
+NT,2010-11,Pastoral term lease,Managed resource protection,289.0
+NT,2010-11,Other term lease,Managed resource protection,1.0
+NT,2010-11,Other lease,Managed resource protection,6.0
+NT,2010-11,Nature conservation reserve,Managed resource protection,4.0
+NT,2010-11,Other Crown land,Managed resource protection,11.0
+NT,2010-11,Freehold,Other minimal use,154.0
+NT,2010-11,Pastoral perpetual lease,Other minimal use,874.0
+NT,2010-11,Other perpetual lease,Other minimal use,436.0
+NT,2010-11,Pastoral term lease,Other minimal use,278.0
+NT,2010-11,Other term lease,Other minimal use,865.0
+NT,2010-11,Other Crown purposes,Other minimal use,163.0
+NT,2010-11,Other Crown land,Other minimal use,6651.0
+NT,2010-11,Freehold,Grazing native vegetation,1589.0
+NT,2010-11,Pastoral perpetual lease,Grazing native vegetation,50215.0
+NT,2010-11,Other perpetual lease,Grazing native vegetation,1016.0
+NT,2010-11,Pastoral term lease,Grazing native vegetation,2693.0
+NT,2010-11,Other term lease,Grazing native vegetation,40.0
+NT,2010-11,Freehold,Plantation forests (a),14.0
+NT,2010-11,Other Crown land,Plantation forests (a),1.0
+NT,2010-11,Freehold,Grazing modified pastures,80.0
+NT,2010-11,Pastoral perpetual lease,Grazing modified pastures,145.0
+NT,2010-11,Other perpetual lease,Grazing modified pastures,17.0
+NT,2010-11,Pastoral term lease,Grazing modified pastures,32.0
+NT,2010-11,Other term lease,Grazing modified pastures,2.0
+NT,2010-11,Freehold,Dryland cropping,8.0
+NT,2010-11,Pastoral perpetual lease,Dryland cropping,9.0
+NT,2010-11,Pastoral term lease,Dryland cropping,1.0
+NT,2010-11,Freehold,Dryland horticulture,1.0
+NT,2010-11,Freehold,Irrigated horticulture,5.0
+NT,2010-11,Freehold,Intensive horticulture and animal production,3.0
+NT,2010-11,Freehold,Rural residential and farm infrastructure,93.0
+NT,2010-11,Pastoral perpetual lease,Rural residential and farm infrastructure,1.0
+NT,2010-11,Other perpetual lease,Rural residential and farm infrastructure,1.0
+NT,2010-11,Other Crown land,Rural residential and farm infrastructure,3.0
+NT,2010-11,Freehold,Urban residential,13.0
+NT,2010-11,Other perpetual lease,Urban residential,1.0
+NT,2010-11,Other term lease,Urban residential,1.0
+NT,2010-11,Other Crown purposes,Urban residential,1.0
+NT,2010-11,Other Crown land,Urban residential,1.0
+NT,2010-11,Freehold,Other intensive uses,34.0
+NT,2010-11,Other perpetual lease,Other intensive uses,1.0
+NT,2010-11,Other term lease,Other intensive uses,1.0
+NT,2010-11,Other Crown purposes,Other intensive uses,3.0
+NT,2010-11,Other Crown land,Other intensive uses,6.0
+NT,2010-11,Freehold,Mining and waste,8.0
+NT,2010-11,Pastoral perpetual lease,Mining and waste,4.0
+NT,2010-11,Pastoral term lease,Mining and waste,3.0
+NT,2010-11,Other term lease,Mining and waste,1.0
+NT,2010-11,Other lease,Mining and waste,22.0
+NT,2010-11,Other Crown land,Mining and waste,2.0
+NT,2010-11,Freehold,Water,2622.0
+NT,2010-11,Pastoral perpetual lease,Water,2715.0
+NT,2010-11,Other perpetual lease,Water,292.0
+NT,2010-11,Pastoral term lease,Water,233.0
+NT,2010-11,Other term lease,Water,88.0
+NT,2010-11,Other lease,Water,1.0
+NT,2010-11,Nature conservation reserve,Water,9.0
+NT,2010-11,Other Crown purposes,Water,27.0
+NT,2010-11,Other Crown land,Water,88.0
+NT,2015-16,Freehold,Nature conservation,3939.0
+NT,2015-16,Pastoral perpetual lease,Nature conservation,749.0
+NT,2015-16,Other perpetual lease,Nature conservation,1168.0
+NT,2015-16,Pastoral term lease,Nature conservation,373.0
+NT,2015-16,Other term lease,Nature conservation,58.0
+NT,2015-16,Nature conservation reserve,Nature conservation,9.0
+NT,2015-16,Other Crown purposes,Nature conservation,438.0
+NT,2015-16,Other Crown land,Nature conservation,568.0
+NT,2015-16,Freehold,Managed resource protection,58047.0
+NT,2015-16,Pastoral perpetual lease,Managed resource protection,362.0
+NT,2015-16,Other perpetual lease,Managed resource protection,133.0
+NT,2015-16,Pastoral term lease,Managed resource protection,1.0
+NT,2015-16,Other term lease,Managed resource protection,1.0
+NT,2015-16,Other lease,Managed resource protection,3.0
+NT,2015-16,Other Crown purposes,Managed resource protection,3.0
+NT,2015-16,Other Crown land,Managed resource protection,169.0
+NT,2015-16,Freehold,Other minimal use,89.0
+NT,2015-16,Pastoral perpetual lease,Other minimal use,705.0
+NT,2015-16,Other perpetual lease,Other minimal use,432.0
+NT,2015-16,Pastoral term lease,Other minimal use,106.0
+NT,2015-16,Other term lease,Other minimal use,862.0
+NT,2015-16,Other lease,Other minimal use,10.0
+NT,2015-16,Other Crown purposes,Other minimal use,58.0
+NT,2015-16,Other Crown land,Other minimal use,4678.0
+NT,2015-16,Freehold,Grazing native vegetation,430.0
+NT,2015-16,Pastoral perpetual lease,Grazing native vegetation,52032.0
+NT,2015-16,Other perpetual lease,Grazing native vegetation,683.0
+NT,2015-16,Pastoral term lease,Grazing native vegetation,2171.0
+NT,2015-16,Other term lease,Grazing native vegetation,45.0
+NT,2015-16,Freehold,Plantation forests (a),52.0
+NT,2015-16,Other Crown land,Plantation forests (a),1.0
+NT,2015-16,Freehold,Grazing modified pastures,82.0
+NT,2015-16,Pastoral perpetual lease,Grazing modified pastures,183.0
+NT,2015-16,Other perpetual lease,Grazing modified pastures,18.0
+NT,2015-16,Pastoral term lease,Grazing modified pastures,17.0
+NT,2015-16,Other term lease,Grazing modified pastures,4.0
+NT,2015-16,Freehold,Dryland cropping,9.0
+NT,2015-16,Pastoral perpetual lease,Dryland cropping,6.0
+NT,2015-16,Other perpetual lease,Dryland cropping,1.0
+NT,2015-16,Freehold,Irrigated horticulture,8.0
+NT,2015-16,Freehold,Intensive horticulture and animal production,1.0
+NT,2015-16,Freehold,Rural residential and farm infrastructure,117.0
+NT,2015-16,Pastoral perpetual lease,Rural residential and farm infrastructure,2.0
+NT,2015-16,Other perpetual lease,Rural residential and farm infrastructure,1.0
+NT,2015-16,Other Crown land,Rural residential and farm infrastructure,6.0
+NT,2015-16,Freehold,Urban residential,14.0
+NT,2015-16,Other term lease,Urban residential,1.0
+NT,2015-16,Other Crown land,Urban residential,2.0
+NT,2015-16,Freehold,Other intensive uses,46.0
+NT,2015-16,Pastoral perpetual lease,Other intensive uses,2.0
+NT,2015-16,Other perpetual lease,Other intensive uses,2.0
+NT,2015-16,Other term lease,Other intensive uses,2.0
+NT,2015-16,Other lease,Other intensive uses,1.0
+NT,2015-16,Other Crown purposes,Other intensive uses,6.0
+NT,2015-16,Other Crown land,Other intensive uses,10.0
+NT,2015-16,Freehold,Mining and waste,11.0
+NT,2015-16,Pastoral perpetual lease,Mining and waste,8.0
+NT,2015-16,Other perpetual lease,Mining and waste,5.0
+NT,2015-16,Pastoral term lease,Mining and waste,3.0
+NT,2015-16,Other lease,Mining and waste,14.0
+NT,2015-16,Other Crown land,Mining and waste,3.0
+NT,2015-16,Freehold,Water,2685.0
+NT,2015-16,Pastoral perpetual lease,Water,2622.0
+NT,2015-16,Other perpetual lease,Water,285.0
+NT,2015-16,Pastoral term lease,Water,146.0
+NT,2015-16,Other term lease,Water,84.0
+NT,2015-16,Other lease,Water,1.0
+NT,2015-16,Nature conservation reserve,Water,7.0
+NT,2015-16,Other Crown purposes,Water,27.0
+NT,2015-16,Other Crown land,Water,88.0
+NT,2020-21,Freehold,Nature conservation,4236.0
+NT,2020-21,Pastoral perpetual lease,Nature conservation,662.0
+NT,2020-21,Other perpetual lease,Nature conservation,894.0
+NT,2020-21,Pastoral term lease,Nature conservation,181.0
+NT,2020-21,Other term lease,Nature conservation,58.0
+NT,2020-21,Other lease,Nature conservation,4.0
+NT,2020-21,Nature conservation reserve,Nature conservation,9.0
+NT,2020-21,Other Crown purposes,Nature conservation,434.0
+NT,2020-21,Other Crown land,Nature conservation,565.0
+NT,2020-21,Freehold,Managed resource protection,57926.0
+NT,2020-21,Pastoral perpetual lease,Managed resource protection,449.0
+NT,2020-21,Other perpetual lease,Managed resource protection,372.0
+NT,2020-21,Pastoral term lease,Managed resource protection,194.0
+NT,2020-21,Other term lease,Managed resource protection,1.0
+NT,2020-21,Other Crown purposes,Managed resource protection,1.0
+NT,2020-21,Other Crown land,Managed resource protection,16.0
+NT,2020-21,Freehold,Other minimal use,69.0
+NT,2020-21,Pastoral perpetual lease,Other minimal use,621.0
+NT,2020-21,Other perpetual lease,Other minimal use,391.0
+NT,2020-21,Pastoral term lease,Other minimal use,24.0
+NT,2020-21,Other term lease,Other minimal use,862.0
+NT,2020-21,Other lease,Other minimal use,10.0
+NT,2020-21,Other Crown purposes,Other minimal use,32.0
+NT,2020-21,Other Crown land,Other minimal use,4480.0
+NT,2020-21,Freehold,Grazing native vegetation,465.0
+NT,2020-21,Pastoral perpetual lease,Grazing native vegetation,52863.0
+NT,2020-21,Other perpetual lease,Grazing native vegetation,714.0
+NT,2020-21,Pastoral term lease,Grazing native vegetation,1694.0
+NT,2020-21,Other term lease,Grazing native vegetation,32.0
+NT,2020-21,Freehold,Plantation forests (a),53.0
+NT,2020-21,Other Crown land,Plantation forests (a),1.0
+NT,2020-21,Freehold,Grazing modified pastures,94.0
+NT,2020-21,Pastoral perpetual lease,Grazing modified pastures,216.0
+NT,2020-21,Other perpetual lease,Grazing modified pastures,22.0
+NT,2020-21,Pastoral term lease,Grazing modified pastures,17.0
+NT,2020-21,Other term lease,Grazing modified pastures,4.0
+NT,2020-21,Freehold,Dryland cropping,10.0
+NT,2020-21,Pastoral perpetual lease,Dryland cropping,21.0
+NT,2020-21,Other perpetual lease,Dryland cropping,1.0
+NT,2020-21,Freehold,Dryland horticulture,1.0
+NT,2020-21,Freehold,Irrigated cropping,4.0
+NT,2020-21,Pastoral perpetual lease,Irrigated cropping,8.0
+NT,2020-21,Freehold,Irrigated horticulture,9.0
+NT,2020-21,Pastoral perpetual lease,Irrigated horticulture,1.0
+NT,2020-21,Freehold,Intensive horticulture and animal production,1.0
+NT,2020-21,Freehold,Rural residential and farm infrastructure,119.0
+NT,2020-21,Pastoral perpetual lease,Rural residential and farm infrastructure,2.0
+NT,2020-21,Other perpetual lease,Rural residential and farm infrastructure,4.0
+NT,2020-21,Other Crown purposes,Rural residential and farm infrastructure,1.0
+NT,2020-21,Other Crown land,Rural residential and farm infrastructure,6.0
+NT,2020-21,Freehold,Urban residential,14.0
+NT,2020-21,Other perpetual lease,Urban residential,1.0
+NT,2020-21,Other term lease,Urban residential,1.0
+NT,2020-21,Other Crown land,Urban residential,2.0
+NT,2020-21,Freehold,Other intensive uses,48.0
+NT,2020-21,Pastoral perpetual lease,Other intensive uses,4.0
+NT,2020-21,Other perpetual lease,Other intensive uses,2.0
+NT,2020-21,Other term lease,Other intensive uses,2.0
+NT,2020-21,Other lease,Other intensive uses,1.0
+NT,2020-21,Other Crown purposes,Other intensive uses,3.0
+NT,2020-21,Other Crown land,Other intensive uses,7.0
+NT,2020-21,Freehold,Mining and waste,11.0
+NT,2020-21,Pastoral perpetual lease,Mining and waste,8.0
+NT,2020-21,Other perpetual lease,Mining and waste,5.0
+NT,2020-21,Pastoral term lease,Mining and waste,3.0
+NT,2020-21,Other lease,Mining and waste,14.0
+NT,2020-21,Other Crown land,Mining and waste,2.0
+NT,2020-21,Freehold,Water,2674.0
+NT,2020-21,Pastoral perpetual lease,Water,2637.0
+NT,2020-21,Other perpetual lease,Water,285.0
+NT,2020-21,Pastoral term lease,Water,124.0
+NT,2020-21,Other term lease,Water,85.0
+NT,2020-21,Other lease,Water,1.0
+NT,2020-21,Nature conservation reserve,Water,8.0
+NT,2020-21,Other Crown purposes,Water,26.0
+NT,2020-21,Other Crown land,Water,86.0
+ACT,2010-11,Nature conservation reserve,Nature conservation,139.0
+ACT,2010-11,Other term lease,Other minimal use,1.0
+ACT,2010-11,Multiple-use public forest,Other minimal use,10.0
+ACT,2010-11,Other Crown purposes,Other minimal use,4.0
+ACT,2010-11,Other Crown land,Other minimal use,1.0
+ACT,2010-11,Other term lease,Grazing native vegetation,4.0
+ACT,2010-11,Multiple-use public forest,Plantation forests (a),9.0
+ACT,2010-11,Other term lease,Grazing modified pastures,22.0
+ACT,2010-11,Other term lease,Dryland cropping,2.0
+ACT,2010-11,Other term lease,Dryland horticulture,1.0
+ACT,2010-11,Other term lease,Urban residential,12.0
+ACT,2010-11,Nature conservation reserve,Urban residential,1.0
+ACT,2010-11,Other Crown purposes,Urban residential,3.0
+ACT,2010-11,Other term lease,Other intensive uses,10.0
+ACT,2010-11,Nature conservation reserve,Other intensive uses,1.0
+ACT,2010-11,Multiple-use public forest,Other intensive uses,1.0
+ACT,2010-11,Other Crown purposes,Other intensive uses,5.0
+ACT,2010-11,Other Crown land,Other intensive uses,4.0
+ACT,2010-11,Nature conservation reserve,Water,1.0
+ACT,2010-11,Other Crown land,Water,1.0
+ACT,2015-16,Nature conservation reserve,Nature conservation,141.0
+ACT,2015-16,Other term lease,Other minimal use,4.0
+ACT,2015-16,Multiple-use public forest,Other minimal use,9.0
+ACT,2015-16,Other Crown purposes,Other minimal use,4.0
+ACT,2015-16,Other Crown land,Other minimal use,2.0
+ACT,2015-16,Other term lease,Grazing native vegetation,5.0
+ACT,2015-16,Multiple-use public forest,Plantation forests (a),9.0
+ACT,2015-16,Other term lease,Grazing modified pastures,27.0
+ACT,2015-16,Other term lease,Urban residential,13.0
+ACT,2015-16,Nature conservation reserve,Urban residential,1.0
+ACT,2015-16,Other Crown purposes,Urban residential,3.0
+ACT,2015-16,Other term lease,Other intensive uses,6.0
+ACT,2015-16,Nature conservation reserve,Other intensive uses,1.0
+ACT,2015-16,Other Crown purposes,Other intensive uses,5.0
+ACT,2015-16,Other Crown land,Other intensive uses,2.0
+ACT,2015-16,Nature conservation reserve,Water,1.0
+ACT,2020-21,Other term lease,Nature conservation,1.0
+ACT,2020-21,Nature conservation reserve,Nature conservation,141.0
+ACT,2020-21,Other term lease,Other minimal use,3.0
+ACT,2020-21,Multiple-use public forest,Other minimal use,8.0
+ACT,2020-21,Other Crown purposes,Other minimal use,4.0
+ACT,2020-21,Other Crown land,Other minimal use,2.0
+ACT,2020-21,Other term lease,Grazing native vegetation,5.0
+ACT,2020-21,Multiple-use public forest,Plantation forests (a),10.0
+ACT,2020-21,Other term lease,Grazing modified pastures,26.0
+ACT,2020-21,Other term lease,Urban residential,13.0
+ACT,2020-21,Nature conservation reserve,Urban residential,2.0
+ACT,2020-21,Other Crown purposes,Urban residential,3.0
+ACT,2020-21,Other term lease,Other intensive uses,6.0
+ACT,2020-21,Nature conservation reserve,Other intensive uses,1.0
+ACT,2020-21,Other Crown purposes,Other intensive uses,6.0
+ACT,2020-21,Other Crown land,Other intensive uses,1.0
+ACT,2020-21,Nature conservation reserve,Water,1.0

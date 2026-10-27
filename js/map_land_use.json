@@ -1,0 +1,108 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Spatial Land Use Map (2010–2021)",
+    "subtitle": "High-resolution spatial distribution of land classes"
+  },
+  "width": 380,
+  "height": 450,
+  "params": [
+    {
+      "name": "PeriodSelect",
+      "value": "2020-21",
+      "bind": {
+        "input": "select",
+        "options": ["2010-11", "2015-16", "2020-21"],
+        "labels": ["2010–11", "2015–16", "2020–21"],
+        "name": "Select Mapping Period: "
+      }
+    }
+  ],
+  "projection": {
+    "type": "mercator"
+  },
+  "layer": [
+    {
+      "data": {
+        "url": "Map_of_Australia.json",
+        "format": {"type": "topojson", "feature": "ne_50m_admin_1_states_provinces"}
+      },
+      "mark": {
+        "type": "geoshape",
+        "fill": "#fcfcfc",
+        "stroke": "#cfd8dc",
+        "strokeWidth": 0.5
+      }
+    },
+    {
+      "data": {
+        "url": "Researched Data/Processed Data/land_use_spatial_grid_all_periods.csv"
+      },
+      "transform": [
+        {
+          "filter": "datum.period == PeriodSelect"
+        }
+      ],
+      "mark": {
+        "type": "circle",
+        "size": 10,
+        "opacity": 0.85
+      },
+      "encoding": {
+        "longitude": {"field": "lon", "type": "quantitative"},
+        "latitude": {"field": "lat", "type": "quantitative"},
+        "color": {
+          "field": "land_use",
+          "type": "nominal",
+          "legend": null,
+          "scale": {
+            "domain": [
+              "Nature Conservation",
+              "Managed Resource Protection",
+              "Other Minimal Use",
+              "Grazing Native Vegetation",
+              "Forestry & Plantation",
+              "Grazing Modified Pastures",
+              "Dryland Cropping",
+              "Dryland Horticulture",
+              "Irrigated Agriculture & Pastures",
+              "Urban & Intensive Uses",
+              "Water"
+            ],
+            "range": [
+              "#4a148c",
+              "#7b1fa2",
+              "#e1bee7",
+              "#f48fb1",
+              "#2e7d32",
+              "#c0ca33",
+              "#ffeb3b",
+              "#f57f17",
+              "#0288d1",
+              "#d32f2f",
+              "#01579b"
+            ]
+          }
+        },
+        "tooltip": [
+          {"field": "period", "type": "nominal", "title": "Period"},
+          {"field": "land_use", "type": "nominal", "title": "Land Use Class"},
+          {"field": "lat", "type": "quantitative", "title": "Latitude"},
+          {"field": "lon", "type": "quantitative", "title": "Longitude"}
+        ]
+      }
+    },
+    {
+      "data": {
+        "url": "Map_of_Australia.json",
+        "format": {"type": "topojson", "feature": "ne_50m_admin_1_states_provinces"}
+      },
+      "mark": {
+        "type": "geoshape",
+        "fill": null,
+        "stroke": "#263238",
+        "strokeWidth": 1.0
+      }
+    }
+  ]
+}

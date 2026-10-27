@@ -1,0 +1,107 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 520,
+  "height": 420,
+  "autosize": {"type": "fit", "contains": "padding"},
+  "title": {
+    "text": "Binned Spatial Maximum Temperature Heatmap Across Australia (2024)",
+    "subtitle": "Data source: SILO / Bureau of Meteorology (AGCD)",
+    "fontSize": 13,
+    "subtitleFontSize": 10
+  },
+  "projection": {
+    "type": "mercator"
+  },
+  "layer": [
+    {
+      "data": {
+        "url": "Map_of_Australia.json",
+        "format": {
+          "type": "topojson",
+          "feature": "ne_50m_admin_1_states_provinces"
+        }
+      },
+      "mark": {
+        "type": "geoshape",
+        "fill": "#f4f4f4",
+        "stroke": "#b0b0b0",
+        "strokeWidth": 0.8
+      }
+    },
+    {
+      "data": {
+        "url": "Researched Data/Processed Data/australia_max_temp_2024.csv"
+      },
+      "transform": [
+        {
+          "bin": {
+            "step": 1.0
+          },
+          "field": "lon",
+          "as": ["lon_bin", "lon_bin_end"]
+        },
+        {
+          "bin": {
+            "step": 1.0
+          },
+          "field": "lat",
+          "as": ["lat_bin", "lat_bin_end"]
+        },
+        {
+          "aggregate": [
+            {
+              "op": "mean",
+              "field": "max_temp",
+              "as": "mean_max_temp"
+            }
+          ],
+          "groupby": ["lon_bin", "lon_bin_end", "lat_bin", "lat_bin_end"]
+        },
+        {
+          "filter": "datum.mean_max_temp > 0 && datum.lon_bin >= 113 && datum.lon_bin <= 153.5 && datum.lat_bin >= -43.5 && datum.lat_bin <= -10.5"
+        }
+      ],
+      "mark": {
+        "type": "rect",
+        "opacity": 0.88
+      },
+      "encoding": {
+        "longitude": {
+          "field": "lon_bin",
+          "type": "quantitative"
+        },
+        "longitude2": {
+          "field": "lon_bin_end"
+        },
+        "latitude": {
+          "field": "lat_bin",
+          "type": "quantitative"
+        },
+        "latitude2": {
+          "field": "lat_bin_end"
+        },
+        "color": {
+          "field": "mean_max_temp",
+          "type": "quantitative",
+          "title": "Max Temp Bin (°C)",
+          "scale": {
+            "type": "threshold",
+            "domain": [18, 22, 26, 30, 34],
+            "scheme": "reds"
+          },
+          "legend": {
+            "orient": "right",
+            "titleFontSize": 10,
+            "labelFontSize": 9,
+            "symbolType": "square"
+          }
+        },
+        "tooltip": [
+          {"field": "lon_bin", "type": "quantitative", "title": "Longitude Min", "format": ".1f"},
+          {"field": "lat_bin", "type": "quantitative", "title": "Latitude Min", "format": ".1f"},
+          {"field": "mean_max_temp", "type": "quantitative", "title": "Average Max Temp (°C)", "format": ".1f"}
+        ]
+      }
+    }
+  ]
+}

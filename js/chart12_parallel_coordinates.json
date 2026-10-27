@@ -1,0 +1,70 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 750,
+  "height": 400,
+  "title": {
+    "text": "Decile Disparity & Farm Scale Profile (2024)",
+    "subtitle": "Parallel coordinates comparison across farm size deciles (1 = Smallest, 10 = Largest)"
+  },
+  "data": {
+    "url": "Researched Data/Processed Data/s4_decile_disparity.csv"
+  },
+  "encoding": {
+    "x": {
+      "field": "Metric",
+      "type": "nominal",
+      "title": "Performance Metric",
+      "sort": [
+        "Output share (%)",
+        "Total cash costs ($)",
+        "Farm cash income ($)",
+        "Rate of return (%)",
+        "Area operated (ha)"
+      ],
+      "axis": {"labelAngle": -15}
+    },
+    "y": {
+      "field": "NormalizedValue",
+      "type": "quantitative",
+      "title": "Normalized Scale (0 – 1)",
+      "scale": {
+        "domain": [0, 1.08]
+      }
+    },
+    "color": {
+      "field": "Decile",
+      "type": "ordinal",
+      "scale": {"scheme": "viridis"},
+      "legend": {"title": "Farm Decile"}
+    },
+    "detail": {
+      "field": "Decile"
+    }
+  },
+  "layer": [
+    {
+      "mark": {
+        "type": "line",
+        "strokeWidth": 2.5,
+        "opacity": 0.85,
+        "clip": false
+      },
+      "encoding": {
+        "tooltip": [
+          {"field": "Decile", "type": "nominal", "title": "Decile Group"},
+          {"field": "Metric", "type": "nominal", "title": "Metric"},
+          {"field": "Value", "type": "quantitative", "title": "Raw Value", "format": ",.2f"},
+          {"field": "NormalizedValue", "type": "quantitative", "title": "Normalized (0-1)", "format": ".2f"}
+        ]
+      }
+    },
+    {
+      "mark": {
+        "type": "point",
+        "filled": true,
+        "size": 50,
+        "clip": false
+      }
+    }
+  ]
+}

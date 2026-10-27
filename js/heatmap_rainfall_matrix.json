@@ -1,0 +1,66 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 800,
+  "height": 320,
+  "title": {
+    "text": "25-Year Australian Historical Rainfall Anomaly Matrix (2000–2024)",
+    "subtitle": "Annual deviation from long-term baseline rainfall (mm) by State/Territory",
+    "fontSize": 16,
+    "subtitleFontSize": 12
+  },
+  "data": {
+    "url": "Researched Data/Processed Data/australia_rainfall_anomalies_2000_2024.csv"
+  },
+  "mark": {
+    "type": "rect",
+    "stroke": "#ffffff",
+    "strokeWidth": 1.5,
+    "tooltip": true
+  },
+  "encoding": {
+    "x": {
+      "field": "Year",
+      "type": "ordinal",
+      "title": "Year",
+      "axis": {
+        "labelAngle": -45,
+        "titlePadding": 10
+      }
+    },
+    "y": {
+      "field": "State",
+      "type": "nominal",
+      "title": "State / Territory",
+      "axis": {
+        "titlePadding": 10
+      }
+    },
+    "color": {
+      "field": "Rainfall_Anomaly_mm",
+      "type": "quantitative",
+      "title": "Anomaly (mm)",
+      "scale": {
+        "scheme": "redblue",
+        "domainMid": 0
+      }
+    },
+    "tooltip": [
+      {"field": "State", "type": "nominal", "title": "State / Territory"},
+      {"field": "Year", "type": "ordinal", "title": "Year"},
+      {
+        "field": "Rainfall_Anomaly_mm", 
+        "type": "quantitative", 
+        "title": "Rainfall Anomaly (mm)", 
+        "format": ".2f"
+      }
+    ]
+  },
+  "config": {
+    "axis": {
+      "grid": false
+    },
+    "view": {
+      "stroke": null
+    }
+  }
+}

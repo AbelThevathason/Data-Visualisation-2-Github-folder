@@ -1,0 +1,61 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 650,
+  "height": 320,
+  "autosize": {"type": "fit", "contains": "padding"},
+  "title": {
+    "text": "Beef Industry Rate of Return Across MLA Regions (2000–2024)",
+    "subtitle": "Diverging annual rate of return (%) above and below 0% baseline",
+    "fontSize": 14,
+    "subtitleFontSize": 11
+  },
+  "data": {
+    "url": "Researched Data/Processed Data/beef_state_yearly.csv"
+  },
+  "transform": [
+    {"filter": "datum.Region != null && datum.Rate_of_return != null"},
+    {
+      "aggregate": [{"op": "mean", "field": "Rate_of_return", "as": "mean_return"}],
+      "groupby": ["Year", "Region"]
+    }
+  ],
+  "layer": [
+    {
+      "mark": {"type": "bar", "tooltip": true},
+      "encoding": {
+        "x": {
+          "field": "Year",
+          "type": "ordinal",
+          "title": "Year",
+          "axis": {"labelAngle": -45}
+        },
+        "y": {
+          "field": "mean_return",
+          "type": "quantitative",
+          "title": "Rate of Return (%)",
+          "scale": {"zero": true}
+        },
+        "xOffset": {
+          "field": "Region"
+        },
+        "color": {
+          "field": "Region",
+          "type": "nominal",
+          "title": "MLA Region",
+          "scale": {"scheme": "set2"}
+        },
+        "tooltip": [
+          {"field": "Region", "type": "nominal", "title": "Region"},
+          {"field": "Year", "type": "ordinal", "title": "Year"},
+          {"field": "mean_return", "type": "quantitative", "title": "Rate of Return (%)", "format": ".2f"}
+        ]
+      }
+    },
+    {
+      "mark": {"type": "rule", "color": "#1a1a1a", "strokeWidth": 1.2},
+      "encoding": {
+        "y": {"datum": 0}
+      }
+    }
+  ]
+}
