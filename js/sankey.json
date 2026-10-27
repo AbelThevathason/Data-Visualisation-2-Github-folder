@@ -1,5 +1,10 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "usermeta": {
+    "purpose": "Visualizes relational flow between legal land tenure ownership titles (left) and physical land use activities (right) across Australian jurisdictions and epochs.",
+    "chartType": "Relational Flow / Sankey Parallel Coordinates Diagram (Layered Lines, Points, and Text)",
+    "dataRequirements": "Requires 'State', 'Year', 'Land_Tenure', 'Land_Use', and 'Area_000_ha' fields in land_tenure_use_sankey.csv."
+  },
   "width": 750,
   "height": 540,
   "padding": {"left": 25, "right": 25, "top": 30, "bottom": 30},
@@ -17,6 +22,7 @@
     "subtitleFontSize": 11
   },
   "data": {
+    "_comment": "Loads regional land tenure vs. land use relational flow CSV dataset",
     "url": "Researched Data/Processed Data/land_tenure_use_sankey.csv"
   },
   "params": [
@@ -41,13 +47,16 @@
   ],
   "transform": [
     {
+      "_comment": "Step 1: Filter dataset by selected Jurisdiction, Year, and land area threshold (> 10k ha)",
       "filter": "datum.State == StateSelect && datum.Year == YearSelect && datum.Area_000_ha > 10"
     },
     {
+      "_comment": "Step 2: Generate unique flow identifier connecting Tenure to Land Use",
       "calculate": "datum.Land_Tenure + ' → ' + datum.Land_Use",
       "as": "flow_id"
     },
     {
+      "_comment": "Step 3: Fold Tenure and Land Use into Stage (X-axis) and Category Name (Y-axis)",
       "fold": ["Land_Tenure", "Land_Use"],
       "as": ["Stage", "Category_Name"]
     }
@@ -79,6 +88,7 @@
   },
   "layer": [
     {
+      "description": "LAYER 1: Relational flow connecting lines sized by land area ('000 ha) and colored by tenure",
       "mark": {
         "type": "line",
         "strokeCap": "round",
@@ -137,6 +147,7 @@
       }
     },
     {
+      "description": "LAYER 2: Circular node point markers anchoring each tenure and land use category along vertical axes",
       "mark": {
         "type": "point",
         "filled": true,
@@ -145,6 +156,7 @@
       }
     },
     {
+      "description": "LAYER 3: Right-aligned category labels for Ownership Titles on the left stage",
       "transform": [
         {"filter": "datum.Stage == 'Land_Tenure'"}
       ],
@@ -161,6 +173,7 @@
       }
     },
     {
+      "description": "LAYER 4: Left-aligned category labels for Land Use Activities on the right stage",
       "transform": [
         {"filter": "datum.Stage == 'Land_Use'"}
       ],

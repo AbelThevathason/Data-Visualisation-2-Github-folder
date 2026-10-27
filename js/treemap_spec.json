@@ -1,5 +1,10 @@
 {
   "$schema": "https://vega.github.io/schema/vega/v5.json",
+  "usermeta": {
+    "purpose": "Visualizes state-level land area allocations across ALUM land use categories using squarified treemap layout tiles.",
+    "chartType": "Hierarchical Treemap (Full Vega v5 Specification)",
+    "dataRequirements": "Requires land_use_totals.json with id, parent, state, year, name, and value fields."
+  },
   "width": 380,
   "height": 450,
   "padding": 10,
@@ -32,6 +37,7 @@
   "data": [
     {
       "name": "raw_data",
+      "_comment": "Loads hierarchical land use dataset (land_use_totals.json)",
       "url": "Researched Data/Processed Data/land_use_totals.json"
     },
     {
@@ -39,15 +45,18 @@
       "source": "raw_data",
       "transform": [
         {
+          "_comment": "Step 1: Filter raw data to root node and selected state and year signals",
           "type": "filter",
           "expr": "datum.parent === null || (datum.state === state_select && datum.year === year_select)"
         },
         {
+          "_comment": "Step 2: Stratify tabular rows into a tree hierarchy structure using id and parent keys",
           "type": "stratify",
           "key": "id",
           "parentKey": "parent"
         },
         {
+          "_comment": "Step 3: Compute squarified treemap bounding box coordinates (x0, y0, x1, y1) sized by area value",
           "type": "treemap",
           "field": "value",
           "sort": {"field": "value", "order": "descending"},
@@ -62,6 +71,7 @@
       "source": "filtered_data",
       "transform": [
         {
+          "_comment": "Filter hierarchy to leaf nodes only for visual rectangle tile rendering",
           "type": "filter",
           "expr": "datum.parent !== null"
         }
@@ -72,6 +82,7 @@
     {
       "name": "color",
       "type": "ordinal",
+      "_comment": "Ordinal palette mapping 11 distinct ALUM land use classifications to specific hex color codes",
       "domain": [
         "Nature Conservation",
         "Managed Resource Protection",
@@ -102,6 +113,7 @@
   ],
   "marks": [
     {
+      "description": "MARK 1: Treemap rectangle tiles colored by land use category with white borders and hover effects",
       "type": "rect",
       "from": {"data": "leaves"},
       "encode": {
@@ -125,6 +137,7 @@
       }
     },
     {
+      "description": "MARK 2: Centered white text labels with dynamic opacity hiding text on smaller tiles",
       "type": "text",
       "from": {"data": "leaves"},
       "interactive": false,

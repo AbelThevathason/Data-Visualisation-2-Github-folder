@@ -1,107 +1,110 @@
 {
-  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "$schema": "https://vega.github.io/schema/vega/v5.json",
+  "usermeta": {
+    "purpose": "Visualizes spatial maximum temperature contour bands (°C) across Australia for 2024 using GeoJSON polygon features and TopoJSON state borders.",
+    "chartType": "Spatial Contour Map (Full Vega v5 Specification)",
+    "dataRequirements": "Requires Map_of_Australia.json (TopoJSON) and australia_max_temp_bands_2024.geojson."
+  },
   "width": 520,
   "height": 420,
+  "padding": 10,
   "autosize": {"type": "fit", "contains": "padding"},
   "title": {
-    "text": "Binned Spatial Maximum Temperature Heatmap Across Australia (2024)",
+    "text": "Maximum Temperature Contour Map Across Australia (2024)",
     "subtitle": "Data source: SILO / Bureau of Meteorology (AGCD)",
     "fontSize": 13,
     "subtitleFontSize": 10
   },
-  "projection": {
-    "type": "mercator"
-  },
-  "layer": [
+  "projections": [
     {
-      "data": {
-        "url": "Map_of_Australia.json",
-        "format": {
-          "type": "topojson",
-          "feature": "ne_50m_admin_1_states_provinces"
-        }
-      },
-      "mark": {
-        "type": "geoshape",
-        "fill": "#f4f4f4",
-        "stroke": "#b0b0b0",
-        "strokeWidth": 0.8
+      "name": "projection",
+      "type": "mercator",
+      "fit": {"signal": "data('australia_border')"},
+      "size": {"signal": "[width, height]"}
+    }
+  ],
+  "scales": [
+    {
+      "_comment": "Discretized threshold color scale mapping temperature bands to 6 red color scheme steps",
+      "name": "color",
+      "type": "threshold",
+      "domain": [18, 22, 26, 30, 34],
+      "range": {"scheme": "reds", "count": 6}
+    }
+  ],
+  "data": [
+    {
+      "name": "australia_border",
+      "_comment": "TopoJSON state and territory border geometries used for map fitting and boundary outlines",
+      "url": "Map_of_Australia.json",
+      "format": {
+        "type": "topojson",
+        "feature": "ne_50m_admin_1_states_provinces"
       }
     },
     {
-      "data": {
-        "url": "Researched Data/Processed Data/australia_max_temp_2024.csv"
+      "name": "temp_bands",
+      "_comment": "GeoJSON polygon bands representing maximum temperature ranges (°C) across Australia",
+      "url": "Researched Data/Processed Data/australia_max_temp_bands_2024.geojson",
+      "format": {"type": "json", "property": "features"}
+    }
+  ],
+  "marks": [
+    {
+      "description": "MARK 1: Base background shape filling the Australian landmass with neutral light gray",
+      "type": "shape",
+      "from": {"data": "australia_border"},
+      "encode": {
+        "update": {
+          "fill": {"value": "#f4f4f4"},
+          "stroke": {"value": "#b0b0b0"},
+          "strokeWidth": {"value": 0.8}
+        }
       },
       "transform": [
-        {
-          "bin": {
-            "step": 1.0
-          },
-          "field": "lon",
-          "as": ["lon_bin", "lon_bin_end"]
-        },
-        {
-          "bin": {
-            "step": 1.0
-          },
-          "field": "lat",
-          "as": ["lat_bin", "lat_bin_end"]
-        },
-        {
-          "aggregate": [
-            {
-              "op": "mean",
-              "field": "max_temp",
-              "as": "mean_max_temp"
-            }
-          ],
-          "groupby": ["lon_bin", "lon_bin_end", "lat_bin", "lat_bin_end"]
-        },
-        {
-          "filter": "datum.mean_max_temp > 0 && datum.lon_bin >= 113 && datum.lon_bin <= 153.5 && datum.lat_bin >= -43.5 && datum.lat_bin <= -10.5"
+        {"type": "geoshape", "projection": "projection"}
+      ]
+    },
+    {
+      "description": "MARK 2: GeoJSON temperature contour bands filled by threshold color scale with hover tooltips",
+      "type": "shape",
+      "from": {"data": "temp_bands"},
+      "encode": {
+        "update": {
+          "fill": {"scale": "color", "field": "properties.level"},
+          "fillOpacity": {"value": 0.9},
+          "stroke": {"value": "#800000"},
+          "strokeWidth": {"value": 0.4},
+          "tooltip": {"signal": "{'Max temp band (°C)': datum.properties.label}"}
         }
-      ],
-      "mark": {
-        "type": "rect",
-        "opacity": 0.88
       },
-      "encoding": {
-        "longitude": {
-          "field": "lon_bin",
-          "type": "quantitative"
-        },
-        "longitude2": {
-          "field": "lon_bin_end"
-        },
-        "latitude": {
-          "field": "lat_bin",
-          "type": "quantitative"
-        },
-        "latitude2": {
-          "field": "lat_bin_end"
-        },
-        "color": {
-          "field": "mean_max_temp",
-          "type": "quantitative",
-          "title": "Max Temp Bin (°C)",
-          "scale": {
-            "type": "threshold",
-            "domain": [18, 22, 26, 30, 34],
-            "scheme": "reds"
-          },
-          "legend": {
-            "orient": "right",
-            "titleFontSize": 10,
-            "labelFontSize": 9,
-            "symbolType": "square"
-          }
-        },
-        "tooltip": [
-          {"field": "lon_bin", "type": "quantitative", "title": "Longitude Min", "format": ".1f"},
-          {"field": "lat_bin", "type": "quantitative", "title": "Latitude Min", "format": ".1f"},
-          {"field": "mean_max_temp", "type": "quantitative", "title": "Average Max Temp (°C)", "format": ".1f"}
-        ]
-      }
+      "transform": [
+        {"type": "geoshape", "projection": "projection"}
+      ]
+    },
+    {
+      "description": "MARK 3: Overlay border shape drawing crisp administrative state borders above temperature fills",
+      "type": "shape",
+      "from": {"data": "australia_border"},
+      "encode": {
+        "update": {
+          "fill": {"value": null},
+          "stroke": {"value": "#7a7a7a"},
+          "strokeWidth": {"value": 0.5}
+        }
+      },
+      "transform": [
+        {"type": "geoshape", "projection": "projection"}
+      ]
+    }
+  ],
+  "legends": [
+    {
+      "fill": "color",
+      "title": "Max Temp Band (°C)",
+      "orient": "right",
+      "titleFontSize": 10,
+      "labelFontSize": 9
     }
   ]
 }

@@ -1,5 +1,10 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "usermeta": {
+    "purpose": "Visualizes dryland cropping rainfall vs. total grains farm business profits (2000–2024) to track climate impacts and financial lag cycles.",
+    "chartType": "Dual Y-Axis Time Series Line Chart",
+    "dataRequirements": "Requires 'Year', 'Dryland_Cropping_Rainfall_mm', and 'Grains_Profit_Total_Sum_Deciles_AUD' fields."
+  },
   "width": 650,
   "height": 380,
   "title": {
@@ -9,10 +14,12 @@
     "subtitleFontSize": 11
   },
   "data": {
+    "_comment": "Loads 25-year time-series CSV data containing cropping rainfall and grains farm profit metrics",
     "url": "Researched Data/Processed Data/dryland_cropping_rainfall_vs_grain_profits_2000_2024.csv"
   },
   "layer": [
     {
+      "description": "LAYER 1: Dryland Cropping Rainfall (Left Axis) - Solid blue line with circular point markers (0–700 mm range)",
       "mark": {
         "type": "line",
         "point": {"filled": true, "size": 60},
@@ -41,6 +48,7 @@
       }
     },
     {
+      "description": "LAYER 2: Total Grains Profit in AUD (Right Axis) - Orange dashed line with diamond point markers (-$500k to $3.5M range)",
       "mark": {
         "type": "line",
         "point": {"filled": true, "size": 60, "shape": "diamond"},
@@ -70,6 +78,7 @@
     }
   ],
   "resolve": {
+    "_comment": "Uncouples Y-axis scales so cropping rainfall (mm) and grains profit ($ AUD) display independently on opposite sides",
     "scale": {"y": "independent"}
   }
 }

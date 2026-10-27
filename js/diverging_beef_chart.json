@@ -1,5 +1,10 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "usermeta": {
+    "purpose": "Visualizes regional beef industry rates of return (%) above and below a 0% baseline across MLA regions from 2000 to 2024.",
+    "chartType": "Diverging Grouped Bar Chart with Zero Reference Rule",
+    "dataRequirements": "Requires 'Year', 'Region', and 'Rate_of_return' fields from beef_state_yearly.csv."
+  },
   "width": 650,
   "height": 320,
   "autosize": {"type": "fit", "contains": "padding"},
@@ -10,17 +15,23 @@
     "subtitleFontSize": 11
   },
   "data": {
+    "_comment": "Loads 25-year regional beef industry yearly performance dataset",
     "url": "Researched Data/Processed Data/beef_state_yearly.csv"
   },
   "transform": [
-    {"filter": "datum.Region != null && datum.Rate_of_return != null"},
     {
+      "_comment": "Step 1: Filter out records lacking valid region or rate of return entries",
+      "filter": "datum.Region != null && datum.Rate_of_return != null"
+    },
+    {
+      "_comment": "Step 2: Aggregate average rate of return per year and region",
       "aggregate": [{"op": "mean", "field": "Rate_of_return", "as": "mean_return"}],
       "groupby": ["Year", "Region"]
     }
   ],
   "layer": [
     {
+      "description": "LAYER 1: Grouped bar chart with positive/negative bars diverging from the 0% midline",
       "mark": {"type": "bar", "tooltip": true},
       "encoding": {
         "x": {
@@ -52,6 +63,7 @@
       }
     },
     {
+      "description": "LAYER 2: Horizontal reference rule anchored at Y = 0 to emphasize positive vs. negative divergence",
       "mark": {"type": "rule", "color": "#1a1a1a", "strokeWidth": 1.2},
       "encoding": {
         "y": {"datum": 0}

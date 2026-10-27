@@ -1,5 +1,10 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "usermeta": {
+    "purpose": "Visualizes multidimensional inequality across farm size deciles (1–10) in 2024 using normalized parallel coordinate axes.",
+    "chartType": "Parallel Coordinates Plot (Layered Lines and Points)",
+    "dataRequirements": "Requires 'Decile', 'Metric', 'NormalizedValue', and 'Value' fields in s4_decile_disparity.csv."
+  },
   "width": 750,
   "height": 400,
   "title": {
@@ -7,6 +12,7 @@
     "subtitle": "Parallel coordinates comparison across farm size deciles (1 = Smallest, 10 = Largest)"
   },
   "data": {
+    "_comment": "Loads 2024 farm decile summary CSV dataset containing normalized and raw performance values",
     "url": "Researched Data/Processed Data/s4_decile_disparity.csv"
   },
   "encoding": {
@@ -43,6 +49,7 @@
   },
   "layer": [
     {
+      "description": "LAYER 1: Connects decile metrics into parallel trajectory lines with custom hover tooltips",
       "mark": {
         "type": "line",
         "strokeWidth": 2.5,
@@ -59,6 +66,7 @@
       }
     },
     {
+      "description": "LAYER 2: Places circular point markers at each axis metric intersection for precise visual anchoring",
       "mark": {
         "type": "point",
         "filled": true,

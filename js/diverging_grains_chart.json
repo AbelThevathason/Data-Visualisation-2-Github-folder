@@ -1,5 +1,10 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "usermeta": {
+    "purpose": "Visualizes annual rates of return (%) across Northern, Western, and Southern GRDC cropping zones from 2000 to 2024 relative to a 0% baseline.",
+    "chartType": "Diverging Grouped Bar Chart with Zero Reference Line",
+    "dataRequirements": "Requires 'Year', 'Region' (GRDC Zone), and 'Rate_of_return' fields in grains_state_yearly.csv."
+  },
   "width": 650,
   "height": 320,
   "autosize": {"type": "fit", "contains": "padding"},
@@ -10,17 +15,23 @@
     "subtitleFontSize": 11
   },
   "data": {
+    "_comment": "Loads 25-year GRDC regional grains industry annual performance dataset",
     "url": "Researched Data/Processed Data/grains_state_yearly.csv"
   },
   "transform": [
-    {"filter": "datum.Region != null && datum.Rate_of_return != null"},
     {
+      "_comment": "Step 1: Exclude incomplete records lacking valid GRDC zone or return values",
+      "filter": "datum.Region != null && datum.Rate_of_return != null"
+    },
+    {
+      "_comment": "Step 2: Aggregate mean rate of return per year and GRDC zone",
       "aggregate": [{"op": "mean", "field": "Rate_of_return", "as": "mean_return"}],
       "groupby": ["Year", "Region"]
     }
   ],
   "layer": [
     {
+      "description": "LAYER 1: Grouped bars for Northern, Western, and Southern GRDC zones extending above/below 0%",
       "mark": {"type": "bar", "tooltip": true},
       "encoding": {
         "x": {
@@ -42,7 +53,10 @@
           "field": "Region",
           "type": "nominal",
           "title": "GRDC Zone",
-          "scale": {"scheme": "category10"}
+          "scale": {
+            "domain": ["Northern GRDC", "Western GRDC", "southern GRDC"],
+            "range": ["#1f77b4", "#ff7f0e", "#2ca02c"]
+          }
         },
         "tooltip": [
           {"field": "Region", "type": "nominal", "title": "GRDC Zone"},
@@ -52,6 +66,7 @@
       }
     },
     {
+      "description": "LAYER 2: Horizontal reference rule anchored at Y = 0 to visually separate positive profit from capital loss",
       "mark": {"type": "rule", "color": "#1a1a1a", "strokeWidth": 1.2},
       "encoding": {
         "y": {"datum": 0}

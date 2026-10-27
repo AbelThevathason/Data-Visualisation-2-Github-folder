@@ -1,5 +1,10 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "usermeta": {
+    "purpose": "Visualizes the temporal co-movement between grazing pasture rainfall and total beef farm profit (2000–2024).",
+    "chartType": "Dual Y-Axis Time Series Line Chart",
+    "dataRequirements": "Requires 'Year', 'Grazing_Rainfall_mm', and 'Beef_Profit_Total_Deciles_AUD' fields."
+  },
   "width": 650,
   "height": 380,
   "title": {
@@ -9,10 +14,12 @@
     "subtitleFontSize": 11
   },
   "data": {
+    "_comment": "Loads 25-year time-series CSV data containing pasture rainfall and beef profit metrics",
     "url": "Researched Data/Processed Data/grazing_rainfall_vs_beef_profit_2000_2024.csv"
   },
   "layer": [
     {
+      "description": "LAYER 1: Grazing Pasture Rainfall (Left Axis) - Rendered as a solid blue line with circle markers",
       "mark": {
         "type": "line",
         "point": {"filled": true, "size": 60},
@@ -41,6 +48,7 @@
       }
     },
     {
+      "description": "LAYER 2: Total Beef Profit in AUD (Right Axis) - Rendered as a green dashed line with square markers",
       "mark": {
         "type": "line",
         "point": {"filled": true, "size": 60, "shape": "square"},
@@ -70,6 +78,7 @@
     }
   ],
   "resolve": {
+    "_comment": "Uncouples Y-axis scales so rainfall (mm) and profit ($ AUD) display independently on opposite sides",
     "scale": {"y": "independent"}
   }
 }

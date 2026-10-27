@@ -1,5 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "_comment": "This specification builds the spatial land use map for Australia, with a dropdown button for the user to choose the period/year",
   "title": {
     "text": "Spatial Land Use Map (2010–2021)",
     "subtitle": "High-resolution spatial distribution of land classes"
@@ -23,6 +24,7 @@
   },
   "layer": [
     {
+      "_comment_layer": "Base map layer rendering Australian state borders",
       "data": {
         "url": "Map_of_Australia.json",
         "format": {"type": "topojson", "feature": "ne_50m_admin_1_states_provinces"}
@@ -35,6 +37,7 @@
       }
     },
     {
+       "_comment": "Calls the data from the GitHub repository, chooses the mark of a circle, with the attributes of latitude, longitude and type of land use",
       "data": {
         "url": "Researched Data/Processed Data/land_use_spatial_grid_all_periods.csv"
       },
@@ -56,6 +59,8 @@
           "type": "nominal",
           "legend": null,
           "scale": {
+            "_comment": "Assigns land categories to a colour hue",
+
             "domain": [
               "Nature Conservation",
               "Managed Resource Protection",

@@ -1,11 +1,18 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "usermeta": {
+    "purpose": "Visualizes 25-year total farm business profit trends ($ AUD) across Australian agricultural sectors from 2000 to 2024.",
+    "chartType": "Multi-Line Trend Chart with Point Markers",
+    "dataRequirements": "Requires 'Year', 'Sector or industry', 'Average_Profit_Per_Farm_AUD', and 'Total_Profit_Sum_AUD' fields in australia_farm_profit_by_sector_2000_2024.csv."
+  },
   "title": "2000–2024 Australian Farm Business Profit Trends by Sector",
   "data": {
+    "_comment": "Loads 25-year sector-by-sector farm business profit CSV dataset",
     "url": "Researched Data/Processed Data/australia_farm_profit_by_sector_2000_2024.csv"
   },
   "transform": [
     {
+      "_comment": "Filters out the 'All Broadacre' national aggregate to focus strictly on individual industry sectors",
       "filter": "datum['Sector or industry'] !== 'All Broadacre'"
     }
   ],

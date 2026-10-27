@@ -1,5 +1,10 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "usermeta": {
+    "purpose": "Visualizes total farm cash cost trajectories and compositional breakdown across agricultural sectors from 2000 to 2024.",
+    "chartType": "Streamgraph (Center-Stacked Area Chart with Monotone Interpolation)",
+    "dataRequirements": "Requires 'Year', 'Value' (Cash Costs), and 'Sector or industry' fields."
+  },
   "width": 800,
   "height": 400,
   "title": {
@@ -7,8 +12,10 @@
     "subtitle": "Streamgraph showing total cash cost trajectory across agricultural sectors"
   },
   "data": {
+    "_comment": "Loads 25-year cost composition CSV dataset containing sectoral cash cost values",
     "url": "Researched Data/Processed Data/s4_cost_composition.csv"
   },
+  "description": "Streamgraph displaying farm cash cost trajectories across sectors (2000–2024) centered along a baseline",
   "mark": {
     "type": "area",
     "interpolate": "monotone"

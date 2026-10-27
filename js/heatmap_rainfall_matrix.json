@@ -1,5 +1,10 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "usermeta": {
+    "purpose": "Visualizes annual historical rainfall anomalies (mm) by Australian State and Territory (2000–2024) to track regional drought and wet cycles.",
+    "chartType": "Matrix Heatmap (Diverging Color Scale)",
+    "dataRequirements": "Requires 'Year', 'State', and 'Rainfall_Anomaly_mm' fields in australia_rainfall_anomalies_2000_2024.csv."
+  },
   "width": 800,
   "height": 320,
   "title": {
@@ -9,8 +14,10 @@
     "subtitleFontSize": 12
   },
   "data": {
+    "_comment": "Loads 25-year regional rainfall anomaly dataset",
     "url": "Researched Data/Processed Data/australia_rainfall_anomalies_2000_2024.csv"
   },
+  "description": "Matrix heatmap showing annual state-by-state rainfall anomalies (mm) using a red-blue diverging color scale centered at 0.",
   "mark": {
     "type": "rect",
     "stroke": "#ffffff",
